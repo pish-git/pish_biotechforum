@@ -1,0 +1,111 @@
+@media only screen and (max-width : 1200px){
+	.popup_hero .popup_content {
+		width: 1000px;
+	}
+
+	.popup_hero .popup_content .block_info .block_text h3 {
+		font-size: 26px;
+		margin-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width : 1100px){
+	.popup_hero .popup_content {
+		width: 600px;
+		/* height: 800px; */
+		height: fit-content !important;
+		min-height: auto;
+	}
+
+	.popup_hero .popup_content .block_info {
+		flex-direction: column;
+	}
+
+	.popup_hero .popup_content .block_info .block_img {
+		width: 100%;
+		min-width: auto;
+		height: 320px;
+	}
+
+	.popup_hero .popup_content .block_info .block_text h3 {
+  		width: 100%;
+		font-size: 24px;
+	}
+
+	.popup_hero .popup_content .block_info .block_text p {
+		width: 100%;
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width : 700px){
+	.popup_hero .popup_content {
+		width: 500px;
+		height: 730px;
+	}
+
+	.popup_hero .popup_content .block_info .block_img {
+		height: 280px;
+	}
+
+	.popup_hero .popup_content .block_info .block_text h3 {
+  		width: 100%;
+		font-size: 20px;
+	}
+
+	.popup_hero .popup_content .block_info .block_text p {
+		width: 100%;
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	.popup_hero .popup_content {
+		width: 400px;
+		height: 570px;
+		padding: 10px 15px;
+	}
+
+	.popup_hero .popup_content .block_info {
+		gap: 20px;
+	}
+
+	.popup_hero .popup_content .block_info .block_img {
+		height: 240px;
+	}
+
+	.popup_hero .popup_content .block_info .block_text h3 {
+  		width: 100%;
+		font-size: 16px;
+	}
+
+	.popup_hero .popup_content .block_info .block_text p {
+		width: 100%;
+		font-size: 12px;
+	}
+
+	.popup_hero .popup_content .button_exit {
+		top: 5px;
+  		right: 5px;
+	}
+}
+
+@media only screen and (max-width : 450px){
+	.popup_hero .popup_content {
+		width: 330px;
+		height: 560px;
+		padding: 10px 15px 20px;
+	}
+
+	.popup_hero .popup_content .block_info {
+		gap: 15px;
+	}
+
+	.popup_hero .popup_content .block_info .block_img {
+		height: 210px;
+	}
+
+	.popup_hero .popup_content .block_info .block_text h3 {
+  		margin-bottom: 10px;
+	}
+}

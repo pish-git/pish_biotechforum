@@ -1,0 +1,229 @@
+.widget_window.genes .level_one .tutorial_part {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .7s ease;
+}
+
+.tutorial_part._hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+	width: 750px;
+	height: 400px;
+    padding: 15px 25px 20px;
+    border-radius: 0 0 30px 30px;
+    background-color: #7D88FD;
+    box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .tutorial_info_bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .title-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .title{
+    font-size: 40px;
+    color: #fff;
+	font-family: "Roboto";
+	font-weight: 900;
+    text-transform: uppercase;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 100%;
+}
+
+/* Анимация выхода для заголовка */
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .title.title-exiting {
+    transform: translateX(500px);
+    opacity: 0;
+    transition-delay: 0s;
+}
+
+/* Анимация входа для заголовка */
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .title.title-entering {
+    transform: translateX(-500px);
+    opacity: 0;
+    animation: titleSlideInFromLeft 0.5s ease forwards;
+    animation-delay: 0s;
+}
+
+@keyframes titleSlideInFromLeft {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #40c9ff;
+    border-radius: 10px;
+    background-color: rgba(8, 21, 161, 0.6);
+    padding: 10px 20px 10px;
+    box-sizing: border-box;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+}
+
+/* Анимация выхода для блоков объяснений */
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation.explanation-exiting {
+    transform: translateX(500px);
+    opacity: 0;
+}
+
+/* Задержка для второго блока при выходе */
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation.explanation-exiting.explanation-delayed {
+    transition-delay: 0.1s;
+}
+
+/* Анимация входа для блоков объяснений */
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation.explanation-entering {
+    transform: translateX(-500px);
+    opacity: 0;
+    animation: explanationSlideInFromLeft 0.5s ease forwards;
+    animation-delay: 0.1s;
+}
+
+/* Задержка для второго блока при входе */
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation.explanation-entering.explanation-delayed {
+    animation-delay: 0.2s;
+}
+
+@keyframes explanationSlideInFromLeft {
+    from {
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon{
+    width: 52px;
+    min-width: 52px;
+    height: 100%;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon svg{
+    width: 100%;
+    height: 100%;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text{
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_button_switch{
+	display: flex;
+	align-items: center;
+    justify-content: right;
+	width: 750px;
+    height: fit-content;
+	position: absolute;
+	top: 430px;
+    z-index: 2;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_button_switch button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 40px;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #737AFF, #07b4cb);
+    position: relative;
+	cursor: pointer;
+	transition: all .2s ease;
+	border: none;
+	outline: none;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_button_switch button:active{
+	transform: scale(0.95);
+}
+
+.widget_window.genes .level_one .tutorial_part .block_button_switch button::before{
+	content: "";
+	width: 105%;
+	height: 120%;
+	border: 1px solid #5C61CB;
+	border-radius: 50px;
+	position: absolute;
+	transition: all .2s ease;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_button_switch:hover button::before{
+	width: 100%;
+	height: 100%;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_button_switch button .text{
+	font-size: 18px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+}
+
+.widget_window.genes .level_one .tutorial_part .block_img_gen{
+	width: 2000px;
+	height: 900px;
+	position: absolute;
+	bottom: -400px;
+	pointer-events: none;
+}
+
+/* Состояния кнопки при разных состояниях анимации */
+.widget_window.genes .level_one .tutorial_part .block_button_switch button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

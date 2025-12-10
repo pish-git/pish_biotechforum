@@ -1,0 +1,433 @@
+@media only screen and (min-width : 2000px){
+	.about_museum.main {
+    	height: 1600px;
+		padding: 0 100px;
+	}
+
+	.about_museum.main .section_content {
+    	width: 1800px;
+	}
+
+	.about_museum.main h1 span{
+		font-size: 70px;
+	}
+
+	.about_museum.main .section_content .upper_part .block_imgs .block_img:nth-child(1) {
+    	width: 680px;
+		height: 536px;
+	}
+
+	.about_museum.main .section_content .upper_part .block_imgs .block_img:nth-child(2) {
+    	width: 1000px;
+		height: 480px;
+		top: -100px;
+	}
+
+	
+	.about_museum.main .upper_part h3 {
+    	font-size: 50px;
+	}
+
+	.about_museum.main .section_content .upper_part .block_info .text_container {
+    	width: 800px;
+	}
+
+
+	.about_museum.main .upper_part p{
+		font-size: 32px;
+	}
+
+
+
+	.about_museum.main .lower_part .block_img{
+		height: 550px;
+	}
+
+	.about_museum.main .lower_part p {
+		width: 750px;
+		min-width: 750px;
+		font-size: 32px;
+	}
+
+
+
+	.about_museum.main .patterns .pattern:nth-child(1){
+		width: 1900px;
+		height: 1900px;
+	}
+
+	@keyframes fade-transform {
+		0% { transform: translateX(0); }
+		20% { transform: translateX(-800px); }
+		50% { transform: translateX(-800px); }
+		70% { transform: translateX(0); }
+		100% { transform: translateX(0); }
+	}
+}
+
+@media only screen and (max-width : 1800px){
+	.about_museum.main{
+		height: 1100px;
+	}
+
+	.about_museum.main h1 span{
+		font-size: 48px;
+	}
+
+	.about_museum.main .section_content{
+		width: 1450px;
+	}
+	
+
+
+	.about_museum.main .section_content .upper_part .block_imgs .block_img:nth-child(1){
+		width: 500px;
+		height: 395px;
+	}
+
+	.about_museum.main .section_content .upper_part .block_imgs .block_img:nth-child(2){
+		width: 800px;
+		height: 385px;
+		top: -65px;
+	}
+
+
+	.about_museum.main .section_content .upper_part .block_info .text_container{
+		width: 700px;
+	}
+
+	.about_museum.main .upper_part h3{
+		font-size: 32px;
+	}
+
+	.about_museum.main .upper_part p{
+		font-size: 24px;
+	}
+
+
+
+	.about_museum.main .lower_part .block_img{
+		height: 447px;
+	}
+
+	.about_museum.main .lower_part p{
+		width: 600px;
+		min-width: 600px;
+		font-size: 24px;
+	}
+
+
+
+	.about_museum.main .patterns .pattern:nth-child(1){
+		width: 1300px;
+		height: 1300px;
+		top: -300px;
+		right: -100px;
+	}
+}
+
+@media only screen and (max-width : 1500px){
+	.about_museum.main{
+		height: 950px;
+	}
+
+	.about_museum.main .section_content{
+		width: 1200px;
+	}
+
+	.about_museum.main .section_content .upper_part .block_imgs .block_img:nth-child(1){
+		width: 400px;
+		height: 316px;
+	}
+
+	.about_museum.main .section_content .upper_part .block_imgs .block_img:nth-child(2){
+		width: 700px;
+		height: 340px;
+	}
+
+	.about_museum.main .section_content .upper_part .block_info .text_container{
+		width: 600px;
+		margin-left: 300px;
+	}
+
+
+
+	.about_museum.main .lower_part .block_img{
+		height: 310px;
+	}
+
+
+
+	.about_museum.main .patterns .pattern:nth-child(1){
+		width: 1000px;
+		height: 1000px;
+		top: -200px;
+		right: -50px;
+	}
+
+	@keyframes fade-transform {
+		0% { transform: translateX(0); }
+		20% { transform: translateX(-650px); }
+		50% { transform: translateX(-650px); }
+		70% { transform: translateX(0); }
+		100% { transform: translateX(0); }
+	}
+}
+
+@media only screen and (max-width : 1280px){
+	.about_museum.main{
+		height: 830px;
+	}
+
+	.about_museum.main .section_content{
+		width: 1000px;
+	}
+
+
+	.about_museum.main .section_content .upper_part .block_imgs .block_img:nth-child(1){
+		width: 350px;
+		height: 277px;
+	}
+
+	.about_museum.main .section_content .upper_part .block_imgs .block_img:nth-child(2){
+		width: 550px;
+		height: 265px;
+	}
+
+
+	.about_museum.main .section_content .upper_part .block_info .text_container{
+		gap: 15px;
+		width: 500px;
+		margin-left: 270px;
+	}
+
+	.about_museum.main .upper_part h3 {
+		font-size: 28px;
+	}
+
+	.about_museum.main .upper_part p {
+		font-size: 20px;
+	}
+
+
+
+	.about_museum.main .lower_part .block_img{
+		height: 288px;
+	}
+
+	.about_museum.main .lower_part p {
+		width: 440px;
+		min-width: 440px;
+		font-size: 20px;
+	}
+
+
+
+	.about_museum.main .section_content .button_visit {
+		bottom: 30px;
+		left: 100px;
+	}
+
+
+
+	.about_museum.main .patterns .pattern:nth-child(1){
+		width: 800px;
+		height: 800px;
+		top: -150px;
+		right: 50px;
+	}
+
+	@keyframes fade-transform {
+		0% { transform: translateX(0); }
+		20% { transform: translateX(-550px); }
+		50% { transform: translateX(-550px); }
+		70% { transform: translateX(0); }
+		100% { transform: translateX(0); }
+	}
+}
+
+@media only screen and (max-width : 820px){
+	.about_museum.mobile {
+		margin-bottom: 100px;
+	}
+
+	.about_museum.mobile .section_content{
+		width: 100%;
+	}
+
+
+	.about_museum.mobile .upper_part .block_imgs{
+		height: 330px;
+	}
+
+
+	.about_museum.mobile .lower_part{
+		margin-bottom: 10px;
+	}
+
+	.about_museum.mobile .lower_part .block_img{
+		height: 310px;
+	}
+}
+
+@media only screen and (max-width : 700px){
+	.about_museum.mobile{
+		padding: 70px 30px 0;
+		margin-bottom: 70px;
+	}
+
+
+	.about_museum.mobile .upper_part .block_imgs{
+		height: 300px;
+	}
+
+	.about_museum.mobile h1{
+		font-size: 42px;
+	}
+
+	.about_museum.mobile .upper_part h3{
+		font-size: 30px;
+	}
+
+	.about_museum.mobile .upper_part p{
+		width: 500px;
+		font-size: 24px;
+	}
+
+
+	.about_museum.mobile .lower_part .block_img{
+		height: 290px;
+	}
+
+	.about_museum.mobile .lower_part p{
+		width: 510px;
+		font-size: 24px;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	.about_museum.mobile{
+		padding: 70px 20px 0;
+	}
+
+
+	.about_museum.mobile .upper_part h3{
+		font-size: 26px;
+	}
+
+	.about_museum.mobile .upper_part p{
+		width: 450px;
+		font-size: 22px;
+	}
+
+
+	.about_museum.mobile .lower_part p{
+		width: 450px;
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width : 530px){
+	.about_museum.mobile .upper_part .block_imgs{
+		height: 230px;
+	}
+
+	.about_museum.mobile .upper_part h3{
+		font-size: 22px;
+	}
+
+	.about_museum.mobile .upper_part p{
+		width: 400px;
+		font-size: 20px;
+	}
+
+
+	.about_museum.mobile .lower_part .block_img{
+		height: 210px;
+	}
+	
+	.about_museum.mobile .lower_part p{
+		width: 380px;
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width : 500px){
+	.about_museum.mobile{
+		margin-bottom: 60px;
+	}
+	
+	.about_museum.mobile h1{
+		font-size: 32px;
+	}
+}
+
+@media only screen and (max-width : 450px){
+	.about_museum.mobile{
+		padding: 70px 15px 0;
+	}
+
+
+	.about_museum.mobile .upper_part .block_imgs{
+		height: 190px;
+	}
+
+	.about_museum.mobile .upper_part h3{
+		font-size: 20px;
+	}
+
+	.about_museum.mobile .upper_part p{
+		width: 370px;
+		font-size: 18px;
+	}
+
+
+	.about_museum.mobile .lower_part .block_img{
+		height: 170px;
+	}
+
+	.about_museum.mobile .lower_part p{
+		width: 370px;
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width : 400px){
+	.about_museum.mobile{
+		padding: 50px 15px 0;
+	}
+
+
+	.about_museum.mobile .upper_part .block_imgs{
+		height: 180px;
+	}
+
+	.about_museum.mobile h1{
+		font-size: 26px;
+	}
+
+	.about_museum.mobile .upper_part h3{
+		font-size: 17px;
+	}
+
+	.about_museum.mobile .upper_part p{
+		width: 330px;
+		font-size: 16px;
+	}
+
+
+	.about_museum.mobile .lower_part .block_img{
+		height: 160px;
+	}
+
+	.about_museum.mobile .lower_part p{
+		width: 340px;
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width : 360px){
+	.about_museum.mobile .lower_part p{
+		width: 300px;
+	}
+}

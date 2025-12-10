@@ -1,0 +1,1290 @@
+@media only screen and (max-width : 2000px) and (max-height : 750px){
+    :root {
+        --note-shift-distance: 62px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 605px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 40px;
+        min-height: 40px;
+        height: 40px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 20px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        height: 135px;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 45px;
+        min-width: 45px;
+        height: 45px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 13px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 10px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 600px;
+        height: 50px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        width: 400px;
+        height: 140px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 16px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 190px;
+        height: 180px;
+        bottom: -20px;
+        left: -11px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 47px;
+        min-width: 47px;
+        height: 47px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 190px;
+        height: 70px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 90px;
+        height: 45px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 350px;
+        height: 600px;
+    }
+}
+
+
+@media only screen and (max-width : 1600px){
+    :root {
+        --note-shift-distance: 62px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 605px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 40px;
+        min-height: 40px;
+        height: 40px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 20px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        height: 135px;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 45px;
+        min-width: 45px;
+        height: 45px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 13px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 10px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 600px;
+        height: 50px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        width: 400px;
+        height: 140px;
+        top: -200px;
+        left: -115px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 16px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 190px;
+        height: 180px;
+        bottom: -20px;
+        left: -11px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 47px;
+        min-width: 47px;
+        height: 47px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 190px;
+        height: 70px;
+        left: -11px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 90px;
+        height: 45px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 20px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 350px;
+        height: 600px;
+    }
+}
+
+@media only screen and (max-width : 1600px) and (max-height : 700px){
+    :root {
+        --note-shift-distance: 57px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 545px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 35px;
+        min-height: 35px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 18px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        height: 115px;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 39px;
+        min-width: 39px;
+        height: 39px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 9px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 500px;
+        height: 50px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        width: 350px;
+        height: 120px;
+        top: -170px;
+        left: -90px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 180px;
+        height: 170px;
+        bottom: -20px;
+        left: -10px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes {
+        gap: 10px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 47px;
+        min-width: 47px;
+        height: 47px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 190px;
+        height: 70px;
+        top: -75px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 80px;
+        height: 40px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 18px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 300px;
+        height: 500px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_rnk {
+        width: 550px;
+        height: 280px;
+        bottom: -60px;
+    }
+}
+
+
+@media only screen and (max-width : 1300px){
+    :root {
+        --note-shift-distance: 57px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 545px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 35px;
+        min-height: 35px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 18px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        height: 115px;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 39px;
+        min-width: 39px;
+        height: 39px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 9px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 500px;
+        height: 50px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        width: 350px;
+        height: 120px;
+        top: -170px;
+        left: -90px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 180px;
+        height: 170px;
+        bottom: -20px;
+        left: -10px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes {
+        gap: 10px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 47px;
+        min-width: 47px;
+        height: 47px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 190px;
+        height: 70px;
+        top: -75px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 80px;
+        height: 40px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 18px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 300px;
+        height: 500px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_rnk {
+        width: 550px;
+        height: 280px;
+        bottom: -60px;
+    }
+}
+
+
+@media only screen and (max-width : 1100px){
+    :root {
+        --note-shift-distance: 62px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 605px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 40px;
+        min-height: 40px;
+        height: 40px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 20px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        height: 135px;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 45px;
+        min-width: 45px;
+        height: 45px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 13px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 10px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 430px;
+        height: 50px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        width: 400px;
+        height: 140px;
+        top: -200px;
+        left: -115px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 16px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 190px;
+        height: 180px;
+        bottom: -20px;
+        left: -11px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes {
+        gap: 15px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 47px;
+        min-width: 47px;
+        height: 47px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 190px;
+        height: 70px;
+        left: -11px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 90px;
+        height: 45px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 20px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 350px;
+        height: 600px;
+    }
+
+    .widget_window.genes .level_two .block_rnk {
+        width: 550px;
+        height: 280px;
+        right: -80px;
+        bottom: -60px;
+    }
+}
+
+
+@media only screen and (max-width : 900px){
+    :root {
+        --note-shift-distance: 57px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 545px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 35px;
+        min-height: 35px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 18px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        height: 115px;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 39px;
+        min-width: 39px;
+        height: 39px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 9px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 370px;
+        height: 50px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        width: 350px;
+        height: 120px;
+        top: -170px;
+        left: -90px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 180px;
+        height: 170px;
+        bottom: -20px;
+        left: -10px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes {
+        gap: 10px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 47px;
+        min-width: 47px;
+        height: 47px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 190px;
+        height: 70px;
+        top: -75px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 80px;
+        height: 40px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 18px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 18px;
+        height: 18px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 300px;
+        height: 500px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_rnk {
+        width: 550px;
+        height: 280px;
+        right: -120px;
+        bottom: -60px;
+    }
+}
+
+
+@media only screen and (max-width : 760px){
+    :root {
+        --note-shift-distance: 52px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 545px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 35px;
+        min-height: 35px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 18px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        height: 115px;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 39px;
+        min-width: 39px;
+        height: 39px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 9px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 300px;
+        height: 50px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        width: 300px;
+        height: 120px;
+        top: -160px;
+        left: -78px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 168px;
+        height: 158px;
+        bottom: -20px;
+        left: -11px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes {
+        gap: 9px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 43px;
+        min-width: 43px;
+        height: 43px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._a_note::after{
+        font-size: 24px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._u_note::after{
+        font-size: 24px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._t_note::after{
+        font-size: 24px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._c_note::after{
+        font-size: 24px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._g_note::after{
+        font-size: 24px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 168px;
+        height: 50px;
+        top: -75px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 70px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 16px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 250px;
+        height: 420px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_rnk {
+        width: 450px;
+        height: 230px;
+        right: -120px;
+        bottom: -20px;
+    }
+}
+
+
+@media only screen and (max-width : 600px){
+    :root {
+        --note-shift-distance: 47px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 450px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 35px;
+        min-height: 35px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 18px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        gap: 5px;
+        height: 105px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row {
+        gap: 5px;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 36px;
+        min-width: 36px;
+        height: 36px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 9px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 250px;
+        height: 40px;
+        bottom: 170px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        gap: 5px;
+        width: 260px;
+        height: 100px;
+        border-radius: 7px;
+        padding: 0 5px;
+        top: -130px;
+        left: -63px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 11px;
+        line-height: 15px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 153px;
+        height: 143px;
+        bottom: -20px;
+        left: -10px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes {
+        gap: 7px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._a_note::after{
+        font-size: 22px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._u_note::after{
+        font-size: 22px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._t_note::after{
+        font-size: 22px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._c_note::after{
+        font-size: 22px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._g_note::after{
+        font-size: 22px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 153px;
+        height: 50px;
+        top: -65px;
+        left: -10px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 70px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 16px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 16px;
+        height: 16px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 200px;
+        height: 340px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_rnk {
+        width: 380px;
+        height: 190px;
+        right: -120px;
+        bottom: -20px;
+    }
+}
+
+
+@media only screen and (max-width : 500px){
+    :root {
+        --note-shift-distance: 43px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 360px;
+        gap: 10px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 35px;
+        min-height: 35px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 18px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        gap: 5px;
+        height: 200px;
+        width: 230px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 36px;
+        min-width: 36px;
+        height: 36px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 9px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 190px;
+        height: 36px;
+        bottom: 140px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        gap: 5px;
+        width: 240px;
+        height: 90px;
+        border-radius: 7px;
+        padding: 0 5px;
+        top: -115px;
+        left: -62px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 141px;
+        height: 129px;
+        bottom: -15px;
+        left: -10px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes {
+        gap: 7px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 36px;
+        min-width: 36px;
+        height: 36px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._a_note::after{
+        font-size: 20px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._u_note::after{
+        font-size: 20px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._t_note::after{
+        font-size: 20px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._c_note::after{
+        font-size: 20px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._g_note::after{
+        font-size: 20px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 141px;
+        height: 40px;
+        top: -55px;
+        left: -9px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 55px;
+        height: 30px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 14px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 14px;
+        height: 14px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 180px;
+        height: 305px;
+        left: -20px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_rnk {
+        width: 350px;
+        height: 160px;
+        right: -130px;
+        bottom: -20px;
+    }
+}
+
+
+@media only screen and (max-width : 400px){
+    :root {
+        --note-shift-distance: 36px;
+    }
+
+
+
+    .widget_window.genes .level_two .amino_acids_info{
+        width: 320px;
+        gap: 10px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info h3 {
+        gap: 10px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .icon{
+        width: 30px;
+        min-height: 30px;
+        height: 30px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info h3 .text{
+        font-size: 17px;
+    }
+
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+        gap: 5px;
+        height: 200px;
+        width: 230px;
+        border-radius: 5px;
+        padding: 5px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row {
+        gap: 5px;
+        flex-wrap: wrap;
+    }
+    
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+        width: 36px;
+        min-width: 36px;
+        height: 36px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+        font-size: 9px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game{
+        width: 180px;
+        height: 36px;
+        bottom: 140px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_info {
+        gap: 5px;
+        width: 200px;
+        height: 70px;
+        border-radius: 7px;
+        padding: 0 5px;
+        top: -90px;
+        left: -50px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_info p{
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+
+    .widget_window.genes .level_two .block_game .block_click{
+        width: 117px;
+        height: 110px;
+        bottom: -13px;
+        left: -8px;
+    }
+
+
+    .widget_window.genes .level_two .block_rkn_notes {
+        gap: 6px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note{
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._a_note::after{
+        font-size: 16px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._u_note::after{
+        font-size: 16px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._t_note::after{
+        font-size: 16px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._c_note::after{
+        font-size: 16px;
+    }
+
+    .widget_window.genes .level_two .block_rkn_notes .rnk_note._g_note::after{
+        font-size: 16px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_game .block_result{
+        width: 120px;
+        height: 40px;
+        top: -40px;
+        left: -8px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result p,
+    .widget_window.genes .level_two .block_game .block_result div{
+        width: 48px;
+        height: 25px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .amino_acid{
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_two .block_game .block_result .error svg{
+        width: 12px;
+        height: 12px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_pattern{
+        width: 150px;
+        height: 260px;
+        left: -20px;
+    }
+
+
+
+    .widget_window.genes .level_two .block_rnk {
+        width: 330px;
+        height: 140px;
+        right: -130px;
+        bottom: -20px;
+    }
+}

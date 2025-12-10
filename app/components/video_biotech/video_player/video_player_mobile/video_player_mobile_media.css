@@ -1,0 +1,201 @@
+@media only screen and (max-width : 700px){
+    .video_container_mobile .mobile_top_title {
+        height: 55px;
+        padding: 0 20px;
+    }
+
+    .video_container_mobile .mobile_top_title .title_text {
+        font-size: 16px;
+    }
+
+    .video_container_mobile .mobile_center_controls .control_button {
+        width: 75px;
+        height: 75px;
+    }
+
+    .video_container_mobile .mobile_center_controls .control_button svg {
+        width: 34px;
+    }
+
+    .video_container_mobile .mobile_center_controls .rewind_button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .video_container_mobile .mobile_center_controls .rewind_button svg {
+        width: 28px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls {
+        height: 70px;
+        padding: 0 20px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .mute_button {
+        width: 24px;
+        height: 24px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .timer_control {
+        font-size: 14px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .progress_container {
+        height: 15px;
+        margin: 0 15px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .fullscreen_button {
+        width: 23px;
+        height: 23px;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .video_container_mobile .mobile_top_title {
+        height: 50px;
+        padding: 0 15px;
+    }
+
+    .video_container_mobile .mobile_top_title .title_text {
+        font-size: 14px;
+    }
+
+    .video_container_mobile .mobile_center_controls {
+        gap: 25px;
+    }
+
+    .video_container_mobile .mobile_center_controls .control_button {
+        width: 70px;
+        height: 70px;
+    }
+
+    .video_container_mobile .mobile_center_controls .control_button svg {
+        width: 32px;
+    }
+
+    .video_container_mobile .mobile_center_controls .rewind_button {
+        width: 55px;
+        height: 55px;
+    }
+
+    .video_container_mobile .mobile_center_controls .rewind_button svg {
+        width: 24px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls {
+        height: 60px;
+        padding: 0 15px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .mute_button {
+        width: 21px;
+        height: 21px;
+        margin-right: 20px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .timer_control {
+        font-size: 12px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .progress_container {
+        height: 12px;
+        margin: 0 10px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .fullscreen_button {
+        width: 20px;
+        height: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .video_container_mobile .mobile_top_title {
+        height: 45px;
+    }
+
+    .video_container_mobile .mobile_top_title .title_text {
+        font-size: 13px;
+    }
+
+    .video_container_mobile .mobile_center_controls .control_button {
+        width: 60px;
+        height: 60px;
+    }
+
+    .video_container_mobile .mobile_center_controls .control_button svg {
+        width: 28px;
+    }
+
+    .video_container_mobile .mobile_center_controls .rewind_button {
+        width: 45px;
+        height: 45px;
+    }
+
+    .video_container_mobile .mobile_center_controls .rewind_button svg {
+        width: 20px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls {
+        height: 55px;
+    }
+}
+
+@media only screen and (max-width : 400px){
+    .video_container_mobile .mobile_top_title {
+        height: 40px;
+        padding: 0 10px;
+    }
+
+    .video_container_mobile .mobile_top_title .title_text {
+        font-size: 12px;
+    }
+
+    .video_container_mobile .mobile_center_controls {
+        gap: 20px;
+    }
+
+    .video_container_mobile .mobile_center_controls .control_button {
+        width: 55px;
+        height: 55px;
+    }
+
+    .video_container_mobile .mobile_center_controls .control_button svg {
+        width: 24px;
+    }
+
+    .video_container_mobile .mobile_center_controls .rewind_button {
+        width: 43px;
+        height: 43px;
+    }
+
+    .video_container_mobile .mobile_center_controls .rewind_button svg {
+        width: 19px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls {
+        height: 45px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .mute_button {
+        width: 19px;
+        height: 19px;
+        margin-right: 12px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .timer_control {
+        font-size: 10px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .progress_container {
+        height: 10px;
+        margin: 0 7px;
+    }
+
+    .video_container_mobile .mobile_bottom_controls .fullscreen_button {
+        width: 18px;
+        height: 18px;
+        margin-left: 12px;
+    }
+}

@@ -1,0 +1,388 @@
+.advantages_pish.main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 1500px;
+	padding: 0 200px;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+}
+
+
+.advantages_pish.main h2{
+	width: fit-content;
+	color: #E4E4FF;
+	font-size: 48px;
+	font-family: "Benzin";
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+}
+
+
+.advantages_pish.main .advantages_container{
+	display: flex;
+	flex-direction: column;
+	gap: 60px;
+	align-items: center;
+}
+
+.advantages_pish.main .advantages_container .advantage{
+	display: flex;
+	width: 940px;
+	height: 153px;
+	position: relative;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(1){
+	height: 153px;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(2){
+	height: 223px;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(3){
+	height: 326px;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4){
+	width: 1360px;
+	height: 463px;
+	position: relative;
+	top: -60px;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_bg img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_content{
+	display: flex;
+	gap: 60px;
+	width: 100%;
+	height: 100%;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 2;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content{
+	padding: 90px 40px 15px;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_content .block_number{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	width: 90px;
+	min-width: 90px;
+	height: 100%;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_number{
+	width: 100%;
+	min-width: none;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_content .block_number span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 90px;
+	color: #03D75C;
+	font-size: 48px;
+	font-family: "Benzin";
+	font-weight: 400;
+	position: relative;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_content .block_number span::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border: 1px solid #4547BB;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_number span:nth-child(1){
+	width: 90px;
+	position: absolute;
+	top: 20px;
+	left: 50px;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_number span:nth-child(2){
+	width: 90px;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_content .block_text{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_text{
+	flex-direction: column;
+	align-items: center;
+	justify-content: left;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_content .block_text p{
+	width: 100%;
+	color: #fff;
+	font-size: 24px;
+	font-family: "Raleway";
+	font-weight: 400;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_text p{
+	width: 800px;
+	margin-bottom: 60px;
+}
+
+.advantages_pish.main .advantages_container .advantage .advantage_content .block_text p span{
+	color: #03D75C;
+	font-weight: 600;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	width: 1180px;
+	padding: 0;
+	list-style: none;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul li{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-left: 10px;
+	position: relative;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul li::before{
+	content: "";
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #03D75C;
+	position: absolute;
+	top: 14px;
+	left: 0;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul li p{
+	width: 100%;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 24px;
+	font-family: "Raleway";
+	font-weight: 400;
+	margin: 0;
+}
+
+.advantages_pish.main .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul li span{
+	color: #03D75C;
+	font-weight: 600;
+}
+
+
+
+
+.advantages_pish.mobile{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: fit-content;
+	padding: 0 40px;
+	margin-bottom: 60px;
+	box-sizing: border-box;
+}
+
+
+.advantages_pish.mobile h1{
+	width: 600px;
+	color: #E4E4FF;
+	font-size: 54px;
+	font-family: "Benzin";
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 80px;
+}
+
+
+.advantages_pish.mobile .advantages_container{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	align-items: center;
+}
+
+.advantages_pish.mobile .advantages_container .advantage{
+	display: flex;
+	width: 850px;
+	height: 153px;
+	position: relative;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(1){
+	height: 220px;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(2){
+	height: 400px;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(3){
+	height: 500px;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(4){
+	height: 610px;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_bg img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_content{
+	display: flex;
+	gap: 60px;
+	width: 100%;
+	height: 100%;
+	padding: 15px 40px;
+	box-sizing: border-box;
+	position: relative;
+	z-index: 2;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_content .block_number{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	width: 90px;
+	min-width: 90px;
+	height: 100%;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_content .block_number span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 90px;
+	color: #03D75C;
+	font-size: 48px;
+	font-family: "Benzin";
+	font-weight: 400;
+	position: relative;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_content .block_number span::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border: 1px solid #4547BB;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_content .block_text{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(4) .advantage_content .block_text{
+	flex-direction: column;
+	justify-content: center;
+	gap: 30px;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_content .block_text p{
+	width: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Raleway";
+	font-weight: 400;
+}
+
+.advantages_pish.mobile .advantages_container .advantage .advantage_content .block_text p span{
+	color: #03D75C;
+	font-weight: 600;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul li{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	padding-left: 10px;
+	position: relative;
+	margin-bottom: 10px;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul li::before{
+	content: "";
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;
+	background-color: #03D75C;
+	position: absolute;
+	top: 14px;
+	left: 0;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul li p{
+	width: 100%;
+	padding-left: 20px;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Raleway";
+	font-weight: 400;
+	margin: 0;
+}
+
+.advantages_pish.mobile .advantages_container .advantage:nth-child(4) .advantage_content .block_text ul li span{
+	color: #03D75C;
+	font-weight: 600;
+}

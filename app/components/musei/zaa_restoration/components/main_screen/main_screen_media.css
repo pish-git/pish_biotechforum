@@ -1,0 +1,535 @@
+@media only screen and (max-width : 1100px){
+    .widget_window.zaa_restoration .main_window .block_tip .tip{
+	    padding: 20px 30px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .icon_tip{
+        width: 38px;
+        height: 38px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip.question .icon_tip{
+        width: 42px;
+        height: 42px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip.final .icon_tip{
+        width: 42px;
+        height: 42px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip.fail .icon_tip{
+        width: 43px;
+        height: 43px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .text_tip{
+        max-width: 420px;
+        font-size: 20px;
+    }
+
+
+
+    .widget_window.zaa_restoration .main_window .block_mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        min-height: 0;
+        position: relative;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .mobile_top_section {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        min-height: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .mobile_top_section .block_swiper {
+        flex: 1;
+        width: 100%;
+        min-height: 0;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .mobile_top_section .block_swiper .swiper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .mobile_top_section .block_swiper .swiper-wrapper {
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .mobile_top_section .block_swiper .swiper-slide {
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .mobile_top_section .block_swiper .swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_controls {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        min-height: 100px;
+        position: relative;
+        z-index: 5;
+    }
+
+
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        width: 100%;
+        height: 250px;
+        min-height: 250px;
+        background: url("../../img/texture/1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial {
+        display: flex;
+        justify-content: center;
+        position: relative;
+		height: 195px;
+		width: 220px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 145px;
+        height: 145px;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: rgba(115, 122, 255, .6);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        opacity: 0;
+        transition: all .5s ease;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial._click button::before {
+        opacity: 1;
+        animation: flicker .9s infinite ease-in-out;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button img.additional_img {
+        width: 110%;
+        height: 110%;
+        object-fit: cover;
+        position: absolute;
+        z-index: 2;
+        opacity: 0;
+        transition: all .5s ease;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial._active button img.additional_img {
+        opacity: 1;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial:nth-child(1) button img.additional_img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 35px;
+        background: linear-gradient(rgb(101, 200, 206), rgba(198, 226, 230, .8));
+        border-radius: 30px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 5;
+        pointer-events: none;
+        transition: all .5s ease;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial._description_on .description {
+        opacity: 1;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description p {
+        color: rgb(62, 63, 85);
+        font-size: 18px;
+        font-family: "Grandis";
+        font-weight: 700;
+        line-height: 9px;
+        text-align: center;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .tip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        width: 300px;
+        min-height: 60px;
+        background: linear-gradient(90deg, rgb(53, 110, 93), rgba(73, 80, 107, .8));
+        border-radius: 10px 30px 30px 10px;
+        position: absolute;
+        left: -320px;
+        z-index: 5;
+        pointer-events: none;
+        opacity: 0;
+        transition: all .5s ease;
+        padding: 10px;
+        box-sizing: border-box;
+        
+        opacity: 0 !important;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial._tip_on .tip {
+        opacity: 1;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .tip p {
+        width: 200px;
+        font-size: 14px;
+        font-family: "Grandis";
+        font-weight: 400;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .tip span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 35px;
+        height: 35px;
+        background: linear-gradient(90deg, rgb(63, 92, 105), rgba(70, 84, 108, .6));
+        border: 2px solid rgb(56, 84, 96);
+        border-radius: 50%;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .tip span svg {
+        width: 12px;
+        height: 12px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .tip span svg path {
+        stroke: rgb(100, 196, 202);
+    }
+}
+
+@media only screen and (max-width : 900px){
+    .widget_window.zaa_restoration .main_window .block_tip .tip{
+	    padding: 15px 20px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .icon_tip{
+        width: 38px;
+        height: 38px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip.question .icon_tip{
+        width: 42px;
+        height: 42px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip.final .icon_tip{
+        width: 42px;
+        height: 42px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip.fail .icon_tip{
+        width: 43px;
+        height: 43px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .text_tip{
+        max-width: 420px;
+        font-size: 18px;
+    }
+
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial {
+        height: 185px;
+        width: 200px;
+    }
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button {
+        width: 135px;
+        height: 135px;
+	}
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description {
+		height: 30px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description p {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width : 760px){
+    .widget_window.zaa_restoration .main_window .block_tip{
+        top: 10px;
+        left: 10px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .tip{
+	    padding: 10px 15px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .icon_tip{
+        display: none;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .text_tip{
+        max-width: 360px;
+        font-size: 15px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .buttons button {
+        width: 90px;
+        height: 35px;
+    }
+
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile {
+        height: 230px;
+        min-height: 230px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial {
+        height: 175px;
+        width: 180px;
+    }
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button {
+        width: 125px;
+        height: 125px;
+	}
+
+	
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description {
+		height: 30px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description p {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width : 650px){
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile {
+        height: 210px;
+        min-height: 210px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial {
+        height: 170px;
+        width: 130px;
+    }
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button {
+        width: 110px;
+        height: 110px;
+	}
+
+	
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description {
+		height: 40px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description p {
+		font-size: 14px;
+		line-height: 15px;
+	}
+}
+
+@media only screen and (max-width : 600px){
+    .widget_window.zaa_restoration .main_window .block_tip{
+        gap: 20px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .text_tip{
+        max-width: 320px;
+        font-size: 14px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .buttons button {
+        width: 85px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile {
+        height: 190px;
+        min-height: 190px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial {
+        height: 155px;
+        width: 120px;
+    }
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button {
+        width: 100px;
+        height: 100px;
+	}
+
+	
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description {
+		height: 40px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description p {
+		font-size: 12px;
+		line-height: 15px;
+	}
+}
+
+@media only screen and (max-width : 500px){
+    .widget_window.zaa_restoration .main_window .block_tip{
+        top: 7px;
+        left: 7px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .tip{
+        border-radius: 10px;
+	    padding: 7px 12px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .text_tip{
+        max-width: 260px;
+        font-size: 12px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .buttons{
+        gap: 15px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .buttons button {
+        width: 80px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile {
+        height: 165px;
+        min-height: 165px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial {
+        height: 135px;
+        width: 110px;
+    }
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button {
+        width: 90px;
+        height: 90px;
+	}
+
+	
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description {
+		height: 33px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description p {
+		font-size: 11px;
+		line-height: 10px;
+	}
+}
+
+@media only screen and (max-width : 400px){
+    .widget_window.zaa_restoration .main_window .block_tip{
+        gap: 15px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .tip{
+        border-radius: 7px;
+	    padding: 5px 10px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .text_tip{
+        max-width: 220px;
+        font-size: 10px;
+    }
+
+    .widget_window.zaa_restoration .main_window .block_tip .buttons button {
+        width: 65px;
+        height: 25px;
+        font-size: 11px;
+    }
+
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile {
+        height: 165px;
+        min-height: 165px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial {
+        height: 125px;
+        width: 85px;
+    }
+
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial button {
+        width: 85px;
+        height: 85px;
+	}
+
+	
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description {
+		height: 28px;
+	}
+
+	.widget_window.zaa_restoration .main_window .block_mobile .block_vials_mobile .block_vial .description p {
+		font-size: 10px;
+		line-height: 10px;
+	}
+}

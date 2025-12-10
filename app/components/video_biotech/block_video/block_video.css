@@ -1,0 +1,99 @@
+.block_video{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+	height: fit-content;
+	cursor: pointer;
+}
+
+
+.block_video .video_cover{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 300px;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.block_video .video_cover img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: bottom right;
+	z-index: 1;
+}
+
+/* .block_video .video_cover::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(69, 71, 187, .48), rgba(25, 25, 51, .48));
+	mix-blend-mode: multiply;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+} */
+
+.block_video .video_cover span{
+	width: fit-content;
+	color: #fff;
+	font-size: 12px;
+	font-family: "Benzin";
+	font-weight: 400;
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	z-index: 5;
+	pointer-events: none;
+}
+
+
+.block_video._blocked .video_cover{
+	background: #fff;
+}
+
+.block_video._blocked .video_cover span{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(117, 117, 117, .77), rgba(0, 0, 0, .77));
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.block_video._blocked .video_cover svg{
+	position: absolute;
+	z-index: 2;
+}
+
+
+
+
+.block_video .video_info{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	width: 100%;
+}
+
+.block_video .video_info h4{
+	width: 100%;
+	color: #fff;
+	font-size: 24px;
+	font-family: "Benzin";
+	font-weight: 400;
+}
+
+.block_video .video_info p{
+	width: 100%;
+	color: #fff;
+	font-size: 22px;
+	font-family: "Raleway";
+	font-weight: 400;
+}

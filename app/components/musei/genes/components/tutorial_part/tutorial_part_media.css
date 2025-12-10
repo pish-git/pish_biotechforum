@@ -1,0 +1,348 @@
+@media only screen and (max-width : 1800px){
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .title{
+        font-size: 35px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+	    width: 1800px;
+        height: 850px;
+    }
+}
+
+@media only screen and (max-width : 1600px){    
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info{
+        width: 680px;
+        height: 350px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text{
+        font-size: 18px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon{
+        width: 45px;
+        min-width: 45px;
+        height: 100%;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch{
+        width: 680px;
+        top: 380px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button{
+        width: 140px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button .text{
+	    font-size: 16px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 1600px;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width : 1400px){
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .title{
+        font-size: 30px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info{
+        width: 600px;
+        height: 320px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text{
+        font-size: 16px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon{
+        width: 40px;
+        min-width: 40px;
+        height: 100%;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch{
+        width: 600px;
+        top: 350px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button{
+        width: 140px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button .text{
+	    font-size: 16px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 1400px;
+        height: 750px;
+    }
+}
+
+@media only screen and (max-width : 1200px){
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 1200px;
+        height: 700px;
+    }
+}
+
+@media only screen and (max-width : 1100px){
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info{
+        width: 680px;
+        height: 350px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text{
+        font-size: 18px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon{
+        width: 45px;
+        min-width: 45px;
+        height: 100%;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch{
+        width: 680px;
+        top: 380px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button{
+        width: 140px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button .text{
+	    font-size: 16px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 1100px;
+        height: 680px;
+        bottom: -200px;
+    }
+}
+
+@media only screen and (max-width : 900px){
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 900px;
+        height: 630px;
+        bottom: -200px;
+    }
+}
+
+@media only screen and (max-width : 760px){
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .title{
+        font-size: 30px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info{
+        width: 550px;
+        height: 320px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text{
+        font-size: 16px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon{
+        width: 40px;
+        min-width: 40px;
+        height: 100%;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch{
+        width: 550px;
+        top: 350px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button{
+        width: 140px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button .text{
+	    font-size: 16px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 760px;
+        height: 500px;
+        bottom: -200px;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .title{
+        font-size: 30px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info{
+        width: 450px;
+        height: 300px;
+        padding: 15px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text{
+        font-size: 13px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon{
+        width: 30px;
+        min-width: 30px;
+        height: 100%;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch{
+        width: 450px;
+        top: 330px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button{
+        width: 140px;
+        height: 35px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button .text{
+	    font-size: 16px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 600px;
+        height: 420px;
+        bottom: -150px;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info{
+        gap: 15px;
+        width: 350px;
+        height: 260px;
+        border-radius: 0 0 10px 10px;
+        padding: 10px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .title{
+        font-size: 22px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation{
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text{
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text br{
+        display: none;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon{
+        width: 25px;
+        min-width: 25px;
+        height: 100%;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch{
+        width: 350px;
+        top: 280px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button{
+        width: 120px;
+        height: 30px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button .text{
+	    font-size: 14px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 500px;
+        height: 380px;
+        bottom: -150px;
+    }
+}
+
+@media only screen and (max-width : 400px){
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info{
+        width: 330px;
+        height: 240px;
+        border-radius: 0 0 10px 10px;
+        padding: 10px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .title{
+        font-size: 20px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation{
+        gap: 15px;
+        padding: 5px 15px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text{
+        font-size: 12px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .text br{
+        display: none;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_tutorial_info .block_explanations .block_explanation .icon{
+        width: 25px;
+        min-width: 25px;
+        height: 100%;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch{
+        width: 330px;
+        top: 260px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button{
+        width: 110px;
+        height: 28px;
+    }
+
+    .widget_window.genes .level_one .tutorial_part .block_button_switch button .text{
+	    font-size: 13px;
+    }
+
+
+    .widget_window.genes .level_one .tutorial_part .block_img_gen{
+        width: 400px;
+        height: 280px;
+        bottom: -100px;
+    }
+}

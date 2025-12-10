@@ -1,0 +1,281 @@
+@media only screen and (min-width : 2000px){
+	.home{
+		height: calc(100vh + 230px);
+	}
+
+	.home .section_content{
+		padding: 120px 100px;
+	}
+
+	.home .text_heading span {
+		font-size: 80px;
+	}
+
+	.home .text_subheading {
+		font-size: 42px;
+	}
+
+	.home .button_visit{
+		bottom: 60px;
+		left: 100px;
+	}
+
+
+	.home .patterns .pattern:nth-child(1){
+		height: calc(100vh + 350px);
+		top: -100px;
+	}
+
+	.home .patterns .pattern:nth-child(2){
+		width: 550px;
+		height: 550px;
+		top: -120px;
+		right: -120px;
+	}
+
+	.home .patterns .pattern:nth-child(3){
+		width: 1000px;
+		height: 1000px;
+	}
+
+	.home .patterns .pattern:nth-child(4){
+		width: 800px;
+		height: 800px;
+		top: 100px;
+		left: 70px;
+	}
+}
+
+@media only screen and (max-width : 1800px){
+	.home .patterns .pattern:nth-child(1)::before{
+		width: 100%;
+		height: 30px;
+		bottom: -20px;
+		right: 0px;
+	}
+}
+
+@media only screen and (max-width : 1700px){
+	.home .patterns .pattern:nth-child(2){
+		width: 450px;
+		height: 450px;
+		top: -100px;
+		right: -100px;
+	}
+
+	.home .patterns .pattern:nth-child(3){
+		width: 800px;
+		height: 800px;
+		top: -300px;
+		left: -300px;
+	}
+
+	.home .patterns .pattern:nth-child(4){
+		width: 600px;
+		height: 600px;
+		top: 80px;
+		left: 50px;
+	}
+}
+
+@media only screen and (max-width : 1500px){
+	.home .text_heading span {
+		font-size: 60px;
+	}
+}
+
+@media only screen and (max-width : 1300px){
+	.home .section_content {
+  		gap: 15px;
+	}
+
+	.home .text_heading {
+		gap: 10px;
+	}
+
+	.home .text_heading span {
+		font-size: 55px;
+	}
+
+	.home .text_subheading {
+		font-size: 30px;
+	}
+
+
+	.home .patterns .pattern:nth-child(3){
+		width: 700px;
+		height: 700px;
+		top: -200px;
+		left: -200px;
+	}
+
+	.home .patterns .pattern:nth-child(4){
+		width: 500px;
+		height: 500px;
+		top: 100px;
+		left: 70px;
+	}
+}
+
+@media only screen and (max-width : 1100px){
+	.home {
+  		height: 100vh;
+	}
+
+	.home .section_content {
+		justify-content: left;
+		padding: 300px 40px;
+	}
+
+	.home .text_subheading {
+		font-size: 30px;
+	}
+
+	.home .patterns .pattern:nth-child(1) {
+		width: 100vw;
+		height: auto;
+		top: auto;
+		bottom: -50px;
+	}
+
+	.home .patterns .pattern img {
+		width: 100%;
+	}
+
+	.home .button_visit {
+  		left: calc(50% - 170px);
+	}
+
+
+	.home .patterns .pattern:nth-child(2){
+		display: none;
+	}
+
+	.home .patterns .pattern:nth-child(3){
+		display: none;
+	}
+
+	.home .patterns .pattern:nth-child(4){
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 1000px){
+	.home .section_content {
+		padding: 300px 20px;
+	}
+
+	.home .text_heading span {
+		font-size: 50px;
+	}
+}
+
+@media only screen and (max-width : 900px){
+	.home .text_heading span {
+		font-size: 45px;
+	}
+
+	.home .patterns .pattern:nth-child(1) {
+		bottom: 0px;
+	}
+
+	.home .button_visit {
+  		left: calc(50% - 150px);
+	}
+}
+
+@media only screen and (max-width : 800px){
+	.home .section_content {
+		padding: 220px 20px;
+	}
+
+	.home .text_heading span {
+		font-size: 40px;
+	}
+
+	.home .patterns .pattern:nth-child(1) {
+		bottom: 50px;
+	}
+}
+
+@media only screen and (max-width : 700px){
+	.home .section_content {
+		padding: 220px 15px;
+	}
+
+	.home .text_heading span {
+		font-size: 34px;
+	}
+
+	.home .text_subheading {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	.home .section_content {
+		padding: 180px 15px;
+	}
+	
+	.home .text_subheading {
+		font-size: 25px;
+	}
+
+	.home .text_heading span {
+		font-size: 28px;
+	}
+
+	.home .button_visit {
+  		left: calc(50% - 130px);
+	}
+
+
+	@keyframes fade-transform {
+		0% { transform: scale(1); }
+		35% { transform: scale(1.5); }
+		70% { transform: scale(1); }
+		100% { transform: scale(1); }
+	}
+}
+
+@media only screen and (max-width : 500px){
+	.home .section_content {
+		padding: 160px 10px;
+	}
+
+	.home .text_heading span {
+		font-size: 22px;
+	}
+
+	.home .text_subheading {
+		font-size: 22px;
+	}
+
+	.home .patterns .pattern:nth-child(1) {
+		bottom: 50px;
+	}
+
+	.home .button_visit {
+  		left: calc(50% - 120px);
+	}
+}
+
+@media only screen and (max-width : 500px) and (min-height : 800px){
+	.home .patterns .pattern:nth-child(1) {
+		bottom: 100px;
+	}
+}
+
+@media only screen and (max-width : 400px){
+	.home .text_heading span {
+		font-size: 20px;
+	}
+
+	.home .text_subheading {
+		font-size: 20px;
+	}
+
+	.home .button_visit {
+  		left: calc(50% - 110px);
+	}
+}

@@ -1,0 +1,102 @@
+.widget_window.fermenter .main_screen .block_main .block_partitions{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    top: 0;
+    left: 0;
+    
+    transition: all .5s ease;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_partitions._hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 200px;
+	border: 5px solid #5694FA;
+	border-radius: 50%;
+	background-color: #000;
+	position: absolute;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition .block_img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition:nth-child(1){
+	width: 200px;
+	height: 200px;
+	border: 5px solid #5694FA;
+	top: 0;
+	left: 50px;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition:nth-child(2){
+	width: 200px;
+	height: 200px;
+	border: 5px solid #20c1d0;
+	top: 40px;
+	right: 50px;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition:nth-child(3){
+	width: 220px;
+	height: 220px;
+	border: 5px solid #90EB24;
+	top: 210px;
+	left: 125px;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition:nth-child(4){
+	width: 180px;
+	height: 180px;
+	border: 5px solid #EA44B0;
+	bottom: 45px;
+	right: 80px;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition:nth-child(5){
+	width: 130px;
+	height: 130px;
+	border: 2px solid #fff;
+	bottom: 25px;
+	left: 50px;
+}
+
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition h4{
+	font-size: 19px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 2;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_partitions .partition p{
+	font-size: 10px;
+	font-family: "Eimantas";
+	font-weight: 500;
+	text-transform: uppercase;
+	position: relative;
+	z-index: 2;
+}

@@ -1,0 +1,498 @@
+@media only screen and (max-width : 1700px){
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part{
+        width: 1100px;
+        height: 250px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_welcome p{
+	    font-size: 40px;
+        line-height: 50px;
+    }
+
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection{
+	    padding: 0 25px;
+    }
+    
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container {
+        width: 270px;
+        height: 114px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container::before {
+        width: 37px;
+        height: 130px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container::after {
+        width: 37px;
+        height: 130px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide img{
+        width: 70px;
+        min-width: 70px;
+        height: 70px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide p{
+        font-size: 14px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info{
+        width: 450px;
+        height: 180px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info p{
+        font-size: 14px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info img{
+        width: 100px;
+        min-width: 100px;
+        height: 100px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info .icon{
+        width: 60px;
+        height: 40px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations{
+        gap: 10px;
+        width: 450px;
+        height: 180px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations h4{
+        font-size: 18px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations button{
+        width: 80px;
+        height: 35px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations button .icon{
+        width: 28px;
+        height: 28px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations button .icon svg{
+        width: 15px;
+        height: 15px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations button .text{
+	    font-size: 11px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations p{
+        width: 300px;
+        font-size: 10px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result{
+        width: 450px;
+        height: 180px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result::before{
+        width: 130px;
+        height: 130px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result h4{
+        font-size: 18px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result p{
+        width: 300px;
+        font-size: 14px;
+    }
+
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory .block_icon{
+        width: 220px;
+        min-width: 220px;
+        height: 220px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory .block_icon .icon_container{
+        height: 240px;
+        top: 30px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory .block_text{
+        gap: 20px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width : 1300px){
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part{
+        width: 980px;
+        height: 210px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_welcome p{
+	    font-size: 37px;
+        line-height: 45px;
+    }
+
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection{
+	    padding: 0 20px;
+    }
+    
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container {
+        width: 250px;
+        height: 100px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container::before {
+        width: 33px;
+        height: 120px;
+        left: -10px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container::after {
+        width: 33px;
+        height: 120px;
+        right: -10px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide img{
+        width: 60px;
+        min-width: 60px;
+        height: 60px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info{
+        width: 390px;
+        height: 160px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info p{
+        font-size: 12px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info img{
+        width: 90px;
+        min-width: 90px;
+        height: 90px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info .icon{
+        width: 60px;
+        height: 40px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations{
+        width: 390px;
+        height: 160px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations h4{
+        font-size: 16px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations button{
+        width: 75px;
+        height: 32px;
+        padding: 0 15px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations button .icon{
+        width: 25px;
+        height: 25px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations button .icon svg{
+        width: 13px;
+        height: 13px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations button .text{
+	    font-size: 11px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations p{
+        width: 300px;
+        font-size: 10px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result{
+        width: 390px;
+        height: 160px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result::before{
+        width: 110px;
+        height: 110px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result h4{
+        font-size: 16px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result p{
+        width: 270px;
+        font-size: 12px;
+    }
+
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory .block_icon{
+        width: 200px;
+        min-width: 200px;
+        height: 200px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory .block_icon .icon_container{
+        height: 220px;
+        top: 25px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory .block_text{
+        gap: 20px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory h1{
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_complete_victory p{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width : 1100px){
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection {
+        flex-direction: column;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container {
+        width: 200px;
+        height: 130px;
+        position: absolute;
+        top: 15px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container::before {
+        width: 42px;
+        height: 150px;
+        left: -15px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container::after {
+        width: 42px;
+        height: 150px;
+        right: -15px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container:nth-child(1){
+        left: calc(50% - 100px - 110px);
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container:nth-child(3){
+        left: calc(50% - 100px + 110px);
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide p {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .center_block {
+        width: 390px;
+        height: 160px;
+        position: absolute;
+        bottom: 15px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations {
+        position: absolute;
+        bottom: 15px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result{
+        position: absolute;
+        bottom: 15px;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_welcome p {
+        font-size: 32px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container {
+        width: 160px;
+        height: 100px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container::before {
+        width: 33px;
+        height: 128px;
+        left: -10px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container::after {
+        width: 33px;
+        height: 128px;
+        right: -10px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container:nth-child(1){
+        left: calc(50% - 80px - 90px);
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide-container:nth-child(3){
+        left: calc(50% - 80px + 90px);
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide img {
+        width: 45px;
+        min-width: 45px;
+        height: 45px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .slide p {
+        font-size: 10px;
+        line-height: 11px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .center_block {
+        width: 350px;
+        height: 145px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info {
+        gap: 15px;
+        padding: 55px 10px 15px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info img {
+        width: 80px;
+        min-width: 80px;
+        height: 80px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info p {
+        font-size: 12px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info p br{
+        display: none;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations {
+        width: 350px;
+        height: 145px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result {
+        width: 350px;
+        height: 145px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result::before {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media only screen and (max-width : 400px){
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_welcome p {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .center_block {
+        width: 340px;
+        height: 135px;
+    }
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info {
+        gap: 10px;
+        padding: 40px 10px 10px;
+    }
+    
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_info .icon {
+        top: 0;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_confirmations {
+        width: 340px;
+        height: 135px;
+    }
+
+
+    .widget_window.bacteria_guard_ecology .main_screen .choosing_bacterium .down_part .block_selection .block_result {
+        width: 340px;
+        height: 135px;
+    }
+}

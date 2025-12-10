@@ -1,0 +1,117 @@
+@font-face {
+	font-family: 'Grandis';
+	src: url('/fonts/Grandis/Grandis-Bold.otf') format('opentype');
+	font-weight: 700;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Grandis';
+	src: url('/fonts/Grandis/Grandis-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-display: swap;
+}
+
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('/fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Raleway';
+	src: url('/fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+	font-weight: 400;
+}
+
+
+@font-face {
+	font-family: 'Benzin';
+	src: url('/fonts/Benzin/Benzin-Semibold.ttf') format('truetype');
+	font-weight: 600;
+}
+
+@font-face {
+	font-family: 'Benzin';
+	src: url('/fonts/Benzin/Benzin-Medium.ttf') format('truetype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Benzin';
+	src: url('/fonts/Benzin/Benzin-Regular.ttf') format('truetype');
+	font-weight: 400;
+}
+
+
+@font-face {
+	font-family: 'Eimantas';
+	src: url('/fonts/Eimantas/Eimantas-Bold.otf') format('opentype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Eimantas';
+	src: url('/fonts/Eimantas/Eimantas-Medium.otf') format('opentype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Eimantas';
+	src: url('/fonts/Eimantas/Eimantas-Regular.otf') format('opentype');
+	font-weight: 400;
+}
+
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('/fonts/Roboto/Roboto-Black.ttf') format('truetype');
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+	font-weight: 500;
+}
+
+@font-face {
+	font-family: 'Roboto';
+	src: url('/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+	font-weight: 400;
+}
+
+
+
+
+:root{
+	--text-color: #fff;
+	--bg-color: #100E1B;
+}
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+button, a{
+	all: unset;
+}
+
+
+body{
+	height: 100%;
+	color: var(--text-color);
+	font-family: var(--font-inter);
+	font-weight: 500;
+	background-color: var(--bg-color);
+}

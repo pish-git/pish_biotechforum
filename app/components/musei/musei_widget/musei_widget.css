@@ -1,0 +1,188 @@
+.musei_widget {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	overflow: hidden;
+}
+
+.musei_widget .window{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+
+	transition: all 1s ease;
+}
+
+.musei_widget .window._hidden{
+	opacity: 0;
+}
+
+.musei_widget .window._open{
+	z-index: 15;
+	pointer-events: none;
+}
+
+
+
+.musei_widget .window .video-container {
+	height: 100vh;
+	position: relative;
+	flex: 1;
+	overflow: hidden;
+}
+
+.musei_widget .window .video-wrapper {
+	/* width: 100%;
+	height: 100%; */
+	width: 2000px;
+	height: 1100px;
+	min-height: 1100px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+	pointer-events: none;
+}
+
+.musei_widget .window .video-wrapper.active {
+	opacity: 1;
+	pointer-events: all;
+	z-index: 3;
+}
+
+.musei_widget .window .video-wrapper.next,
+.musei_widget .window .video-wrapper.prev {
+	opacity: 0;
+	z-index: 2;
+}
+
+.musei_widget .window .video-wrapper .block_img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.musei_widget .window .video-wrapper video {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: -150px;
+	left: 0;
+	z-index: 2;
+	object-fit: cover;
+}
+
+
+
+.musei_widget .window .block_buttons_transition{
+	display: flex;
+	gap: 20px;
+	align-items: end;
+	width: 550px;
+	height: 90px;
+	padding: 20px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 11;
+}
+
+.musei_widget .window .block_buttons_transition button{
+	width: fit-content;
+	height: fit-content;
+	font-size: 18px;
+	font-family: "Grandis";
+	font-weight: 400;
+	text-align: center;
+	padding: 10px 20px;
+	background: linear-gradient(160deg, #4547BB 0%, #434CB8 20%, #1E9B83 100%);
+	border-radius: 30px;
+	cursor: pointer;
+	user-select: none;
+
+	transition: all .2s ease;
+}
+
+/* .musei_widget .window .block_buttons_transition button:hover{
+	border: 2px solid rgb(0, 0, 0, 0);
+} */
+
+.musei_widget .window .block_buttons_transition button:active{
+	transform: scale(.9);
+}
+
+
+.musei_widget .window .block_tip{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	background: linear-gradient(160deg, #4547BB 0%, #434CB8 20%, #1E9B83 100%);
+	border-radius: 10px;
+	padding: 15px 20px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: 16;
+	pointer-events: none;
+}
+
+.musei_widget .window .block_tip p{
+	font-size: 18px;
+	font-family: "Benzin";
+	font-weight: 400;
+	text-align: center;
+}
+
+
+
+.musei_widget .button_exit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 38px;
+	height: 38px;
+	border: 2px solid #75758500;
+	border-radius: 10px;
+	background-color: #ffffff00;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 21;
+	cursor: pointer;
+
+	transition: all .3s ease;
+}
+
+.musei_widget .button_exit:hover{
+	border: 2px solid #757585;
+	background-color: #fff;
+}
+
+.musei_widget .button_exit svg{
+	width: 23px;
+	height: 23px;
+}
+
+.musei_widget .button_exit svg line{
+	stroke: #fff;
+	stroke-width: 10px;
+
+	transition: all .3s ease;
+}
+
+.musei_widget .button_exit:hover svg line{
+	stroke: #757585;
+}

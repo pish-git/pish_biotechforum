@@ -1,0 +1,354 @@
+.widget_window.zaa_restoration .main_window{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	min-height: 0;
+	position: relative;
+	background: rgb(44, 40, 51);
+}
+
+
+
+.widget_window.zaa_restoration .main_window .block_tip{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	position: absolute;
+	top: 15px;
+	left: 20px;
+	z-index: 5;
+	pointer-events: none;
+
+	transition: all .5s ease;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip._hidden{
+	opacity: 0;
+}
+
+
+.widget_window.zaa_restoration .main_window .block_tip .tip{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	background: linear-gradient(90deg, rgba(71, 82, 112, .9), rgba(46, 115, 96, .9));
+	border-radius: 15px;
+	padding: 15px 23px;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip.question .tip{
+	background: linear-gradient(90deg, rgba(137, 164, 110, .9), rgba(72, 83, 112, .9));
+}
+
+.widget_window.zaa_restoration .main_window .block_tip.fail .tip{
+	background: linear-gradient(90deg, rgba(130, 93, 107, 1), rgba(76, 75, 96, 1));
+}
+
+.widget_window.zaa_restoration .main_window .block_tip .icon_tip{
+	width: 33px;
+	height: 33px;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip.question .icon_tip{
+	width: 37px;
+	height: 37px;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip.final .icon_tip{
+	width: 37px;
+	height: 37px;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip.fail .icon_tip{
+	width: 38px;
+	height: 38px;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip .text_tip{
+	max-width: 420px;
+	font-size: 16px;
+	font-family: "Grandis";
+	font-weight: 400;
+}
+
+
+.widget_window.zaa_restoration .main_window .block_tip .buttons{
+	display: flex;
+	gap: 20px;
+	pointer-events: painted;
+
+	transition: all .5s ease;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip .buttons._hidden{
+	opacity: 0;
+	pointer-events: none;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip .buttons button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 40px;
+	font-size: 16px;
+	font-family: "Grandis";
+	font-weight: 400;
+	text-transform: uppercase;
+	border-radius: 30px;
+	background: linear-gradient(90deg, rgba(53, 106, 100, .9), rgba(60, 96, 105, .9));
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip .buttons button::before{
+	content: "";
+	width: 106%;
+	height: 115%;
+	border: 1px rgba(24, 137, 148, .7) solid;
+	border-radius: 30px;
+	position: absolute;
+	pointer-events: none;
+
+	transition: all .2s ease;
+}
+
+.widget_window.zaa_restoration .main_window .block_tip .buttons button:hover::before{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+
+
+.widget_window.zaa_restoration .main_window .block_left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+
+.widget_window.zaa_restoration .main_window .block_left .block_swiper {
+    flex: 1;
+    width: 100%;
+    min-height: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.widget_window.zaa_restoration .main_window .block_left .block_swiper .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.widget_window.zaa_restoration .main_window .block_left .block_swiper .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.widget_window.zaa_restoration .main_window .block_left .block_swiper .swiper-slide {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.widget_window.zaa_restoration .main_window .block_left .block_swiper .swiper-slide .block_img {
+    width: 100%;
+    height: 100%;
+	position: relative;
+}
+
+
+.widget_window.zaa_restoration .main_window .block_left .block_controls{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	min-height: 100px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 5;
+}
+
+
+
+.widget_window.zaa_restoration .main_window .block_right{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	width: 220px;
+	min-width: 220px;
+	background: url("../../img/texture/1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+}
+
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	height: 150px;
+	position: relative;
+	cursor: pointer;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial button::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background-color: rgba(115, 122, 255, .6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	opacity: 0;
+
+	transition: all .5s ease;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial._click button::before{
+	opacity: 1;
+	animation: flicker .9s infinite ease-in-out;
+}
+
+@keyframes flicker {
+    0% {
+        background-color: rgba(115, 122, 255, .6);
+    }
+	50% {
+       background-color: rgba(115, 122, 255, .1);
+    }
+    100% {
+       background-color: rgba(115, 122, 255, .6);
+    }
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial button img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial button img.additional_img{
+	width: 110%;
+	height: 110%;
+	object-fit: cover;
+	position: absolute;
+	z-index: 2;
+
+	opacity: 0;
+	transition: all .5s ease;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial._active button img.additional_img{
+	opacity: 1;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial:nth-child(1) button img.additional_img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial .description{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 38px;
+	height: 100%;
+	background: linear-gradient(rgb(101, 200, 206), rgba(198, 226, 230, .8));
+	border-radius: 20px 0 0 20px;
+	position: absolute;
+	top: 0;
+	left: -38px;
+	z-index: 5;
+	pointer-events: none;
+
+	opacity: 0;
+	transition: all .5s ease;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial._description_on .description{
+	opacity: 1;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial .description p{
+	height: 100px;
+	color: rgb(62, 63, 85);
+	font-size: 13px;
+	font-family: "Grandis";
+	font-weight: 700;
+	line-height: 10px;
+	text-align: center;
+	writing-mode: vertical-lr;
+}
+
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial .tip{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+	width: 460px;
+	min-height: 80px;
+	background: linear-gradient(90deg, rgb(53, 110, 93), rgba(73, 80, 107, .8));
+	border-radius: 15px 40px 40px 15px;
+	position: absolute;
+	left: -520px;
+	z-index: 5;
+	pointer-events: none;
+
+	opacity: 0;
+	transition: all .5s ease;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial._tip_on .tip{
+	opacity: 1;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial .tip p{
+	width: 330px;
+	font-size: 16px;
+	font-family: "Grandis";
+	font-weight: 400;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial .tip span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 45px;
+	height: 45px;
+	background: linear-gradient(90deg, rgb(63, 92, 105), rgba(70, 84, 108, .6));
+	border: 2px solid rgb(56, 84, 96);
+	border-radius: 50%;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial .tip span svg{
+	width: 15px;
+	height: 15px;
+}
+
+.widget_window.zaa_restoration .main_window .block_right .block_vial .tip span svg path{
+	stroke: rgb(100, 196, 202);
+}

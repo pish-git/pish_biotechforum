@@ -1,0 +1,1371 @@
+@media only screen and (max-width : 1900px){
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        padding-left: 50px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_info__container{
+        padding: 0 40px 40px 0;
+    }
+}
+
+@media only screen and (max-width : 1800px){
+    .widget_window.challenges_century .info_window .pattern {
+        width: 920px;
+	    height: 765px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_info__container{
+        padding: 0 40px 40px 0;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info{
+        padding-left: 70px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1{
+	    font-size: 50px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number{
+        font-size: 95px;
+        line-height: 70px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span{
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p{
+	    font-size: 50px;
+        line-height: 35px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description{
+	    font-size: 18px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p span{
+        font-size: 16px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 1050px;
+        min-width: 1050px;
+        gap: 80px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor{
+        height: 180px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part {
+        width: 400px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4{
+        font-size: 28px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression{
+        gap: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression h5 {
+        font-size: 18px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar{
+        width: 270px;
+        min-width: 270px;
+        height: 27px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p{
+	    font-size: 34px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p span{
+        width: 100px;
+        font-size: 11px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part{
+	    width: 480px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5{
+        width: 200px;
+        font-size: 32px;
+        line-height: 26px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 span{
+        font-size: 14px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p{
+        width: 260px;
+        font-size: 16px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression{
+        gap: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression h5{
+        font-size: 18px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar{
+        width: 270px;
+        min-width: 270px;
+        height: 27px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p{
+	    font-size: 34px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p span{
+	    font-size: 11px;
+    }
+}
+
+@media only screen and (max-width : 1700px){
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        padding-left: 50px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_info__container{
+        padding: 0 30px 40px 0;
+    }
+}
+
+@media only screen and (max-width : 1600px){
+    .widget_window.challenges_century .info_window .pattern {
+        width: 650px;
+	    height: 540px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_info__container{
+        padding: 0 40px 40px 0;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info{
+        padding-left: 70px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1{
+	    font-size: 42px;
+        line-height: 40px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number{
+        font-size: 80px;
+        line-height: 70px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span{
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p{
+	    font-size: 45px;
+        line-height: 35px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description{
+	    font-size: 16px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p span{
+        font-size: 14px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 1000px;
+        min-width: 1000px;
+        gap: 80px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor{
+        height: 170px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part {
+        width: 350px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4{
+        font-size: 26px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression{
+        gap: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression h5 {
+        font-size: 16px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar{
+        width: 250px;
+        min-width: 250px;
+        height: 25px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p{
+	    font-size: 32px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p span{
+        width: 100px;
+        font-size: 10px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part{
+	    width: 450px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5{
+        width: 200px;
+        font-size: 30px;
+        line-height: 23px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 span{
+        font-size: 12px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p{
+        width: 245px;
+        font-size: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression{
+        gap: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression h5{
+        font-size: 16px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar{
+        width: 250px;
+        min-width: 250px;
+        height: 25px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p{
+	    font-size: 32px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p span{
+	    font-size: 10px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h2 {
+        font-size: 50px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h4{
+	    font-size: 22px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch p{
+	    font-size: 12px;
+    }
+}
+
+@media only screen and (max-width : 1500px){
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        padding-left: 40px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_info__container{
+        padding: 0 30px 40px 0;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 950px;
+        min-width: 950px;
+        gap: 80px;
+    }
+    
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width : 1400px){
+    .widget_window.challenges_century .info_window .pattern {
+        width: 670px;
+	    height: 560px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_info__container{
+        padding: 0 20px 40px 0;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info{
+        gap: 20px;
+        padding-left: 20px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth {
+        gap: 10px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1{
+	    font-size: 30px;
+        line-height: 40px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number{
+        font-size: 70px;
+        line-height: 55px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span{
+        font-size: 16px;
+        line-height: 15px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p{
+	    font-size: 40px;
+        line-height: 35px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description{
+	    font-size: 14px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p span{
+        font-size: 12px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 860px;
+        min-width: 860px;
+        gap: 60px;
+        padding: 20px 30px 30px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor{
+        height: 160px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor::before{
+        bottom: -40px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part {
+        width: 300px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4{
+        font-size: 24px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression{
+        gap: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression {
+        gap: 30px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar{
+        width: 220px;
+        min-width: 220px;
+        height: 25px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p{
+	    font-size: 28px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p span{
+        width: 100px;
+        font-size: 10px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part{
+	    width: 400px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5{
+        width: 130px;
+        font-size: 26px;
+        line-height: 23px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 span{
+        font-size: 11px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p{
+        width: 245px;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression{
+        gap: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression h5{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression {
+        gap: 30px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar{
+        width: 220px;
+        min-width: 220px;
+        height: 25px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p{
+	    font-size: 28px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p span{
+	    font-size: 10px;
+    }
+}
+
+@media only screen and (max-width : 1300px){
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 840px;
+        min-width: 840px;
+        padding: 20px 25px 30px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches span {
+        width: 80px;
+    }
+}
+
+@media only screen and (max-width : 1200px){
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 780px;
+        min-width: 780px;
+        gap: 60px;
+        padding: 20px 20px 30px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor::before {
+        bottom: -45px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p span {
+        right: auto;
+        bottom: -25px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part{
+        align-items: end;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression {
+        width: 350px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches {
+        gap: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch {
+        width: 270px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch .block_text {
+        padding: 15px 20px;
+    }
+}
+
+@media only screen and (max-width : 1100px){
+    .widget_window.challenges_century .info_window .block_info .block_info__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        gap: 30px;
+        width: 900px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth{
+        gap: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1{
+	    font-size: 45px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number{
+        font-size: 95px;
+        line-height: 70px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span{
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p{
+	    font-size: 50px;
+        line-height: 35px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description{
+	    font-size: 18px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p span{
+        font-size: 16px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 900px;
+        min-width: 900px;
+        padding: 20px 35px 30px;
+        background-color: rgba(39, 69, 124, 0.9);
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part {
+        width: 350px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4 {
+        font-size: 27px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar {
+        width: 250px;
+        min-width: 250px;
+        height: 25px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part{
+        width: 420px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 {
+        width: 130px;
+        font-size: 30px;
+        line-height: 23px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 span {
+        font-size: 12px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p {
+        width: 260px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression h5 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar {
+        width: 250px;
+        min-width: 250px;
+        height: 25px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches {
+        height: 340px;
+        align-items: end;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches span {
+        width: 820px;
+        top: 10px;
+        left: auto;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch {
+        height: 210px;
+    }
+}
+
+@media only screen and (max-width : 1000px){
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        width: 830px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 830px;
+        min-width: 830px;
+        padding: 20px 25px 30px;
+    }
+}
+
+@media only screen and (max-width : 900px){
+    .widget_window.challenges_century .info_window .block_info .block_info__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        gap: 30px;
+        width: 730px;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth{
+        gap: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1{
+	    font-size: 42px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number{
+        font-size: 90px;
+        line-height: 70px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span{
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p{
+	    font-size: 50px;
+        line-height: 35px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description{
+	    font-size: 18px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p span{
+        font-size: 16px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 730px;
+        min-width: 730px;
+        border-radius: 20px;
+        padding: 20px 15px 20px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part {
+        width: 300px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4 {
+        font-size: 25px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar {
+        width: 200px;
+        min-width: 200px;
+        height: 25px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part{
+        width: 400px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 {
+        width: 130px;
+        font-size: 26px;
+        line-height: 23px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 span {
+        font-size: 12px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p {
+        width: 260px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression h5 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar {
+        width: 200px;
+        min-width: 200px;
+        height: 25px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches {
+        height: 285px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches span {
+        width: 740px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch {
+        width: 240px;
+        height: 180px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch .block_text {
+        padding: 10px 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h2 {
+        font-size: 45px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch p {
+        width: 100%;
+        line-height: 15px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch .arrow {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 800px){
+    .widget_window.challenges_century .info_window .pattern {
+        width: 620px;
+        height: 515px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        width: 650px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 650px;
+        min-width: 650px;
+        padding: 25px;
+        border-radius: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor {
+        flex-direction: column;
+        gap: 30px;
+        height: 290px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor:nth-child(3){
+        height: 360px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor::before {
+        bottom: -35px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4 {
+        margin-bottom: 10px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part {
+        align-items: start;
+    }
+    
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 {
+        width: 120px;
+        align-items: start;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches {
+        height: 265px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches span {
+        width: 620px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch {
+        width: 200px;
+        height: 160px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch .block_text {
+        padding: 7px 10px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h2 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+@media only screen and (max-width : 700px){
+    .widget_window.challenges_century .info_window .pattern {
+        width: 560px;
+        height: 465px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        gap: 20px;
+        width: 550px;
+        margin-bottom: 20px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 550px;
+        min-width: 550px;
+        padding: 20px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth {
+        gap: 10px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1 {
+        font-size: 36px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number {
+        font-size: 80px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p {
+        font-size: 40px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description {
+        font-size: 16px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches {
+        height: 220px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches span {
+        width: 500px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch {
+        width: 160px;
+        height: 130px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch::before {
+        border-radius: 10px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch::after {
+        border-radius: 10px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch .block_text {
+        padding: 7px 10px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h2 {
+        font-size: 32px;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h4 {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch p {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch .block_animation {
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .widget_window.challenges_century .info_window .pattern {
+        width: 500px;
+        height: 415px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        width: 450px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 450px;
+        min-width: 450px;
+        padding: 20px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches {
+        height: 130px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches span {
+        width: 385px;
+        font-size: 12px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch {
+        width: 120px;
+        height: 70px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch .block_text {
+        padding: 15px 10px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h2 {
+        font-size: 26px;
+        line-height: 25px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h4 {
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch p {
+        display: none;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .widget_window.challenges_century .info_window .pattern {
+        width: 420px;
+        height: 350px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        width: 400px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1 {
+        font-size: 32px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number {
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span {
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p span {
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 400px;
+        min-width: 400px;
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width : 450px){
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        width: 350px;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth {
+        gap: 5px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1 {
+        font-size: 28px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number {
+        font-size: 64px;
+        line-height: 50px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter {
+        gap: 5px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p {
+        font-size: 35px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description {
+        font-size: 15px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 350px;
+        min-width: 350px;
+        padding: 15px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part{
+        width: 100%;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar {
+        width: 190px;
+        min-width: 190px;
+        height: 22px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p {
+        font-size: 24px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part{
+        width: 100%;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 {
+        width: 90px;
+        font-size: 22px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 span {
+        text-align: left;
+        line-height: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p {
+        width: 210px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression{
+        width: 100%;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar {
+        width: 190px;
+        min-width: 190px;
+        height: 22px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p {
+        font-size: 24px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p span {
+        bottom: -13px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_switches {
+        height: 110px;
+        gap: 10px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches span {
+        width: 330px;
+        font-size: 10px;
+        top: 5px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch {
+        width: 105px;
+        height: 60px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch .block_text {
+        padding: 15px 7px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h2 {
+        font-size: 22px;
+        line-height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_switches .block_switch h4 {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width : 400px){
+    .widget_window.challenges_century .info_window .block_return {
+        width: 140px;
+        height: 40px;
+    }
+
+    .widget_window.challenges_century .info_window .block_return h4 {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .pattern {
+        width: 370px;
+        height: 310px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info {
+        height: calc(100% - 60px);
+        margin: 60px 0 10px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info {
+        width: 320px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth {
+        gap: 5px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1 {
+        font-size: 28px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number {
+        font-size: 64px;
+        line-height: 50px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter {
+        gap: 5px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p {
+        font-size: 35px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description {
+        font-size: 15px;
+    }
+
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors{
+        width: 320px;
+        min-width: 320px;
+        padding: 15px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor{
+        height: 270px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor:nth-child(3) {
+        height: 300px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4 {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar {
+        width: 160px;
+        min-width: 160px;
+        height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 {
+        width: 75px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 span {
+        font-size: 9px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p {
+        width: 190px;
+        font-size: 11px;
+        line-height: 15px;
+        padding: 3px 0 3px 13px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression {
+        gap: 7px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar {
+        width: 160px;
+        min-width: 160px;
+        height: 20px;
+    }
+
+    .widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression h5 {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}

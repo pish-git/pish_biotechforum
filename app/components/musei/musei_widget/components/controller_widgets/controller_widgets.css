@@ -1,0 +1,21 @@
+.widget_window{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 25;
+	overflow: hidden;
+
+	opacity: 0;
+	pointer-events: none;
+	transition: all .5s ease;
+}
+
+.widget_window._open{
+	opacity: 1;
+	pointer-events: painted;
+}

@@ -1,0 +1,232 @@
+.block_phone{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+.block_phone .block_phone__container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.block_phone .block_phone__container .block_exhibits{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	pointer-events: none;
+}
+
+.block_phone .block_phone__container .block_exhibits .block_exhibit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	height: 550px;
+	pointer-events: painted;
+}
+
+.block_phone .block_phone__container .block_exhibits .block_exhibit button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 210px;
+	height: 380px;
+	/* background-color: rgb(0, 0, 0, .5); */
+	position: absolute;
+	cursor: pointer;
+	user-select: none;
+
+	/* opacity: 0; */
+	transition: all .5s ease;
+}
+
+
+
+.block_phone .block_phone__container .block_swiper {
+    flex: 1;
+    width: 100%;
+	height: 100%;
+    min-height: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper-wrapper {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper-slide {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+	position: relative;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper-slide .slide__content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper-slide .slide_video_container{
+    width: 500px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper-slide .slide_video_container img {
+    width: 100%;
+    object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper-slide .slide_video_container video {
+    width: 100%;
+    object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper-slide .block_exhibit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	height: 400px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 8;
+	user-select: none;
+}
+
+.block_phone .block_phone__container .block_swiper .swiper-slide .block_exhibit button{
+	width: 100%;
+	height: 100%;
+	/* background-color: rgb(0, 0, 0, .5); */
+	cursor: pointer;
+	user-select: none;
+}
+
+
+
+.block_phone .button_exit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 35px;
+	height: 35px;
+	border: 2px solid #757585;
+	border-radius: 10px;
+	background-color: #fff;
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	z-index: 20;
+	cursor: pointer;
+
+	transition: all .3s ease;
+}
+
+.block_phone .button_exit svg{
+	width: 20px;
+	height: 20px;
+}
+
+.block_phone .button_exit svg line{
+	stroke: #757585;
+	stroke-width: 10px;
+
+	transition: all .3s ease;
+}
+
+
+
+.block_phone .block_phone__container .block_controls{
+	display: flex;
+	gap: 30px;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	bottom: 40px;
+	right: 40px;
+	z-index: 10;
+}
+
+.block_phone .block_phone__container .block_controls button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 100px;
+	background: linear-gradient(160deg, #4547bb 0%, #434db8 20%, #1e9b82 100%);
+	border: 2px solid #2a2ca293;
+	border-radius: 50%;
+}
+
+.block_phone .block_phone__container .block_controls button svg{
+	width: 45px;
+	height: 40px;
+}
+
+
+
+.block_phone .block_phone__container .block_tip{
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	background: linear-gradient(160deg, #4547BB 0%, #434CB8 20%, #1E9B83 100%);
+	border-radius: 10px;
+	padding: 15px 20px;
+	position: absolute;
+	top: 40px;
+	left: 20px;
+	z-index: 10;
+	pointer-events: none;
+	box-sizing: border-box;
+
+	transition: all .5s ease;
+}
+
+.block_phone .block_phone__container .block_tip._hidden{
+	opacity: 0;
+}
+
+.block_phone .block_phone__container .block_tip p{
+	width: 100%;
+	font-size: 22px;
+	font-family: "Benzin";
+	font-weight: 400;
+	text-align: center;
+}

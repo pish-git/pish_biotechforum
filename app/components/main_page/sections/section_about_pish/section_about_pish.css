@@ -1,0 +1,157 @@
+.about_pish{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 1200px;
+	padding: 0 40px;
+	position: relative;
+	box-sizing: border-box;
+}
+
+
+
+.about_pish .section_content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 5;
+}
+
+
+.about_pish .section_content h1{
+	width: 1100px;
+	color: #fff;
+	font-family: "Benzin";
+	font-size: 67px;
+	font-weight: 600;
+	text-transform: uppercase;
+	line-height: 85px;
+}
+
+.about_pish .section_content h3{
+	width: 1000px;
+	color: rgba(63, 204, 111, 1);
+	font-family: "Benzin";
+	font-size: 35px;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+
+.about_pish .section_content .mission{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: end;
+	width: 800px;
+	position: absolute;
+	bottom: 240px;
+	right: 0;
+}
+
+.about_pish .section_content .mission h2{
+	width: fit-content;
+	color: #fff;
+	font-family: "Benzin";
+	font-size: 42px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.about_pish .section_content .mission p{
+	width: 100%;
+	color: #fff;
+	font-family: "Raleway";
+	font-size: 26px;
+	font-weight: 400;
+	text-align: right;
+}
+
+
+.about_pish .section_content .button_visit{
+	top: auto;
+	bottom: 60px;
+	left: 0;
+}
+
+.about_pish .section_content .button_visit .text{
+	font-size: 22px;
+}
+
+
+
+.about_pish .patterns{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+
+.about_pish .patterns .pattern{
+	width: 0;
+	height: 0;
+	position: absolute;
+}
+
+.about_pish .patterns .pattern img{
+	object-fit: contain;
+}
+
+
+.about_pish .patterns .pattern:nth-child(1){
+	display: flex;
+	width: 1300px;
+	height: 1290px;
+	top: -150px;
+	left: 0px;
+	mix-blend-mode: lighten;
+}
+
+.about_pish .patterns .pattern:nth-child(1)::before{
+	content: "";
+    width: 700px;
+    height: 70px;
+    background-color: #191933;
+    filter: blur(6px);
+    position: absolute;
+    bottom: -10px;
+    left: 0px;
+	z-index: 2;
+}
+
+.about_pish .patterns .pattern:nth-child(1)::after{
+	content: "";
+    width: 400px;
+    height: 400px;
+	border-radius: 50%;
+    background-color: #191933ef;
+	/* background-color: #fff; */
+    filter: blur(6px);
+    position: absolute;
+    bottom: -50px;
+    right: -250px;
+	z-index: 2;
+}
+
+.about_pish .patterns .pattern:nth-child(2){
+	width: 800px;
+	height: 800px;
+	top: -400px;
+	right: -100px;
+	opacity: 0.8;
+
+	animation: fade-transform-4 5s ease-in-out 0s infinite;
+}
+
+@keyframes fade-transform-4 {
+	0% { transform: translateX(0); opacity: 0.8; }
+	60% { transform: translateX(-300px); opacity: 0.5; }
+	100% { transform: translateX(0); opacity: 0.8; }
+}

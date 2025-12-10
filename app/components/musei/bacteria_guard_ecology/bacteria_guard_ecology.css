@@ -1,0 +1,48 @@
+.widget_window.bacteria_guard_ecology{
+	/* background: url("img/bg.png"); */
+	background-color: #000;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+
+.widget_window .button_exit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border: 2px solid #75758500;
+	border-radius: 10px;
+	background-color: #ffffff00;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	z-index: 100;
+	cursor: pointer;
+
+	transition: all .3s ease;
+}
+
+.widget_window .button_exit:hover{
+	border: 2px solid #757585;
+	background-color: #fff;
+}
+
+.widget_window .button_exit svg{
+	width: 20px;
+	height: 20px;
+}
+
+.widget_window .button_exit svg line{
+	stroke: #fff;
+	stroke-width: 10px;
+
+	transition: all .3s ease;
+}
+
+.widget_window .button_exit:hover svg line{
+	stroke: #757585;
+}

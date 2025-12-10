@@ -1,0 +1,629 @@
+.widget_window.genes .level_one .main_part{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all .7s ease;
+}
+
+.widget_window.genes .level_one .main_part._hidden{
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+
+.widget_window.genes .level_one .main_part .block_hint_up{
+	width: 800px;
+	height: 388px;
+	position: absolute;
+	top: 0;
+	z-index: 2;
+	pointer-events: none;
+}
+
+.widget_window.genes .level_one .main_part .block_hint_up .hint_img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+
+.widget_window.genes .level_one .main_part .block_hint_up .hint_img.default_hint{
+	transition: all .3s ease;
+}
+
+.widget_window.genes .level_one .main_part .block_hint_up .hint_img.default_hint.fade-out {
+  	opacity: 0;
+}
+
+.widget_window.genes .level_one .main_part .block_hint_up .hint_img.result_hint {
+	transform: translateY(-100%);
+	opacity: 0;
+	transition: all .5s ease .3s;
+}
+
+.widget_window.genes .level_one .main_part .block_hint_up .hint_img.result_hint.slide-down {
+	transform: translateY(0);
+	opacity: 1;
+}
+
+
+
+
+.widget_window.genes .level_one .main_part .block_rnk{
+	width: 450px;
+	height: 230px;
+	position: absolute;
+	top: 80px;
+	left: 30px;
+	z-index: 1;
+	pointer-events: none;
+
+	transition: all .3s ease-in-out;
+}
+
+.widget_window.genes .level_one .main_part .block_rnk.fade-out {
+	opacity: 0;
+}
+
+.widget_window.genes .level_one .main_part .block_dnk{
+	width: 390px;
+	height: 220px;
+	position: absolute;
+	top: 90px;
+	right: 70px;
+	z-index: 1;
+	pointer-events: none;
+
+	transition: all .3s ease-in-out;
+}
+
+.widget_window.genes .level_one .main_part .block_dnk.fade-out {
+	opacity: 0;
+}
+
+
+
+
+.widget_window.genes .level_one .main_part .block_rkn_notes{
+	width: 800px;
+	height: 130px;
+	position: absolute;
+	top: 520px;
+
+	transition: all .3s ease-in-out;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes.fade-out {
+	opacity: 0;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row{
+	display: flex;
+	gap: 20px;
+	width: 100%;
+	height: fit-content;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row{
+	display: flex;
+	gap: 20px;
+	width: 100%;
+	height: fit-content;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 47px;
+	height: 47px;
+	position: relative;
+	overflow: visible;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note._visible,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note._visible{
+	opacity: 1;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note::before,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border: 2px solid rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.4);
+	position: absolute;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note._a_note::after,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note._a_note::after{
+	content: "A";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #03C8C4;
+	box-shadow: inset 0 0 1px 3px #1AA39F;
+	position: absolute;
+	z-index: 2;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note._u_note::after,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note._u_note::after{
+	content: "U";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #5C63BE;
+	box-shadow: inset 0 0 1px 3px #484ea2;
+	position: absolute;
+	z-index: 2;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note._t_note::after,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note._t_note::after{
+	content: "T";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #5C63BE;
+	box-shadow: inset 0 0 1px 3px #484ea2;
+	position: absolute;
+	z-index: 2;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note._c_note::after,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note._c_note::after{
+	content: "C";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #B957B6;
+	box-shadow: inset 0 0 1px 3px #934e9f;
+	position: absolute;
+	z-index: 2;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note._g_note::after,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note._g_note::after{
+	content: "G";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #B4CA59;
+	box-shadow: inset 0 0 1px 3px #8EA551;
+	position: absolute;
+	z-index: 2;
+}
+
+
+
+
+.widget_window.genes .level_one .main_part .block_btns_notes{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	position: absolute;
+	bottom: 20px;
+
+	transition: all .3s ease-in-out;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes.fade-out {
+	opacity: 0;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes p{
+	font-size: 18px;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons{
+	display: flex;
+	gap: 20px;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 90px;
+	height: 90px;
+	color: #fff;
+	font-size: 36px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 10px;
+	background-color: #ffffff00;
+	box-shadow: inset 0 0 1px 5px #ffffff00;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note:active{
+	transform: scale(0.92);
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note._a_note{
+	background-color: #1AA39F;
+	box-shadow: inset 0 0 1px 5px #1AA39F;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note:hover._a_note{
+	background-color: #03C8C4;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note._u_note{
+	background-color: #484ea2;
+	box-shadow: inset 0 0 1px 5px #484ea2;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note:hover._u_note{
+	background-color: #5C63BE;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note._c_note{
+	background-color: #934e9f;
+	box-shadow: inset 0 0 1px 5px #934e9f;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note:hover._c_note{
+	background-color: #B957B6;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note._g_note{
+	background-color: #8EA551;
+	box-shadow: inset 0 0 1px 5px #8EA551;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note:hover._g_note{
+	background-color: #B4CA59;
+}
+
+.widget_window.genes .level_one .main_part .block_rkn_notes .first_row .rnk_note._active::after,
+.widget_window.genes .level_one .main_part .block_rkn_notes .second_row .rnk_note._active::after {
+	animation: slideFromRightEdge 1s ease-out forwards;
+	transform: translateX(500px);
+	opacity: 0;
+}
+
+@keyframes slideFromRightEdge {
+	0% {
+		transform: translateX(500px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+	transform: none !important;
+}
+
+.widget_window.genes .level_one .main_part .block_btns_notes .block_buttons .button_rnk_note:disabled:hover {
+	transform: none;
+	background-color: inherit;
+}
+
+
+
+
+.widget_window.genes .level_one .main_part .block_result_text{
+	display: flex;
+	gap: 25px;
+	align-items: top;
+	width: 740px;
+	height: fit-content;
+	border: 1px solid #B5D14D;
+	border-radius: 20px;
+	padding: 15px 15px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 388px;
+
+	opacity: 0;
+	transition: all .3s ease;
+}
+
+.widget_window.genes .level_one .main_part .block_result_text.fade-in {
+	opacity: 1;
+}
+
+
+.widget_window.genes .level_one .main_part .block_result_text span{
+	width: 43px;
+	min-width: 43px;
+	height: 43px;
+}
+
+.widget_window.genes .level_one .main_part .block_result_text span svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.widget_window.genes .level_one .main_part .block_result_text .text{
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+}
+
+.widget_window.genes .level_one .main_part .block_result_text p{
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	font-family: "Roboto";
+	font-weight: 400;
+}
+
+
+
+
+.widget_window.genes .level_one .main_part .block_button_next{
+	display: flex;
+	align-items: center;
+	width: 600px;
+	height: 60px;
+	position: absolute;
+	bottom: 50px;
+
+	opacity: 0;
+	transition: opacity .3s ease;
+}
+
+.widget_window.genes .level_one .main_part .block_button_next.fade-in {
+	opacity: 1;
+}
+
+
+
+.widget_window.genes .level_one .main_part .block_button_next button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	border-radius: 40px;
+	background: linear-gradient(90deg, #737AFF, #07b4cb);
+	position: absolute;
+	cursor: pointer;
+	transition: all .2s ease;
+}
+
+.widget_window.genes .level_one .main_part .block_button_next:hover button{
+	transform: scale(1.05);
+}
+
+
+.widget_window.genes .level_one .main_part .block_button_next button::before{
+	content: "";
+	width: 102%;
+	height: 122%;
+	border: 1px solid #5C61CB;
+	border-radius: 50px;
+	position: absolute;
+	transition: all .2s ease;
+}
+
+.widget_window.genes .level_one .main_part .block_button_next:hover button::before{
+	width: 100%;
+	height: 100%;
+}
+
+
+.widget_window.genes .level_one .main_part .block_button_next button .text{
+	font-size: 22px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.widget_window.genes .level_one .main_part .block_button_next button .icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	background: linear-gradient(90deg, #5861F4, #5861F4);
+	border-radius: 50%;
+	position: absolute;
+	left: 5px;
+	z-index: 2;
+}
+
+.widget_window.genes .level_one .main_part .block_button_next button .icon svg{
+	width: 35px;
+	height: 35px;
+}
+
+
+
+
+/* Блок открытия уровня */
+.widget_window.genes .level_one .main_part .block_open_level{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	transition: all .7s ease;
+}
+
+.widget_window.genes .level_one .main_part .block_open_level._hidden{
+	opacity: 0;
+	pointer-events: none;
+}
+
+.widget_window.genes .level_one .main_part .block_open_level .bg_rnk{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.widget_window.genes .level_one .main_part .block_open_level .window_open_level{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 730px;
+	height: 330px;
+	border: 1px solid #19c9ff;
+	border-radius: 20px;
+	background: linear-gradient(90deg, #5860f4f1, #272a71f1);
+	position: absolute;
+	z-index: 2;
+}
+
+.widget_window.genes .level_one .main_part .block_open_level .window_open_level p{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 250px;
+	height: 50px;
+	border-radius: 30px;
+	background: linear-gradient(90deg, #c924c6, #e217de);
+	position: absolute;
+	top: 90px;
+	left: calc(50% - 125px);
+	animation: slideFromRight 2.3s ease-out forwards;
+	animation-delay: 0.5s;
+	opacity: 0;
+	transform: translateX(0);
+}
+
+.widget_window.genes .level_one .main_part .block_open_level .window_open_level p::before{
+	content: "";
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #e4ac04;
+	position: absolute;
+	left: 5px;
+}
+
+.widget_window.genes .level_one .main_part .block_open_level .window_open_level p span{
+	font-size: 22px;
+	font-family: "Roboto";
+	font-weight: 900;
+	text-transform: uppercase;
+	margin-left: 13px;
+}
+
+.widget_window.genes .level_one .main_part .block_open_level .window_open_level h1{
+	width: 480px;
+	font-size: 58px;
+	font-family: "Roboto";
+	font-weight: 900;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	position: absolute;
+	bottom: 90px;
+	left: calc(50% - 240px);
+	animation: slideFromLeft 2.3s ease-out forwards;
+	animation-delay: 0.5s;
+
+	opacity: 0;
+	transform: translateX(0);
+}
+
+@keyframes slideFromRight {
+	0% {
+		opacity: 0;
+		transform: translateX(120px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideFromLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-120px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/* Игровая часть */
+.widget_window.genes .level_one .main_part .game_content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity .7s ease;
+}
+
+.widget_window.genes .level_one .main_part .game_content._fade-in{
+	opacity: 1;
+}

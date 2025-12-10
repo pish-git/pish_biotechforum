@@ -1,0 +1,17 @@
+.app{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(25, 25, 51, 1);
+	position: relative;
+	overflow-x: hidden;
+}
+
+.app main{
+	width: 100vw;
+	height: 100%;
+	position: relative;
+}

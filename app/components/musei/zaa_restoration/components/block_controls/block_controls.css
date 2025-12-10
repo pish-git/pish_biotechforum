@@ -1,0 +1,389 @@
+.zaa_block_controls{
+	height: 120px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 5;
+}
+
+
+
+.zaa_block_controls .part_start{
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	background: rgb(44, 40, 51);
+	background: linear-gradient(50deg, rgb(44, 40, 51) 70%, rgb(107, 92, 84));
+	padding: 0 80px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+
+	transition: all 1s ease;
+}
+
+.zaa_block_controls .part_start._hidden{
+	opacity: 0;
+}
+
+
+.zaa_block_controls .part_start button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 40px;
+	border-radius: 30px;
+	background: linear-gradient(90deg, rgb(66, 88, 116), rgb(24, 137, 148));
+	position: relative;
+	cursor: pointer;
+
+	transition: all .2s ease;
+}
+
+.zaa_block_controls .part_start button:active{
+	transform: scale(.9);
+}
+
+.zaa_block_controls .part_start button::before{
+	content: "";
+	width: 115%;
+	height: 115%;
+	border: 1px rgb(24, 137, 148) solid;
+	border-radius: 30px;
+	position: absolute;
+	pointer-events: none;
+
+	transition: all .2s ease;
+}
+
+.zaa_block_controls .part_start button:hover::before{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+
+.zaa_block_controls .part_start .slider_nav{
+	display: flex;
+	gap: 25px;
+}
+
+.zaa_block_controls .part_start .slider_nav button{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.zaa_block_controls .part_start .slider_nav button:nth-child(2){
+	background: linear-gradient(90deg, rgb(24, 137, 148), rgb(66, 88, 116));
+}
+
+.zaa_block_controls .part_start .slider_nav button::before{
+	border-radius: 50%;
+}
+
+.zaa_block_controls .part_start .slider_nav button span{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 15px;
+	height: 15px;
+}
+
+.zaa_block_controls .part_start .slider_nav button span svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.zaa_block_controls .part_start .art_info{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.zaa_block_controls .part_start .art_info h3{
+	font-size: 21px;
+	font-family: "Grandis";
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+.zaa_block_controls .part_start .art_info p{
+	display: flex;
+	gap: 30px;
+	font-size: 16px;
+	font-family: "Grandis";
+	font-weight: 400;
+}
+
+.zaa_block_controls .part_start .art_info p span:nth-child(2){
+	position: relative;
+}
+
+.zaa_block_controls .part_start .art_info p span:nth-child(2)::before{
+	content: "";
+	width: 1px;
+	height: 100%;
+	background-color: rgba(255, 255, 255, .2);
+	position: absolute;
+	top: 0;
+	left: -15px;
+}
+
+
+.zaa_block_controls .part_start .button_select{
+	display: flex;
+	align-items: center;
+	width: 140px;
+	min-width: 140px;
+	font-size: 16px;
+	font-family: "Grandis";
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.zaa_block_controls .part_start .button_select::before{
+	width: 105%;
+	height: 115%;
+}
+
+.zaa_block_controls .part_start .button_select .button_text{
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+
+.zaa_block_controls .part_start .button_select span:nth-child(2){
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	right: 15px;
+}
+
+.zaa_block_controls .part_start .button_select span:nth-child(2) svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.zaa_block_controls .part_main{
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 0 80px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	transition: all 1s ease;
+}
+
+.zaa_block_controls .part_main._hidden{
+	opacity: 0;
+}
+
+
+.zaa_block_controls .part_main button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	max-width: 450px;
+	height: 45px;
+	border-radius: 30px;
+	background: linear-gradient(90deg, rgb(66, 88, 116), rgb(24, 137, 148));
+	padding: 0 20px;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+
+	transition: all .2s ease;
+}
+
+.zaa_block_controls .part_main button:active{
+	transform: scale(.9);
+}
+
+.zaa_block_controls .part_main button::before{
+	content: "";
+	width: 102%;
+	height: 115%;
+	border: 1px rgba(24, 137, 148, .7) solid;
+	border-radius: 30px;
+	position: absolute;
+	pointer-events: none;
+
+	transition: all .2s ease;
+}
+
+.zaa_block_controls .part_main button:hover::before{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.zaa_block_controls .part_main button .button_text{
+	font-size: 16px;
+	font-family: "Grandis";
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.zaa_block_controls .part_main button .button_icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 15px;
+	height: 15px;
+}
+
+.zaa_block_controls .part_main button .button_icon svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.zaa_block_controls .part_main .button_back::before{
+	width: 105%;
+}
+
+.zaa_block_controls .part_main .buttons_experiment{
+	display: flex;
+	gap: 40px;
+	
+	transition: all 1s ease .05s;
+}
+
+.zaa_block_controls .part_main .buttons_experiment .button_select:active{
+	transform: scale(.93);
+}
+
+.zaa_block_controls .part_main._short .buttons_experiment{
+	opacity: 0;
+}
+
+
+
+.zaa_block_controls .part_final{
+	display: flex;
+	gap: 40px;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+	padding: 0 80px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+
+	transition: all 1s ease;
+}
+
+.zaa_block_controls .part_final._hidden{
+	opacity: 0;
+}
+
+
+.zaa_block_controls .part_final button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 15px;
+	max-width: 450px;
+	height: 45px;
+	border-radius: 30px;
+	background: linear-gradient(90deg, rgb(66, 88, 116), rgb(24, 137, 148));
+	padding: 0 20px;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+
+	transition: all .2s ease;
+}
+
+.zaa_block_controls .part_final button:active{
+	transform: scale(.9);
+}
+
+.zaa_block_controls .part_final button::before{
+	content: "";
+	width: 103%;
+	height: 115%;
+	border: 1px rgba(24, 137, 148, .7) solid;
+	border-radius: 30px;
+	position: absolute;
+	pointer-events: none;
+
+	transition: all .2s ease;
+}
+
+.zaa_block_controls .part_final button:hover::before{
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+.zaa_block_controls .part_final button .button_text{
+	font-size: 16px;
+	font-family: "Grandis";
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.zaa_block_controls .part_final button .button_icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 15px;
+	height: 15px;
+}
+
+.zaa_block_controls .part_final button .button_icon svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.zaa_block_controls .part_final .buttons_experiment{
+	display: flex;
+	gap: 40px;
+	
+	transition: all 1s ease .05s;
+}
+
+.zaa_block_controls .part_final._short .buttons_experiment{
+	opacity: 0;
+}
+
+.zaa_block_controls .part_final .buttons_experiment .button_select:active{
+	transform: scale(.93);
+}
+
+.zaa_block_controls .part_final .buttons_experiment .button_select::before{
+	width: 102%;
+}

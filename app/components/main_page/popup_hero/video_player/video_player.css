@@ -1,0 +1,243 @@
+/* video_player.css */
+.video_container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: fit-content;
+	width: 100%;
+	height: 100% !important;
+	min-height: 500px;
+	max-height: 1000px;
+	border-radius: 10px;
+	background-color: #000;
+	overflow: hidden;
+	position: relative;
+}
+
+.video_container._full_width{
+	width: 100%;
+}
+
+.video_container._hidden{
+	height: 0 !important;
+	min-height: 0 !important;
+	margin: 0;
+	pointer-events: none;
+}
+
+.video_container video {
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+/* Заголовок видео */
+.video_container .top_title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0 25px;
+    box-sizing: border-box;
+    background: linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0.95) 0%,
+        rgba(0, 0, 0, 0.4) 80%,
+        rgba(0, 0, 0, 0.05) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.video_container .top_title._active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.video_container .top_title .title_text {
+    font-family: "Grandis";
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: left;
+}
+
+.video_container .block_controls {
+	display: flex;
+	align-items: end;
+	width: 100%;
+	height: 90px;
+	padding: 0 25px 20px;
+	box-sizing: border-box;
+	background: linear-gradient(
+		to top, 
+		rgba(0, 0, 0, 0.95) 0%,
+		rgba(0, 0, 0, 0.4) 80%,
+		rgba(0, 0, 0, 0.05) 100%
+	);
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	opacity: 0;
+	transition: all .2s ease;
+}
+
+.video_container .block_controls._active{
+	opacity: 1;
+}
+
+.video_container .block_controls .container {
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	width: 100%;
+	height: 30px;
+	/* background: rgba(0, 0, 0, 0.7); */
+	box-sizing: border-box;
+}
+
+.video_container .block_controls .container .control_button {
+	width: 19px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.video_container .block_controls .container .control_button svg {
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.block_controls .timer_control{
+	display: inline-flex;
+	align-items: center;
+	height: 100%;
+	font-family: "Grandis";
+	font-size: 14px;
+	font-weight: 400;
+	cursor: pointer;
+}
+
+
+
+.volume_control {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+
+.volume_control span{
+	width: 16px;
+	height: 16px;
+	cursor: pointer;
+}
+
+.volume_control span svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.volume_control .volume_slider{
+	-webkit-appearance: none;
+	display: flex;
+	align-items: center;
+	width: 72px;
+	height: 4px;
+	background-color: #AAAAAA;
+	border-radius: 4px;
+    outline: none;
+}
+
+.volume_control .volume_slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 12px;
+	height: 12px;
+	background: #ffffff;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 1px solid #ccc;
+}
+
+.volume_control .volume_slider::-moz-range-thumb {
+	width: 12px;
+	height: 12px;
+	background: #ffffff;
+	border-radius: 50%;
+	cursor: pointer;
+	border: 1px solid #919191;
+}
+
+
+
+.progress_container {
+	flex-grow: 1;
+	position: relative;
+	height: 100%;
+}
+
+.progress_bar {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-appearance: none;
+	background: rgba(255, 255, 255, 0.2);
+	z-index: 2;
+	cursor: pointer;
+}
+
+.progress_bar::-webkit-slider-thumb {
+	display: none;
+}
+
+.progress_bar::-moz-range-thumb {
+	display: none;
+}
+
+.progress_filled {
+	height: 100%;
+	background: linear-gradient(to right, rgb(88, 31, 162), rgba(120, 46, 216));
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
+
+
+.video_container .block_controls .container .button_fullscreen{
+	width: 23px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.video_container .block_controls .container .button_fullscreen svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.video_container .block_controls .container .button_fullwidth{
+	width: 28px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.video_container .block_controls .container .button_fullwidth svg{
+	width: 100%;
+	height: 100%;
+}

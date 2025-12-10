@@ -1,0 +1,56 @@
+.block_warning{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(25, 25, 51, 1);
+	position: absolute;
+	z-index: 100;
+}
+
+.block_warning .content{
+	display: flex;
+	flex-direction: column;
+	gap: 7px;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background: url("./img/bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.block_warning .content h1{
+	font-size: 32px;
+	font-family: "Grandis";
+	font-weight: 700;
+	text-align: center;
+}
+
+.block_warning .content p{
+	font-size: 20px;
+	font-family: "Grandis";
+	font-weight: 400;
+	text-align: center;
+}
+
+
+.block_warning .content .button_exit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+
+.block_warning .content .button_exit svg{
+	width: 20px;
+	height: 20px;
+}

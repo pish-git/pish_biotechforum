@@ -1,0 +1,120 @@
+/* components/musei/popup_musei/popup_musei_media.css */
+@media only screen and (max-width : 1600px) {
+    .popup_musei .popup_content {
+        width: 500px;
+        min-height: 600px;
+        padding: 0 30px;
+    }
+
+    .popup_musei .popup_content .block_content .block_text h1 {
+        font-size: 60px;
+        line-height: 55px;
+        margin-bottom: 10px;
+    }
+
+    .popup_musei .popup_content .block_content .block_text p {
+        font-size: 20px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form {
+        gap: 12px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form .form_group {
+        width: 350px;
+        height: 40px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form .form_group input {
+        font-size: 18px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form button {
+        width: 240px;
+        height: 47px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width : 700px) {
+    .popup_musei .popup_content {
+        width: 400px;
+        min-height: 500px;
+        padding: 0 25px;
+    }
+
+    .popup_musei .popup_content .block_content .block_text h1 {
+        font-size: 52px;
+        line-height: 50px;
+        margin-bottom: 10px;
+    }
+
+    .popup_musei .popup_content .block_content .block_text p {
+        font-size: 16px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form {
+        gap: 12px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form .form_group {
+        width: 300px;
+        height: 37px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form .form_group input {
+        font-size: 18px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form button {
+        width: 210px;
+        height: 42px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width : 500px) {
+    .popup_musei .popup_content {
+        width: 350px;
+        min-height: 450px;
+        padding: 0 20px;
+    }
+
+    .popup_musei .popup_content .block_content .block_text h1 {
+        font-size: 48px;
+        line-height: 45px;
+        margin-bottom: 10px;
+    }
+
+    .popup_musei .popup_content .block_content .block_text p {
+        font-size: 14px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form {
+        gap: 12px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form .form_group {
+        width: 280px;
+        height: 35px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form .form_group input {
+        font-size: 16px;
+        padding: 0 5px;
+    }
+
+    .popup_musei .popup_content .block_content .registration_form button {
+        width: 200px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width : 400px) {
+    .popup_musei .popup_content {
+        width: 330px;
+        min-height: 450px;
+        padding: 0 10px;
+    }
+}

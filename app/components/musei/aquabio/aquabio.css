@@ -1,0 +1,99 @@
+.exhibit_video_container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+
+
+.exhibit_video_container .button_exit{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border: 2px solid #75758500;
+	border-radius: 10px;
+	background-color: #ffffff00;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+
+	transition: all .3s ease;
+}
+
+.exhibit_video_container .button_exit:hover{
+	border: 2px solid #757585;
+	background-color: #fff;
+}
+
+.exhibit_video_container .button_exit svg{
+	width: 20px;
+	height: 20px;
+}
+
+.exhibit_video_container .button_exit svg line{
+	stroke: #fff;
+	stroke-width: 10px;
+
+	transition: all .3s ease;
+}
+
+.exhibit_video_container .button_exit:hover svg line{
+	stroke: #757585;
+}
+
+
+
+.exhibit_video_container video{
+	height: 100%;
+	width: 100%;
+	object-fit: contain;
+}
+
+
+
+.exhibit_video_container .block_controls{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.exhibit_video_container .block_controls .video_buttons{
+	display: flex;
+	flex-wrap: wrap-reverse;
+	gap: 10px;
+	width: 100%;
+	padding: 20px 30px;
+	box-sizing: border-box;
+}
+
+.exhibit_video_container .block_controls .video_buttons button{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: fit-content;
+	height: 35px;
+	padding: 0 15px;
+	border: 2px solid #757585;
+	border-radius: 30px;
+	background-color: #fff;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.exhibit_video_container .block_controls .video_buttons button span{
+	color: #000;
+	font-size: 16px;
+	font-family: "Grandis";
+	font-weight: 400;
+	text-align: center;
+}

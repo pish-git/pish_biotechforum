@@ -1,0 +1,200 @@
+.button_visit{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 270px;
+	height: 70px;
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	user-select: none;
+}
+
+.button_visit .text{
+	color: #fff;
+	font-family: "Benzin";
+	font-size: 20px;
+	font-weight: 600;
+	background: linear-gradient(to right, #fff, #fff);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	position: relative;
+	z-index: 2;
+}
+
+.button_visit:active .text{
+	background: linear-gradient(45deg, rgba(3, 215, 92, 1), rgba(69, 71, 187, 1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.button_visit::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	z-index: 1;
+    border-radius: 15px;
+    padding: 3px;
+    background: linear-gradient(to right, rgba(3, 215, 92, 1), rgba(69, 71, 187, 1) 70%);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+.button_visit .bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.button_visit .bg::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+    background: linear-gradient(to right, rgba(3, 215, 92, 1), rgba(69, 71, 187, 1) 70%);
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	box-sizing: border-box;
+
+	opacity: 0;
+	transition: all .2s ease;
+}
+
+.button_visit:hover .bg::before{
+	opacity: 1;
+}
+
+.button_visit .bg::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border: 3px solid transparent;
+    border-radius: 15px;
+    background: 
+        linear-gradient(white, white) padding-box,
+        linear-gradient(to right, rgba(3, 215, 92, 1), rgba(69, 71, 187, 1)) border-box;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	box-sizing: border-box;
+
+	opacity: 0;
+	transition: all .2s ease;
+}
+
+.button_visit:active .bg::after{
+	opacity: 1;
+}
+
+
+
+
+.button_learn_more{
+	display: inline-flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 70px;
+	border-radius: 15px;
+	background-color: rgba(255, 255, 255, .15);
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+	user-select: none;
+	overflow: hidden;
+}
+
+
+.button_learn_more .icon{
+	width: 28px;
+	height: 28px;
+}
+
+.button_learn_more .icon svg{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 2;
+}
+
+.button_learn_more .icon svg path{
+	fill: #03D75C;
+
+	transition: all .2s ease;
+}
+
+.button_learn_more:hover .icon svg path{
+	fill: #fff;
+}
+
+
+.button_learn_more .text{
+	color: #fff;
+	font-family: "Raleway";
+	font-size: 20px;
+	font-weight: 600;
+	position: relative;
+	z-index: 2;
+}
+
+.button_learn_more::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+	z-index: 1;
+    border-radius: 15px;
+    padding: 3px;
+    background: linear-gradient(to right, rgba(3, 215, 92, 1), rgba(69, 71, 187, 1) 70%);
+    -webkit-mask: 
+        linear-gradient(#fff 0 0) content-box, 
+        linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+
+.button_learn_more .bg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.button_learn_more .bg::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+    background: linear-gradient(to right, rgba(3, 215, 92, 1), rgba(69, 71, 187, 1) 70%);
+	border-radius: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	box-sizing: border-box;
+
+	opacity: 0;
+	transition: all .2s ease;
+}
+
+.button_learn_more:hover .bg::before{
+	opacity: 1;
+}

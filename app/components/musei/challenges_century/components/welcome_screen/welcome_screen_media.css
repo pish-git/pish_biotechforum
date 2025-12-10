@@ -1,0 +1,417 @@
+@media only screen and (min-width : 2000px){
+    .widget_window.challenges_century .welcome_window .info{
+        width: 850px;
+        gap: 50px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 75px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        width: 450px;
+        font-size: 35px;
+    }
+
+
+    .widget_window.challenges_century .welcome_window .info .block_button {
+        height: 80px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 35px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon {
+        width: 65px;
+        height: 65px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon svg {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media only screen and (max-width : 1600px){
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 700px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 65px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        font-size: 30px;
+    }
+
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width : 1300px){
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 650px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 60px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        font-size: 26px;
+    }
+
+    
+    .widget_window.challenges_century .welcome_window .info .block_button{
+        height: 65px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 26px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon {
+        width: 55px;
+        height: 55px;
+    }
+}
+
+@media only screen and (max-width : 1100px){
+	.widget_window.challenges_century .welcome_window{
+        background: url("../../img/bg_welcome_mobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+    }
+
+
+
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 700px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 65px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        font-size: 30px;
+    }
+
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 30px;
+    }
+
+
+
+    .widget_window.challenges_century .welcome_window .pattern{
+        bottom: 220px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern span{
+        width: 90px;
+        height: 16px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern p{
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width : 900px){
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 600px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 55px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        font-size: 26px;
+    }
+
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 26px;
+    }
+
+
+
+    .widget_window.challenges_century .welcome_window .pattern{
+        bottom: 190px;
+    }
+}
+
+@media only screen and (max-width : 760px){
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 550px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 50px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    
+    .widget_window.challenges_century .welcome_window .info .block_button{
+        height: 65px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 24px;
+    }
+
+
+
+    .widget_window.challenges_century .welcome_window .pattern{
+        bottom: 190px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern span{
+        width: 80px;
+        height: 15px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern p{
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width : 650px){
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 500px;
+        gap: 35px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 45px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        width: 300px;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    
+    .widget_window.challenges_century .welcome_window .info .block_button{
+        height: 60px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 22px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon svg {
+        width: 38px;
+        height: 38px;
+    }
+
+
+
+    .widget_window.challenges_century .welcome_window .pattern{
+        bottom: 170px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern span{
+        width: 80px;
+        height: 15px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern p{
+        font-size: 24px;
+    }
+}
+
+@media only screen and (max-width : 600px){
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 420px;
+        gap: 30px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        width: 300px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    
+    .widget_window.challenges_century .welcome_window .info .block_button{
+        width: 90%;
+        height: 55px;
+        margin: 0 auto;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button::before {
+        height: 120%;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 18px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon {
+        width: 45px;
+        height: 45px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon svg {
+        width: 35px;
+        height: 35px;
+    }
+
+
+
+    .widget_window.challenges_century .welcome_window .pattern{
+        bottom: 170px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern span{
+        width: 80px;
+        height: 14px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern p{
+        font-size: 22px;
+    }
+}
+
+@media only screen and (max-width : 500px){
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 350px;
+        gap: 25px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        width: 200px;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    
+    .widget_window.challenges_century .welcome_window .info .block_button{
+        width: 90%;
+        height: 45px;
+        margin: 0 auto;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button::before {
+        width: 102%;
+        height: 114%;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 14px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon svg {
+        width: 25px;
+        height: 25px;
+    }
+
+
+
+    .widget_window.challenges_century .welcome_window .pattern{
+        bottom: 160px;
+        gap: 20px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern span{
+        width: 70px;
+        height: 14px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern p{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width : 400px){
+    .widget_window.challenges_century .welcome_window .info{
+	    width: 300px;
+        gap: 25px;
+    }
+
+
+	.widget_window.challenges_century .welcome_window .info h1{
+        font-size: 26px;
+        line-height: 25px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info p {
+        width: 200px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    
+    .widget_window.challenges_century .welcome_window .info .block_button{
+        width: 90%;
+        height: 40px;
+        margin: 0 auto;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .text {
+        font-size: 12px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .widget_window.challenges_century .welcome_window .info .block_button button .icon svg {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
+    .widget_window.challenges_century .welcome_window .pattern span{
+        width: 60px;
+        height: 14px;
+    }
+
+    .widget_window.challenges_century .welcome_window .pattern p{
+        font-size: 14px;
+    }
+}

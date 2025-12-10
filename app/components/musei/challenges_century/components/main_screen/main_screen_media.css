@@ -1,0 +1,827 @@
+@media only screen and (max-width : 1800px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 1800px;
+        min-width: 1800px;
+        height: 430px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1){
+        top: auto;
+        bottom: 20px;
+        left: 120px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2){
+        top: 10px;
+        left: 370px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3){
+        top: auto;
+        bottom: 40px;
+        left: 660px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4){
+        top: 20px;
+        left: 940px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5){
+        top: auto;
+        bottom: 40px;
+        left: 1190px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6){
+        top: -30px;
+        left: 1390px;
+    }
+}
+
+@media only screen and (max-width : 1600px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 1600px;
+        min-width: 1600px;
+        height: 390px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year{
+        width: 170px;
+        height: 170px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p{
+        width: 80px;
+        font-size: 30px;
+        line-height: 23px;
+        top: 52px;
+        left: 31px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p span{
+        font-size: 14px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1){
+        top: auto;
+        bottom: 20px;
+        left: 110px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2){
+        left: 325px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3){
+        top: auto;
+        bottom: 30px;
+        left: 590px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4){
+        top: 10px;
+        left: 830px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5){
+        top: auto;
+        bottom: 30px;
+        left: 1060px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6){
+        left: 1240px;
+    }
+}
+
+@media only screen and (max-width : 1430px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 1430px;
+        min-width: 1430px;
+        height: 350px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1){
+        top: auto;
+        bottom: 20px;
+        left: 90px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2){
+        top: 20px;
+        left: 280px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3){
+        top: auto;
+        bottom: 40px;
+        left: 510px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4){
+        top: 0px;
+        left: 730px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5){
+        top: auto;
+        bottom: 40px;
+        left: 930px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6){
+        top: -50px;
+        left: 1100px;
+    }
+}
+
+@media only screen and (max-width : 1300px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 1300px;
+        min-width: 1300px;
+        height: 320px;
+    }
+
+    
+    .widget_window.challenges_century .main_window .block_chronology .block_year{
+        width: 150px;
+        height: 150px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p{
+        width: 80px;
+        font-size: 26px;
+        line-height: 20px;
+        top: 46px;
+        left: 23px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p span{
+        font-size: 14px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1){
+        top: auto;
+        bottom: 25px;
+        left: 75px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2){
+        top: 20px;
+        left: 260px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3){
+        top: auto;
+        bottom: 35px;
+        left: 460px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4){
+        top: 0px;
+        left: 665px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5){
+        top: auto;
+        bottom: 40px;
+        left: 850px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6){
+        top: -40px;
+        left: 1000px;
+    }
+}
+
+@media only screen and (max-width : 1200px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 1200px;
+        min-width: 1200px;
+        height: 290px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year{
+        width: 140px;
+        height: 140px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p{
+        width: 70px;
+        font-size: 24px;
+        line-height: 17px;
+        top: 43px;
+        left: 23px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p span{
+        font-size: 12px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1){
+        top: auto;
+        bottom: 20px;
+        left: 70px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2){
+        top: 20px;
+        left: 235px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3){
+        top: auto;
+        bottom: 30px;
+        left: 430px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4){
+        top: 0px;
+        left: 615px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5){
+        top: auto;
+        bottom: 30px;
+        left: 785px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6){
+        top: -40px;
+        left: 925px;
+    }
+}
+
+
+
+@media only screen and (max-width : 1100px){
+    .widget_window.challenges_century .main_window .block_header {
+        top: 20px;
+    }
+
+
+
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 330px;
+        min-width: auto;
+        height: 100%;
+        background: url("../../img/block_chronology_bg_mobile.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: top center;
+        margin: 0 auto;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1){
+        top: 120px;
+        left: -40px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2){
+        top: 240px;
+        left: auto;
+        right: -40px;
+        transform: scaleX(-1);
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2)._active{
+        transform: scaleX(-1) scale(1.15);
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) p{
+        transform: scaleX(-1);
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3){
+        top: 470px;
+        left: -20px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4){
+        top: 655px;
+        left: auto;
+        right: 75px;
+        transform: scaleX(-1);
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4)._active{
+        transform: scaleX(-1) scale(1.15);
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) p{
+        transform: scaleX(-1);
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5){
+        top: 820px;
+        left: auto;
+        right: -90px;
+        transform: scaleX(-1);
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5)._active{
+        transform: scaleX(-1) scale(1.15);
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) p{
+        transform: scaleX(-1);
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6){
+        top: 925px;
+        left: -35px;
+    }
+}
+
+@media only screen and (max-width : 1100px) and (max-height : 1200px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 310px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 215px;
+        right: -50px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 415px;
+        left: 0;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 605px;
+        right: 70px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 760px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 855px;
+        left: -40px;
+    }
+}
+
+@media only screen and (max-width : 1100px) and (max-height : 1100px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 275px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year {
+        width: 150px;
+        height: 150px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p {
+        width: 70px;
+        font-size: 26px;
+        top: 43px;
+        left: 27px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 60px;
+        left: -60px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 170px;
+        right: -60px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 340px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 515px;
+        right: 40px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 655px;
+        right: -100px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 740px;
+        left: -55px;
+    }
+}
+
+
+@media only screen and (max-width : 900px){
+    .widget_window.challenges_century .main_window .block_header h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+
+    
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 250px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year {
+        width: 140px;
+        height: 140px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p {
+        width: 70px;
+        font-size: 26px;
+        top: 39px;
+        left: 23px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 60px;
+        left: -55px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 150px;
+        right: -60px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 310px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 465px;
+        right: 30px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 590px;
+        right: -95px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 665px;
+        left: -55px;
+    }
+}
+
+@media only screen and (max-width : 900px) and (max-height : 900px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 230px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 40px;
+        left: -60px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 135px;
+        right: -65px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 270px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 420px;
+        right: 15px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 530px;
+        right: -95px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 600px;
+        left: -55px;
+    }
+}
+
+
+@media only screen and (max-width : 760px){
+    .widget_window.challenges_century .main_window .block_header span{
+        width: 55px;
+        margin-top: 0px;
+    }
+
+    .widget_window.challenges_century .main_window .block_header h4 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+
+
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 230px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year {
+        width: 120px;
+        height: 120px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p {
+        width: 70px;
+        font-size: 22px;
+        top: 32px;
+        left: 15px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 60px;
+        left: -45px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 145px;
+        right: -50px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 295px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 435px;
+        right: 40px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 550px;
+        right: -80px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 620px;
+        left: -45px;
+    }
+}
+
+@media only screen and (max-width : 760px) and (max-height : 820px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 205px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 40px;
+        left: -50px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 120px;
+        right: -55px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 250px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 380px;
+        right: 20px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 480px;
+        right: -85px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 545px;
+        left: -50px;
+    }
+}
+
+
+@media only screen and (max-width : 600px){
+    .widget_window.challenges_century .main_window .block_header {
+        width: 260px;
+    }
+
+    .widget_window.challenges_century .main_window .block_header span{
+        width: 50px;
+    }
+
+    .widget_window.challenges_century .main_window .block_header h4 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 230px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year {
+        width: 110px;
+        height: 110px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p {
+        width: 70px;
+        font-size: 20px;
+        line-height: 18px;
+        top: 32px;
+        left: 10px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 70px;
+        left: -35px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 155px;
+        right: -40px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 305px;
+        left: -10px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 440px;
+        right: 50px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 565px;
+        right: -75px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 635px;
+        left: -35px;
+    }
+}
+
+@media only screen and (max-width : 600px) and (max-height : 820px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 205px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 70px;
+        left: -40px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 130px;
+        right: -45px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 260px;
+        left: -10px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 385px;
+        right: 35px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 490px;
+        right: -75px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 555px;
+        left: -40px;
+    }
+}
+
+
+@media only screen and (max-width : 400px){
+    .widget_window.challenges_century .main_window .block_header {
+        width: 240px;
+    }
+
+    .widget_window.challenges_century .main_window .block_header span{
+        width: 40px;
+        margin-top: -5px;
+    }
+
+    .widget_window.challenges_century .main_window .block_header h4 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 210px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year {
+        width: 100px;
+        height: 100px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year p {
+        width: 70px;
+        font-size: 18px;
+        line-height: 16px;
+        top: 28px;
+        left: 7px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 65px;
+        left: -35px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 145px;
+        right: -40px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 285px;
+        left: -10px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 405px;
+        right: 50px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 515px;
+        right: -65px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 580px;
+        left: -30px;
+    }
+}
+
+@media only screen and (max-width : 400px) and (max-height : 750px){
+    .widget_window.challenges_century .main_window .block_chronology{
+        width: 190px;
+    }
+
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1) {
+        top: 60px;
+        left: -40px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2) {
+        top: 125px;
+        right: -40px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3) {
+        top: 245px;
+        left: -10px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4) {
+        top: 355px;
+        right: 35px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5) {
+        top: 460px;
+        right: -70px;
+    }
+
+    .widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6) {
+        top: 515px;
+        left: -35px;
+    }
+}

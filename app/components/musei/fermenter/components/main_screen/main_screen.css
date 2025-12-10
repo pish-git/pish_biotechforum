@@ -1,0 +1,145 @@
+.widget_window.fermenter .main_screen{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+
+	transition: all .7s ease;
+}
+
+.widget_window.fermenter .main_screen._hidden{
+	opacity: 0;
+}
+
+
+
+
+
+.widget_window.fermenter .main_screen .menu_left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 25px;
+	width: 110px;
+	height: fit-content;
+	border-radius: 0 30px 30px 0;
+	background: linear-gradient(180deg, #1145AA, #082766);
+	padding: 30px 0;
+	position: absolute;
+	left: 0;
+}
+
+.widget_window.fermenter .main_screen .menu_left button{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 15px;
+	width: 100%;
+	height: fit-content;
+	cursor: pointer;
+}
+
+
+.widget_window.fermenter .main_screen .menu_left button:last-child{
+	margin-top: 40px;
+}
+
+
+.widget_window.fermenter .main_screen .menu_left button .icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 70px;
+	height: 70px;
+	border-radius: 15px;
+	background-color: #082a619f;
+}
+
+.widget_window.fermenter .main_screen .menu_left button .icon svg{
+	width: 35px;
+	height: 35px;
+}
+
+.widget_window.fermenter .main_screen .menu_left button .text{
+	font-size: 10px;
+	font-family: "Eimantas";
+	font-weight: 500;
+	line-height: 13px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+.widget_window.fermenter .main_screen .block_main{
+	display: flex;
+	flex-direction: column;
+	width: 550px;
+	height: 720px;
+	border: 1px solid #0c449e;
+	border-radius: 30px;
+	background-color: rgba(35, 26, 161, 0.3);
+}
+
+
+
+.widget_window.fermenter .main_screen .block_main .block_header{
+	display: flex;
+	align-items: center;
+	gap: 15px;
+	width: 100%;
+	padding: 35px 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+
+.widget_window.fermenter .main_screen .block_main .block_header .icon_left{
+	width: 50px;
+	height: 20px;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_header .icon_left svg{
+	width: 100%;
+	height: 100%;
+}
+
+
+.widget_window.fermenter .main_screen .block_main .block_header h2{
+	font-size: 28px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+
+.widget_window.fermenter .main_screen .block_main .block_header .icon_right{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #0c449e;
+	position: absolute;
+	right: 40px;
+}
+
+.widget_window.fermenter .main_screen .block_main .block_header .icon_right svg{
+	width: 35px;
+	height: 35px;
+}
+
+
+
+.widget_window.fermenter .main_screen .content{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}

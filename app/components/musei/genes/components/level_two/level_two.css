@@ -1,0 +1,400 @@
+:root {
+    --note-shift-distance: 65px;
+}
+
+
+
+
+.widget_window.genes .level_two {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	transition: all .7s ease;
+}
+
+.widget_window.genes .level_two._hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+
+
+.widget_window.genes .level_two .amino_acids_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 700px;
+    height: fit-content;
+    padding-top: 15px;
+    position: absolute;
+    top: 0;
+}
+
+
+
+.widget_window.genes .level_two .amino_acids_info h3{
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+
+.widget_window.genes .level_two .amino_acids_info h3 .icon{
+    width: 50px;
+    min-height: 50px;
+    height: 50px;
+}
+
+.widget_window.genes .level_two .amino_acids_info h3 .icon svg{
+    width: 100%;
+    height: 100%;
+}
+
+
+.widget_window.genes .level_two .amino_acids_info h3 .text{
+    color: #AAF189;
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+
+
+.widget_window.genes .level_two .amino_acids_info .table_amino_acids{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 155px;
+    border: 1px solid #6D9EFF;
+    border-radius: 15px;
+    background: linear-gradient(90deg, rgba(12, 112, 211, 0.5), rgba(12, 97, 182, 0.2));
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.widget_window.genes .level_two .amino_acids_info .table_amino_acids .row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    min-width: 55px;
+    height: 55px;
+    border: 2px solid #E394FF;
+    border-radius: 50%;
+}
+
+.widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(1){
+    color: #fff;
+    font-size: 15px;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.widget_window.genes .level_two .amino_acids_info .table_amino_acids .row .amino_acid span:nth-child(2){
+    color: #ffffff94;
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
+
+.widget_window.genes .level_two .block_game{
+    display: flex;
+    align-items: center;
+    width: 700px;
+	height: 60px;
+	position: absolute;
+    right: 0;
+	bottom: 220px;
+}
+
+
+
+.widget_window.genes .level_two .block_game .block_click{
+    width: 210px;
+    height: 190px;
+    position: absolute;
+    bottom: -22px;
+    left: -16px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+.widget_window.genes .level_two .block_game .block_click._pulsing {
+    animation: pulse 3s infinite ease-in-out;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.widget_window.genes .level_two .block_game .block_click svg{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.widget_window.genes .level_two .block_rkn_notes{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+    left: 0;
+	bottom: 0;
+}
+
+.widget_window.genes .level_two .block_rkn_notes .rnk_note{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+    min-width: 50px;
+	height: 50px;
+	position: relative;
+	overflow: visible;
+	transition: all 0.7s ease;
+}
+
+
+.widget_window.genes .level_two .block_rkn_notes .rnk_note._a_note::after{
+	content: "A";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #03C8C4;
+	box-shadow: inset 0 0 1px 3px #1AA39F;
+	position: absolute;
+	z-index: 2;
+}
+
+
+.widget_window.genes .level_two .block_rkn_notes .rnk_note._u_note::after{
+	content: "U";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #5C63BE;
+	box-shadow: inset 0 0 1px 3px #484ea2;
+	position: absolute;
+	z-index: 2;
+}
+
+.widget_window.genes .level_two .block_rkn_notes .rnk_note._t_note::after{
+	content: "T";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #5C63BE;
+	box-shadow: inset 0 0 1px 3px #484ea2;
+	position: absolute;
+	z-index: 2;
+}
+
+.widget_window.genes .level_two .block_rkn_notes .rnk_note._c_note::after{
+	content: "C";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #B957B6;
+	box-shadow: inset 0 0 1px 3px #934e9f;
+	position: absolute;
+	z-index: 2;
+}
+
+.widget_window.genes .level_two .block_rkn_notes .rnk_note._g_note::after{
+	content: "G";
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Roboto";
+	font-weight: 900;
+	border-radius: 50%;
+	background-color: #B4CA59;
+	box-shadow: inset 0 0 1px 3px #8EA551;
+	position: absolute;
+	z-index: 2;
+}
+
+
+
+.widget_window.genes .level_two .block_game .block_result{
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    height: 70px;
+    position: absolute;
+    top: -85px;
+    left: -13px;
+    z-index: 2;
+    pointer-events: none;
+
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.widget_window.genes .level_two .block_game .block_result._visible {
+    opacity: 1;
+}
+
+.widget_window.genes .level_two .block_game .block_result p,
+.widget_window.genes .level_two .block_game .block_result div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 47px;
+    position: absolute;
+}
+
+
+.widget_window.genes .level_two .block_game .block_result .amino_acid{
+    color: #fff;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 500;
+    border: 1px solid #6ec35d;
+    border-radius: 50%;
+    background-color: #6ec35d;
+}
+
+
+.widget_window.genes .level_two .block_game .block_result .error{
+    border: 1px solid #DF5497;
+    border-radius: 50%;
+    background-color: #4A3A59;
+}
+
+.widget_window.genes .level_two .block_game .block_result .error svg{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+}
+
+
+
+.widget_window.genes .level_two .block_game .block_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 450px;
+    height: 160px;
+    border: 2px solid #428DC7;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #3FB7C3, #5CC468);
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: -200px;
+    left: -135px;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.7s ease;
+    pointer-events: none;
+}
+
+
+.widget_window.genes .level_two .block_game .block_info._visible {
+    opacity: 1;
+}
+
+
+.widget_window.genes .level_two .block_game .block_info p{
+    color: #fff;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+
+.widget_window.genes .level_two .block_pattern{
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+
+.widget_window.genes .level_two .block_rnk{
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+}

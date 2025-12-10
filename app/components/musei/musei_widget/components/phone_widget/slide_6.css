@@ -1,0 +1,180 @@
+.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+	top: -5px;
+	left: -5px;
+	transform: rotate(-0.7deg);
+}
+
+.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+	width: 100%;
+	height: 500px;
+	top: 250px;
+	left: 0;
+}
+
+
+
+@media only screen and (max-width : 500px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 510px;
+	}
+}
+
+@media only screen and (max-width : 500px) and (min-height : 880px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 550px;
+		left: -25px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 540px;
+		top: 280px;
+		left: 0;
+	}
+}
+
+
+@media only screen and (max-width : 470px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 480px;
+	}
+
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 470px;
+		top: 240px;
+	}
+}
+
+@media only screen and (max-width : 470px) and (min-height : 830px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 520px;
+		left: -25px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 510px;
+		top: 270px;
+		left: 0;
+	}
+}
+
+@media only screen and (max-width : 470px) and (min-height : 910px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 550px;
+		left: -40px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 530px;
+		top: 290px;
+		left: 0;
+	}
+}
+
+
+@media only screen and (max-width : 430px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 440px;
+		left: -5px;
+	}
+
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 420px;
+		top: 225px;
+	}
+}
+
+@media only screen and (max-width : 430px) and (min-height : 750px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 480px;
+		left: -25px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 460px;
+		top: 260px;
+	}
+}
+
+@media only screen and (max-width : 430px) and (min-height : 850px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 530px;
+		left: -50px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 500px;
+		top: 280px;
+	}
+}
+
+
+@media only screen and (max-width : 400px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 410px;
+	}
+
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 390px;
+		top: 210px;
+	}
+}
+
+@media only screen and (max-width : 400px) and (min-height : 700px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 450px;
+		left: -25px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 450px;
+		top: 230px;
+	}
+}
+
+@media only screen and (max-width : 400px) and (min-height : 790px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 480px;
+		left: -40px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 460px;
+		top: 255px;
+	}
+}
+
+
+@media only screen and (max-width : 370px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 380px;
+	}
+
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 360px;
+		top: 195px;
+	}
+}
+
+@media only screen and (max-width : 370px) and (min-height : 650px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 420px;
+		left: -25px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 400px;
+		top: 225px;
+	}
+}
+
+@media only screen and (max-width : 370px) and (min-height : 740px){
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .slide_video_container{
+		width: 450px;
+		left: -40px;
+	}
+	
+	.block_phone .block_swiper .swiper-slide[data-slide="6"] .block_exhibit{
+		height: 430px;
+		top: 240px;
+	}
+}

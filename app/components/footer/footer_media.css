@@ -1,0 +1,434 @@
+@media only screen and (min-width : 2000px){
+	footer{
+		height: 500px;
+		padding-top: 250px;
+	}
+
+	footer .footer_content{
+		padding: 30px 40px;
+	}
+
+
+
+	footer .footer_content .upper_part .left{
+		gap: 40px;
+	}
+
+	footer .footer_content .upper_part .left .logo:nth-child(1){
+		height: 50px;
+		width: 130px;
+	}
+
+	footer .footer_content .upper_part .left .logo:nth-child(2){
+		height: 57px;
+		width: 93px;
+	}
+
+
+	footer .footer_content .upper_part .right{
+		gap: 45px;
+	}
+
+	footer .footer_content .upper_part .right .logo:nth-child(1){
+		height: 70px;
+		width: 85px;
+	}
+
+	footer .footer_content .upper_part .right .logo:nth-child(2){
+		height: 60px;
+		width: 180px;
+	}
+
+
+
+	footer .footer_content .lower_part .block_contact {
+		width: 350px;
+	}
+
+	footer .footer_content .lower_part .block_contact h5{
+		font-size: 26px;
+	}
+
+	footer .footer_content .lower_part .block_contact p {
+		font-size: 26px;
+		margin-bottom: 10px;
+	}
+
+	footer .footer_content .lower_part .block_contact .social_networks a {
+		width: 45px;
+		height: 45px;
+	}
+
+
+	footer .footer_content .lower_part nav h5 {
+		font-size: 26px;
+	}
+
+	footer .footer_content .lower_part nav a {
+		font-size: 26px;
+	}
+
+	footer .footer_content .lower_part nav a svg {
+		width: 40px;
+		height: 22px;
+	}
+
+
+	footer .footer_content .lower_part nav {
+		width: 350px;
+	}
+
+
+
+	footer .patterns{
+		height: 1700px;
+	}
+
+	footer .patterns .pattern:nth-child(1){
+		width: 2900px;
+		height: 2900px;
+		bottom: -1300px;
+		right: -1000px;
+	}
+}
+
+@media only screen and (max-width : 1800px){
+	footer{
+		height: 330px;
+	}
+
+
+	footer .footer_content .upper_part .left .logo:nth-child(1){
+		height: 37px;
+		width: 107px;
+	}
+
+	footer .footer_content .upper_part .left .logo:nth-child(2){
+		height: 43px;
+		width: 75px;
+	}
+
+	footer .footer_content .upper_part .right .logo:nth-child(1){
+		height: 55px;
+		width: 75px;
+	}
+
+	footer .footer_content .upper_part .right .logo:nth-child(2){
+		height: 43px;
+		width: 150px;
+	}
+
+	
+	footer .footer_content .lower_part .block_contact h5{
+		font-size: 20px;
+	}
+
+	footer .footer_content .lower_part .block_contact p{
+		font-size: 20px;
+	}
+
+	footer .footer_content .lower_part .block_contact .social_networks a{
+		width: 35px;
+		height: 35px;
+	}
+
+
+	footer .footer_content .lower_part nav{
+		width: 250px;
+	}
+
+	footer .footer_content .lower_part nav h5{
+		font-size: 20px;
+	}
+
+	footer .footer_content .lower_part nav a{
+		font-size: 20px;
+	}
+
+
+
+	footer .patterns .pattern:nth-child(1){
+		width: 2200px;
+		height: 2200px;
+		bottom: -1000px;
+		right: -800px;
+	}
+}
+
+@media only screen and (max-width : 1600px){
+	footer .patterns{
+		height: 1300px;
+	}
+
+	footer .patterns .pattern:nth-child(1){
+		width: 2000px;
+		height: 2000px;
+		bottom: -900px;
+		right: -650px;
+	}
+}
+
+@media only screen and (max-width : 1300px){
+	footer .patterns .pattern:nth-child(1){
+		width: 1800px;
+		height: 1800px;
+		bottom: -800px;
+		right: -550px;
+	}
+}
+
+@media only screen and (max-width : 1100px){
+	footer .footer_content .upper_part{
+		display: flex;
+		justify-content: center;
+		gap: 30px;
+	}
+
+	footer .footer_content .upper_part .logo{
+		position: relative;
+		cursor: pointer;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(1){
+		height: 37px;
+		width: 107px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(2){
+		height: 43px;
+		width: 75px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(3){
+		height: 55px;
+		width: 75px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(4){
+		height: 43px;
+		width: 150px;
+	}
+}
+
+@media only screen and (max-width : 900px){
+	footer .footer_content .lower_part nav:nth-child(2){
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 700px){
+	footer .footer_content .upper_part{
+		gap: 20px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(1){
+		height: 32px;
+		width: 90px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(2){
+		height: 40px;
+		width: 70px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(3){
+		height: 50px;
+		width: 70px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(4){
+		height: 40px;
+		width: 140px;
+	}
+
+
+	footer .footer_content .lower_part .block_contact h5 {
+		font-size: 18px;
+	}
+
+	footer .footer_content .lower_part .block_contact p {
+		font-size: 18px;
+	}
+
+	footer .footer_content .lower_part nav h5 {
+		font-size: 18px;
+	}
+
+	footer .footer_content .lower_part nav a {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	footer {
+		height: 300px;
+	}
+
+	footer .footer_content {
+		padding: 15px 15px;
+	}
+
+
+	footer .footer_content .upper_part{
+		gap: 20px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(1){
+		height: 28px;
+		width: 80px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(2){
+		height: 35px;
+		width: 60px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(3){
+		height: 45px;
+		width: 60px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(4){
+		height: 35px;
+		width: 130px;
+	}
+
+
+	footer .footer_content .lower_part .block_contact h5 {
+		font-size: 16px;
+	}
+
+	footer .footer_content .lower_part .block_contact p {
+		font-size: 16px;
+	}
+
+	footer .footer_content .lower_part nav {
+		width: 210px;
+	}
+
+	footer .footer_content .lower_part nav h5 {
+		font-size: 15px;
+	}
+
+	footer .footer_content .lower_part nav a {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width : 500px){
+	footer {
+		height: 280px;
+	}
+
+
+	footer .footer_content .upper_part{
+		gap: 10px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(1){
+		height: 23px;
+		width: 70px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(2){
+		height: 30px;
+		width: 50px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(3){
+		height: 40px;
+		width: 50px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(4){
+		height: 30px;
+		width: 120px;
+	}
+
+
+	footer .footer_content .lower_part {
+		gap: 10px;
+	}
+
+	footer .footer_content .lower_part .block_contact h5 {
+		font-size: 14px;
+	}
+
+	footer .footer_content .lower_part .block_contact p {
+		font-size: 14px;
+	}
+
+	footer .footer_content .lower_part .block_contact .social_networks a {
+		width: 30px;
+		height: 30px;
+	}
+
+	footer .footer_content .lower_part nav {
+		width: 210px;
+	}
+
+	footer .footer_content .lower_part nav h5 {
+		font-size: 14px;
+	}
+
+	footer .footer_content .lower_part nav a {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width : 400px){
+	footer .footer_content {
+		padding: 10px;
+	}
+
+
+	footer .footer_content .upper_part{
+		gap: 10px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(1){
+		height: 23px;
+		width: 70px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(2){
+		height: 30px;
+		width: 50px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(3){
+		height: 40px;
+		width: 50px;
+	}
+
+	footer .footer_content .upper_part .logo:nth-child(4){
+		height: 30px;
+		width: 120px;
+	}
+	
+
+	footer .footer_content .lower_part .block_contact h5 {
+		font-size: 12px;
+	}
+
+	footer .footer_content .lower_part .block_contact p {
+		font-size: 12px;
+	}
+
+	footer .footer_content .lower_part .block_contact .social_networks a {
+		width: 27px;
+		height: 27px;
+	}
+
+	footer .footer_content .lower_part nav {
+		width: 210px;
+	}
+
+	footer .footer_content .lower_part nav h5 {
+		font-size: 12px;
+	}
+
+	footer .footer_content .lower_part nav a {
+		font-size: 12px;
+	}
+}

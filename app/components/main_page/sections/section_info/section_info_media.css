@@ -1,0 +1,803 @@
+@media only screen and (min-width : 2000px){
+	.app main .info .block_controls {
+		padding: 0 100px;
+	}
+
+	.app main .info .block_controls button {
+		font-size: 32px;
+	}
+
+	.app main .info .block_controls button._active {
+  		font-size: 36px;
+	}
+
+
+
+	.app main .info .section_content.desktop .bioeconomics {
+		width: 1400px;
+		height: 575px;
+	}
+
+	.app main .info .section_content.desktop .bioeconomics .bg::before {
+		font-size: 34px;
+		top: 4px;
+		left: 600px;
+	}
+
+	.app main .info .section_content.desktop .bioeconomics .bg::after {
+		font-size: 32px;
+		bottom: 7px;
+		left: 40px;
+	}
+
+
+	.app main .info .section_content.desktop .bioeconomics .block_text {
+		width: 1100px;
+	}
+
+	.app main .info .section_content.desktop .bioeconomics .block_text p {
+		font-size: 32px;
+	}
+
+
+
+	.app main .info .section_content.desktop .team{
+		width: 1600px;
+		height: 640px;
+	}
+
+	.app main .info .section_content.desktop .team .block_text p {
+		width: 920px;
+		font-size: 22px;
+	}
+
+
+	.app main .info .section_content.desktop .team .table .bg::before {
+		font-size: 32px;
+		top: 13px;
+	}
+
+
+	.app main .info .section_content.desktop .team .table .table_content {
+		height: 560px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(1){
+		width: 475px;
+		min-width: 475px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(2) {
+		width: 382px;
+		min-width: 382px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(3) {
+		width: 341px;
+		min-width: 341px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(4) {
+		width: 375px;
+		min-width: 375px;
+	}
+
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head {
+		height: 100px;
+		min-height: 100px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head h3 {
+		font-size: 24px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head h5 {
+		font-size: 18px;
+	}
+
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content h4 {
+		font-size: 20px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content p {
+		font-size: 18px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content ul li {
+		font-size: 18px;
+	}
+
+
+
+	.app main .info .section_content.desktop .project {
+		width: 1500px;
+		height: 900px;
+	}
+
+	.app main .info .section_content.desktop .project .upper_part .block_text p {
+		font-size: 32px;
+		line-height: 40px;
+	}
+
+	.app main .info .section_content.desktop .project .upper_part .block_text p span._enlarged {
+  		font-size: 38px;
+	}
+
+	.app main .info .section_content.desktop .project .upper_part .block_text .bg::before {
+		font-size: 28px;
+		bottom: 16px;
+		left: 28px;
+	}
+
+	.app main .info .section_content.desktop .project .lower_part .block_text .bg::before {
+		font-size: 28px;
+		top: 12px;
+		right: 27px;
+	}
+
+	.app main .info .section_content.desktop .project .lower_part .block_text p {
+		font-size: 32px;
+		line-height: 40px;
+	}
+}
+
+@media only screen and (max-width : 1800px){
+	.app main .info .block_controls button{
+		font-size: 22px;
+	}
+
+	.app main .info .block_controls button._active{
+		font-size: 28px;
+	}
+
+
+	.app main .info .patterns .pattern:nth-child(1) {
+		width: 2000px;
+		height: 2000px;
+	}
+}
+
+@media only screen and (max-width : 1500px){
+	.app main .info {
+  		min-height: 800px;
+	}
+
+
+
+	.app main .info .section_content.desktop .bioeconomics{
+		width: 1080px;
+		height: 440px;
+	}
+
+	.app main .info .section_content.desktop .bioeconomics .bg::before{
+		font-size: 26px;
+		top: 3px;
+		left: 460px;
+	}
+
+	.app main .info .section_content.desktop .bioeconomics .bg::after{
+		font-size: 26px;
+		bottom: 3px;
+		left: 30px;
+	}
+
+
+	.app main .info .section_content.desktop .bioeconomics .block_text {
+		width: 900px;
+		margin-bottom: 50px;
+	}
+
+
+
+	.app main .info .section_content.desktop .team{
+		width: 1250px;
+		height: 500px;
+	}
+
+	.app main .info .section_content.desktop .team .block_text p{
+		width: 720px;
+		font-size: 18px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content{
+		height: 430px;
+		margin-top: 53px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(1) {
+		width: 369px;
+		min-width: 369px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(2) {
+		width: 297px;
+		min-width: 297px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(3) {
+		width: 266px;
+		min-width: 266px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(4) {
+		width: 290px;
+		min-width: 290px;
+	}
+
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head {
+		height: 69px;
+		min-height: 69px;
+		padding: 0 15px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head h3 {
+		font-size: 18px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head h5 {
+		font-size: 14px;
+	}
+
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content{
+		padding: 10px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content h4 {
+		font-size: 16px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content p {
+		font-size: 15px;
+	}
+
+
+
+	.app main .info .section_content.desktop .project {
+		width: 1200px;
+		height: 700px;
+	}
+
+	.app main .info .section_content.desktop .project .upper_part .block_text{
+		width: 56%;
+	}
+
+	.app main .info .section_content.desktop .project .upper_part .block_text p{
+		font-size: 22px;
+	}
+
+	.app main .info .section_content.desktop .project .lower_part .block_text {
+		width: 56%;
+	}
+
+	.app main .info .section_content.desktop .project .lower_part .block_text p{
+		font-size: 22px;
+	}
+
+
+
+	.app main .info .patterns .pattern:nth-child(1) {
+		width: 1800px;
+		height: 1800px;
+		top: -800px;
+    	left: -700px;
+	}
+}
+
+@media only screen and (max-width : 1300px){
+	.app main .info {
+  		min-height: 600px;
+	}
+
+
+	.app main .info .block_controls {
+		gap: 15px;
+	}
+
+	.app main .info .block_controls button._active {
+		font-size: 24px;
+	}
+
+	.app main .info .block_controls button {
+		font-size: 20px;
+	}
+
+
+
+	.app main .info .section_content.desktop .bioeconomics{
+		width: 900px;
+		height: 370px;
+	}
+
+	.app main .info .section_content.desktop .bioeconomics .bg::before{
+		font-size: 20px;
+		top: 5px;
+        left: 390px;
+	}
+
+	.app main .info .section_content.desktop .bioeconomics .bg::after{
+		font-size: 20px;
+		bottom: 5px;
+        left: 30px;
+	}
+
+
+	.app main .info .section_content.desktop .bioeconomics .block_text {
+		width: 750px;
+		margin-bottom: 60px;
+	}
+
+	.app main .info .section_content.desktop .bioeconomics .block_text p {
+		font-size: 20px;
+	}
+
+
+
+	.app main .info .section_content.desktop .team{
+		width: 1000px;
+		height: 395px;
+	}
+
+	.app main .info .section_content.desktop .team .table .bg::before {
+		font-size: 24px;
+		top: 6px;
+		right: 20px;
+	}
+
+	.app main .info .section_content.desktop .team .block_text p{
+		width: 580px;
+		font-size: 14px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content{
+		height: 345px;
+		margin-top: 40px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(1) {
+		width: 295px;
+		min-width: 295px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(2) {
+		width: 237px;
+		min-width: 237px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(3) {
+		width: 212px;
+		min-width: 212px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column:nth-child(4) {
+		width: 232px;
+		min-width: 232px;
+	}
+
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head {
+		height: 57px;
+		min-height: 57px;
+		padding: 0 7px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head h3 {
+		font-size: 16px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_head h5 {
+		font-size: 12px;
+	}
+
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content{
+		gap: 5px;
+		padding: 5px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content h4 {
+		font-size: 14px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content p {
+		font-size: 13px;
+	}
+
+	.app main .info .section_content.desktop .team .table .table_content .column .column_content ul li {
+		display: inline-flex;
+		align-items: center;
+		color: #fff;
+		font-size: 13px;
+		font-family: "Raleway";
+		font-weight: 400;
+		padding-left: 15px;
+		position: relative;
+	}
+
+
+
+	.app main .info .section_content.desktop .project {
+		width: 1000px;
+		height: 600px;
+	}
+
+
+	.app main .info .section_content.desktop .project .upper_part .block_text{
+		width: 56%;
+	}
+
+	.app main .info .section_content.desktop .project .upper_part .block_text p{
+		font-size: 20px;
+	}
+
+	.app main .info .section_content.desktop .project .upper_part .block_text .bg::before {
+		font-size: 20px;
+		bottom: 17px;
+	}
+
+
+	.app main .info .section_content.desktop .project .lower_part .block_text {
+		width: 53%;
+	}
+
+	.app main .info .section_content.desktop .project .lower_part .block_text p{
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+
+	.app main .info .section_content.desktop .project .lower_part .block_text .bg::before {
+		font-size: 20px;
+		top: 7px;
+	}
+}
+
+@media only screen and (max-width : 1100px){
+	.app main .info {
+		gap: 60px;
+	}
+
+	.app main .info .block_controls button {
+		font-size: 24px;
+	}
+
+	.app main .info .block_controls button._active {
+		font-size: 28px;
+	}
+}
+
+@media only screen and (max-width : 700px){
+	.app main .info {
+		gap: 50px;
+	}
+
+
+	.app main .info .block_controls {
+		padding: 0 20px;
+	}
+
+	.app main .info .block_controls button {
+		font-size: 22px;
+	}
+
+	.app main .info .block_controls button._active {
+		font-size: 25px;
+	}
+
+
+
+	.app main .info .section_content.mobile .bioeconomics{
+		width: 500px;
+		height: 545px;
+		padding: 0 30px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .bg::before{
+		font-size: 20px;
+		top: 12px;
+		right: 35px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .bg::after{
+		font-size: 20px;
+		bottom: 18px;
+		left: 35px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .block_text p{
+		font-size: 20px;
+	}
+
+
+
+	.app main .info .section_content.mobile .team{
+		width: 500px;
+		height: 620px;
+		padding: 50px 25px 0;
+	}
+
+	.app main .info .section_content.mobile .team .bg::before{
+		font-size: 24px;
+		top: 7px;
+		left: 25px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h3{
+		font-size: 22px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h5{
+		font-size: 20px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h4{
+		font-size: 21px;
+		margin-bottom: 30px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text p{
+		font-size: 20px;
+	}
+
+
+
+	.app main .info .section_content.mobile .project{
+		width: 500px;
+		height: 610px;
+	}
+
+	.app main .info .section_content.mobile .project .upper_part .block_text p{
+		font-size: 22px;
+	}
+
+	.app main .info .section_content.mobile .project .lower_part .block_text p{
+		font-size: 22px;
+	}
+
+	.app main .info .section_content.mobile .project .upper_part .block_text p span._enlarged{
+		font-size: 28px;
+	}
+
+
+
+	footer {
+		padding-top: 150px;
+	}
+}
+
+@media only screen and (max-width : 540px){
+	.app main .info {
+		gap: 40px;
+	}
+
+
+	.app main .info .block_controls button {
+		font-size: 19px;
+	}
+
+	.app main .info .block_controls button._active {
+		font-size: 21px;
+	}
+
+
+
+	.app main .info .section_content.mobile .bioeconomics{
+		width: 400px;
+		height: 435px;
+		padding: 0 20px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .bg::before{
+		font-size: 16px;
+		top: 10px;
+		right: 30px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .bg::after{
+		font-size: 16px;
+		bottom: 12px;
+		left: 30px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .block_text p{
+		font-size: 16px;
+	}
+
+
+
+	.app main .info .section_content.mobile .team{
+		width: 400px;
+		height: 500px;
+		padding: 40px 20px 0;
+	}
+
+	.app main .info .section_content.mobile .team .bg::before{
+		font-size: 22px;
+		top: 3px;
+		left: 20px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h3{
+		font-size: 18px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h5{
+		font-size: 16px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h4{
+		font-size: 17px;
+		margin-bottom: 25px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text p{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+
+
+	.app main .info .section_content.mobile .project{
+		width: 400px;
+		height: 490px;
+	}
+
+
+	.app main .info .section_content.mobile .project .upper_part .block_text {
+		padding: 0 30px;
+	}
+
+	.app main .info .section_content.mobile .project .upper_part .block_text p{
+		font-size: 18px;
+		line-height: 23px;
+		margin-bottom: 15px;
+	}
+
+	.app main .info .section_content.mobile .project .upper_part .block_text p span._enlarged{
+		font-size: 28px;
+	}
+
+
+	.app main .info .section_content.mobile .project .lower_part .block_text {
+		padding: 0 30px;
+	}
+
+	.app main .info .section_content.mobile .project .lower_part .block_text p{
+		font-size: 18px;
+		line-height: 23px;
+	}
+
+
+
+	footer {
+		padding-top: 100px;
+	}
+}
+
+@media only screen and (max-width : 450px){
+	.app main .info {
+		gap: 30px;
+		min-height: 400px;
+	}
+
+
+	.app main .info .block_controls button {
+		font-size: 16px;
+	}
+
+	.app main .info .block_controls button._active {
+		font-size: 18px;
+	}
+
+
+
+	.app main .info .section_content.mobile .bioeconomics{
+		width: 300px;
+		height: 326px;
+		padding: 0 15px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .bg::before{
+		font-size: 12px;
+		top: 6px;
+		right: 25px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .bg::after{
+		font-size: 12px;
+		bottom: 8px;
+		left: 25px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .block_text{
+		gap: 10px;
+	}
+
+	.app main .info .section_content.mobile .bioeconomics .block_text p{
+		font-size: 12px;
+	}
+
+
+
+	.app main .info .section_content.mobile .team{
+		width: 300px;
+		height: 374px;
+		padding: 30px 15px 0;
+	}
+
+	.app main .info .section_content.mobile .team .bg::before{
+		font-size: 18px;
+		top: 2px;
+		left: 15px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h3{
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h5{
+		font-size: 12px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text h4{
+		font-size: 13px;
+		margin-bottom: 20px;
+	}
+
+	.app main .info .section_content.mobile .team .block_text p{
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+
+
+
+	.app main .info .section_content.mobile .project{
+		width: 300px;
+		height: 380px;
+	}
+
+
+	.app main .info .section_content.mobile .project .upper_part .block_text {
+		padding: 0 20px;
+	}
+
+	.app main .info .section_content.mobile .project .upper_part .block_text p{
+		font-size: 13px;
+		line-height: 17px;
+		margin-bottom: 15px;
+	}
+
+	.app main .info .section_content.mobile .project .upper_part .block_text p span._enlarged{
+		font-size: 20px;
+	}
+
+
+	.app main .info .section_content.mobile .project .lower_part .block_text {
+		padding: 0 20px;
+	}
+
+	.app main .info .section_content.mobile .project .lower_part .block_text p{
+		font-size: 13px;
+		line-height: 17px;
+		margin-bottom: 10px;
+	}
+
+
+
+	footer {
+		padding-top: 100px;
+	}
+}
+
+@media only screen and (max-width : 390px){
+	.app main .info .block_controls button {
+		font-size: 15px;
+	}
+
+	.app main .info .block_controls button._active {
+		font-size: 16px;
+	}
+}

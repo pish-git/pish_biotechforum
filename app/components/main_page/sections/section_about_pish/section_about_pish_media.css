@@ -1,0 +1,355 @@
+@media only screen and (min-width : 2000px){
+	.about_pish {
+    	height: 1500px;
+		padding: 0 100px;
+	}
+
+
+	.about_pish .section_content h1 {
+		width: 1400px;
+		font-size: 80px;
+	}
+
+	.about_pish .section_content h3 {
+		width: 1100px;
+		font-size: 38px;
+	}
+
+
+	.about_pish .section_content .mission {
+		width: 870px;
+		bottom: 260px;
+	}
+
+	.about_pish .section_content .mission h2 {
+    	font-size: 48px;
+	}
+
+	.about_pish .section_content .mission p {
+    	font-size: 30px;
+	}
+
+
+
+	.about_pish .section_content .button_visit .text {
+		font-size: 30px;
+	}
+
+
+
+	.about_pish .patterns .pattern:nth-child(1) {
+		width: 1600px;
+		height: 1600px;
+	}
+
+	.about_pish .patterns .pattern:nth-child(1)::before {
+		width: 1000px;
+		height: 80px;
+		bottom: -10px;
+		left: -10px;
+	}
+
+	.about_pish .patterns .pattern:nth-child(1)::after {
+		width: 550px;
+		height: 550px;
+		bottom: -80px;
+		right: -200px;
+	}
+
+
+	.about_pish .patterns .pattern:nth-child(2){
+		width: 900px;
+		height: 900px;
+	}
+}
+
+@media only screen and (max-width : 1800px){
+	.about_pish{
+		height: 900px;
+	}
+
+
+	.about_pish .section_content h1{
+		width: 1100px;
+		font-size: 64px;
+	}
+
+	.about_pish .section_content h3{
+		width: 1000px;
+		font-size: 32px;
+	}
+
+
+	.about_pish .section_content .mission{
+		width: 650px;
+		bottom: 180px;
+	}
+
+	.about_pish .section_content .mission h2{
+		font-size: 40px;
+	}
+
+	.about_pish .section_content .mission p{
+		font-size: 22px;
+	}
+
+
+	.about_pish .section_content .button_visit .text{
+		font-size: 20px;
+	}
+
+
+	.about_pish .patterns .pattern:nth-child(1){
+		width: 1000px;
+		height: 990px;
+	}
+}
+
+@media only screen and (max-width : 1600px){
+	.about_pish .patterns .pattern:nth-child(2){
+		width: 700px;
+		height: 700px;
+		top: -300px;
+	}
+}
+
+@media only screen and (max-width : 1600px){
+	.about_pish .patterns .pattern:nth-child(2){
+		width: 600px;
+		height: 600px;
+	}
+}
+
+@media only screen and (max-width : 1100px){
+	.about_pish {
+		height: 1100px;
+	}
+
+
+	.about_pish .section_content h1 {
+		width: 700px;
+	}
+
+	.about_pish .section_content h3 {
+		width: 700px;
+	}
+	
+
+	.about_pish .section_content .button_visit {
+		width: 300px;
+    	height: 80px;
+		bottom: 40px;
+		left: calc(50% - 150px);
+	}
+
+
+	.about_pish .patterns .pattern:nth-child(1) {
+		top: -100px;
+	}
+}
+
+@media only screen and (max-width : 900px){
+	.about_pish {
+		height: 950px;
+	}
+
+
+	.about_pish .section_content h1 {
+		width: 600px;
+		font-size: 58px;
+	}
+
+	.about_pish .section_content h3 {
+		width: 600px;
+		font-size: 28px;
+	}
+
+
+	.about_pish .section_content .mission h2 {
+		font-size: 38px;
+	}
+
+
+	.about_pish .patterns .pattern:nth-child(1) {
+		width: 800px;
+		height: 790px;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width : 700px){
+	.about_pish {
+		height: 920px;
+		padding: 0 20px;
+	}
+
+
+	.about_pish .section_content h1 {
+		width: 500px;
+		font-size: 52px;
+	}
+
+	.about_pish .section_content h3 {
+		width: 530px;
+		font-size: 25px;
+	}
+
+
+	.about_pish .section_content .mission h2 {
+		font-size: 35px;
+	}
+
+	.about_pish .section_content .mission p {
+		width: 80%;
+		font-size: 20px;
+	}
+
+
+	.about_pish .patterns .pattern:nth-child(1) {
+		width: 700px;
+		height: 690px;
+		top: 0;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	.about_pish {
+		height: 880px;
+		padding: 0 20px;
+	}
+
+
+	.about_pish .section_content h1 {
+		width: 500px;
+		font-size: 47px;
+		line-height: 80px;
+	}
+
+	.about_pish .section_content h3 {
+		width: 530px;
+		font-size: 22px;
+	}
+
+
+	 .about_pish .section_content .mission {
+		bottom: 160px;
+	}
+
+	.about_pish .section_content .mission h2 {
+		font-size: 30px;
+	}
+
+	.about_pish .section_content .mission p {
+		width: 80%;
+		font-size: 18px;
+	}
+
+
+	.about_pish .section_content .button_visit {
+		width: 260px;
+    	height: 70px;
+		left: calc(50% - 130px);
+	}
+
+
+	.about_pish .patterns .pattern:nth-child(1) {
+		width: 600px;
+		height: 590px;
+		top: 100px;
+	}
+}
+
+@media only screen and (max-width : 500px){
+	.about_pish {
+		height: 750px;
+		padding: 0 15px;
+	}
+
+
+	.about_pish .section_content h1 {
+		width: 400px;
+		font-size: 38px;
+		line-height: 70px;
+	}
+
+	.about_pish .section_content h3 {
+		width: 420px;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+
+	.about_pish .section_content .mission {
+		gap: 15px;
+	}
+
+	.about_pish .section_content .mission h2 {
+		font-size: 25px;
+	}
+
+	.about_pish .section_content .mission p {
+		width: 60%;
+		font-size: 15px;
+	}
+
+
+	.about_pish .section_content .button_visit {
+		width: 240px;
+    	height: 65px;
+		left: calc(50% - 120px);
+	}
+
+
+	.about_pish .patterns .pattern:nth-child(1) {
+		width: 500px;
+		height: 490px;
+		top: 120px;
+	}
+}
+
+@media only screen and (max-width : 400px){
+	.about_pish {
+		height: 720px;
+		padding: 0 10px;
+	}
+
+
+	.about_pish .section_content h1 {
+		width: 400px;
+		font-size: 32px;
+		line-height: 60px;
+	}
+
+	.about_pish .section_content h3 {
+		width: 300px;
+		font-size: 14px;
+		margin-top: 10px;
+	}
+
+
+	.about_pish .section_content .mission {
+		bottom: 120px;
+	}
+
+	.about_pish .section_content .mission h2 {
+		font-size: 20px;
+	}
+
+	.about_pish .section_content .mission p {
+		width: 50%;
+		font-size: 12px;
+	}
+
+
+	.about_pish .section_content .button_visit {
+		width: 190px;
+    	height: 50px;
+		left: calc(50% - 95px);
+	}
+
+
+	.about_pish .patterns .pattern:nth-child(1) {
+		top: 100px;
+		left: -50px;
+	}
+}

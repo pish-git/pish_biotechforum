@@ -1,0 +1,677 @@
+.widget_window.challenges_century .info_window{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	transition: all .7s ease;
+}
+
+.widget_window.challenges_century .info_window._hidden{
+	opacity: 0;
+}
+
+
+
+
+.widget_window.challenges_century .info_window .block_return{
+	display: flex;
+	align-items: end;
+	width: 165px;
+	height: 45px;
+	border-radius: 0 0 10px 0;
+	background: linear-gradient(90deg, #5558af3d, #5558AF);
+	padding-right: 15px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	cursor: pointer;
+}
+
+.widget_window.challenges_century .info_window .block_return .block_return__content{
+	display: flex;
+	gap: 15px;
+	align-items: center;
+	justify-content: right;
+	width: 100%;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+
+.widget_window.challenges_century .info_window .block_return h4{
+	color: #fff;
+	font-size: 18px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+}
+
+
+.widget_window.challenges_century .info_window .block_return span{
+	width: 30px;
+	position: absolute;
+	left: 15px;
+}
+
+.widget_window.challenges_century .info_window .block_return span svg{
+	width: 100%;
+}
+
+
+
+.widget_window.challenges_century .info_window .pattern{
+	width: 970px;
+	height: 805px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.widget_window.challenges_century .info_window .pattern svg{
+	width: 100%;
+	height: 100%;
+}
+
+.widget_window.challenges_century .info_window .pattern svg path{
+	transition: all .2s ease;
+}
+
+.widget_window.challenges_century .info_window .pattern.conservative svg path{
+	fill: #32C0C7;
+}
+
+.widget_window.challenges_century .info_window .pattern.proactive svg path{
+	fill: #2068bb;
+}
+
+.widget_window.challenges_century .info_window .pattern.futurological svg path{
+	fill: #8656B9;
+}
+
+
+
+
+.widget_window.challenges_century .info_window .block_info{
+	display: flex;
+	width: 100%;
+	height: calc(100% - 80px);
+	margin: 80px 0 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+	z-index: 4;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_info__container{
+	display: flex;
+	gap: 20px;
+	width: 100%;
+	height: 100%;
+	padding: 0 60px 40px 0;
+	box-sizing: border-box;
+	overflow-y: auto;
+	scrollbar-width: thin;
+}
+
+
+
+.widget_window.challenges_century .info_window .block_info .block_general_info{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	width: 100%;
+	height: 100%;
+	padding-left: 90px;
+	box-sizing: border-box;
+}
+
+
+.widget_window.challenges_century .info_window .block_info .block_general_info .population_earth{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	margin-bottom: 20px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1{
+	display: inline-flex;
+	gap: 10px;
+	color: #fff;
+	font-size: 55px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number{
+	align-items: start;
+	color: #63FDFD;
+	font-size: 100px;
+    line-height: 75px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_general_info .population_earth h1.number span{
+	width: 50px;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+
+.widget_window.challenges_century .info_window .block_info .block_general_info .parameter{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_general_info .parameter p{
+	display: inline-flex;
+	align-items: start;
+	gap: 5px;
+	color: #63FDFD;
+	font-size: 55px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 45px;
+	text-transform: uppercase;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_general_info .parameter p.description{
+	color: #fff;
+	font-size: 22px;
+	line-height: 20px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_general_info .parameter p span{
+	width: 30px;
+	font-size: 16px;
+	line-height: 15px;
+}
+
+
+
+.widget_window.challenges_century .info_window .block_info .block_factors{
+	display: flex;
+	flex-direction: column;
+	gap: 90px;
+	width: 1150px;
+	min-width: 1150px;
+	height: fit-content;
+	border: 2px solid rgb(50, 87, 158);
+	border-radius: 40px;
+	background-color: rgba(50, 87, 158, 0.3);
+	padding: 30px 40px 40px;
+	box-sizing: border-box;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 185px;
+	position: relative;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor::before{
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #617A99;
+	position: absolute;
+	bottom: -60px;
+	left: 0;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor:last-child:before{
+	display: none;
+}
+
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 450px;
+	height: 100%;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part h4{
+	color: #F7FF73;
+	font-size: 30px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression h5{
+	color: #fff;
+	font-size: 20px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression{
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 30px;
+	position: relative;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar .progress_bar__bg{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(93, 111, 173, .8);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progress_bar .progress_bar__completion{
+	width: 0%;
+	height: 100%;
+	background-color: #58FAFD;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p{
+	display: inline-flex;
+	align-items: center;
+	color: #63FDFD;
+	font-size: 36px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .left_part .block_progression .progression p span{
+	width: 100px;
+	font-size: 12px;
+	line-height: 12px;
+	position: absolute;
+	right: -107px;
+}
+
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: start;
+	justify-content: space-around;
+	width: 520px;
+	height: 100%;
+}
+
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics{
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5{
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	width: 200px;
+	color: #63FDFD;
+	font-size: 36px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 30px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics h5 span{
+	display: inline-flex;
+	font-size: 14px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p{
+	width: 280px;
+	color: #fff;
+	font-size: 17px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+	padding: 3px 0 3px 18px;
+	position: relative;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_statistics p::before{
+	content: "";
+	width: 2px;
+	height: 100%;
+	background-color: #617A99;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression h5{
+	color: #fff;
+	font-size: 18px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression{
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 300px;
+	height: 30px;
+	position: relative;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar .progress_bar__bg{
+	width: 100%;
+	height: 100%;
+	background-color: rgb(93, 111, 173, .8);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progress_bar .progress_bar__completion{
+	width: 0%;
+	height: 100%;
+	background-color: #58FAFD;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	color: #63FDFD;
+	font-size: 36px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.widget_window.challenges_century .info_window .block_info .block_factors .block_factor .right_part .block_progression .progression p span{
+	font-size: 12px;
+	line-height: 15px;
+	position: absolute;
+	bottom: -20px;
+}
+
+
+
+
+.widget_window.challenges_century .info_window .block_switches{
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+	width: 100%;
+	height: 300px;
+	margin-bottom: 25px;
+	position: relative;
+	z-index: 5;
+}
+
+
+.widget_window.challenges_century .info_window .block_switches span{
+	color: #fff;
+	font-size: 13px;
+	font-family: "Eimantas";
+	font-weight: 400;
+	line-height: 20px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+
+.widget_window.challenges_century .info_window .block_switches .block_switch{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 360px;
+	position: relative;
+	cursor: pointer;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border: 2px solid #6C70EB;
+	border-radius: 20px;
+	background: linear-gradient(to right, rgba(93, 77, 156, 0.5), rgba(93, 77, 156, 0.5));
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -2;
+
+	opacity: 1;
+	transition: all .3s ease;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch._active::before{
+	opacity: 0;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	border: 2px solid #6C70EB;
+	border-radius: 20px;
+	background: linear-gradient(to right, rgba(93, 77, 156, 0.5), rgba(93, 77, 156, 0.5));
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+	opacity: 0;
+	transition: all .3s ease;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch._active::after{
+	opacity: 1;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(2)._active::after{
+	border: 2px solid #056C71;
+	background: linear-gradient(to right, rgba(6, 135, 138, 0.95), rgba(5, 108, 113, 0.6));
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(3)._active::after{
+	border: 2px solid #3B5F8C;
+	background: linear-gradient(to right, rgba(94, 100, 197, 0.95), rgba(75, 61, 113, 0.6));
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(4)._active::after{
+	border: 2px solid #4B3352;
+	background: linear-gradient(to right, rgba(148, 85, 162, 0.95), rgba(65, 46, 84, 0.6));
+}
+
+
+.widget_window.challenges_century .info_window .block_switches .block_switch .block_animation{
+	width: 100%;
+	height: 100%;
+	border: 2px solid #6C70EB;
+	border-radius: 20px;
+	background: linear-gradient(to right, rgba(93, 77, 156, 0.5), rgba(93, 77, 156, 0.5));
+	position: absolute;
+	z-index: -1;
+
+	opacity: 0;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(2) .block_animation{
+	border: 2px solid #056C71;
+	background: linear-gradient(to right, rgba(6, 135, 138, 0.95), rgba(5, 108, 113, 0.6));
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(3) .block_animation{
+	border: 2px solid #3B5F8C;
+	background: linear-gradient(to right, rgba(94, 100, 197, 0.95), rgba(75, 61, 113, 0.6));
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(4) .block_animation{
+	border: 2px solid #4B3352;
+	background: linear-gradient(to right, rgba(148, 85, 162, 0.95), rgba(65, 46, 84, 0.6));
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch._active .block_animation {
+    animation: shrinkDisappear 0.55s ease-in-out forwards;
+}
+
+@keyframes shrinkDisappear {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(0.2);
+        opacity: 0;
+    }
+}
+
+
+.widget_window.challenges_century .info_window .block_switches .block_switch .block_text{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	height: 100%;
+	width: 100%;
+	padding: 20px 25px;
+	box-sizing: border-box;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch h2{
+	width: fit-content;
+	color: #fff;
+	font-size: 55px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 45px;
+	margin-bottom: 10px;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch h4{
+	width: fit-content;
+	color: #fff;
+	font-size: 26px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 40px;
+	margin-bottom: 5px;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch p{
+	width: 90%;
+	color: #E8E7EE;
+	font-size: 16px;
+	font-family: "Eimantas";
+	font-weight: 400;
+	line-height: 20px;
+}
+
+
+.widget_window.challenges_century .info_window .block_switches .block_switch .arrow{
+	width: 80px;
+	height: 15px;
+	position: absolute;
+	top: 30px;
+	right: 60px;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch .arrow svg{
+	width: 100%;
+	height: 100%;
+	opacity: .8;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch._active .arrow svg{
+	opacity: .2;
+}
+
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(2) .arrow {
+    animation: arrowSlide 1.7s ease-in-out infinite;
+    animation-delay: 0s;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(3) .arrow {
+    animation: arrowSlide 1.7s ease-in-out infinite;
+    animation-delay: 0.3s;
+}
+
+.widget_window.challenges_century .info_window .block_switches .block_switch:nth-child(4) .arrow {
+    animation: arrowSlide 1.7s ease-in-out infinite;
+    animation-delay: 0.6s;
+}
+
+@keyframes arrowSlide {
+    0% {
+        transform: translateX(-70%);
+        opacity: 0;
+    }
+    45% {
+        transform: translateX(0);
+        opacity: .8;
+    }
+	55% {
+        transform: translateX(0);
+        opacity: .8;
+    }
+    100% {
+        transform: translateX(70%);
+        opacity: 0;
+    }
+}

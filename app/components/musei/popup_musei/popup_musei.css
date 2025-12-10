@@ -1,0 +1,162 @@
+.popup_musei {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.popup_musei .popup_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    min-height: 650px;
+    max-height: 100vh;
+    border: 4px solid #4547bb8e;
+    border-radius: 20px;
+    background-color: #191933;
+    padding: 0 40px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.popup_musei .popup_content .block_img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.popup_musei .popup_content .block_img::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.popup_musei .popup_content .block_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+}
+
+.popup_musei .popup_content .block_content .block_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.popup_musei .popup_content .block_content .block_text h1 {
+    width: fit-content;
+    color: #fff;
+    font-size: 67px;
+    font-family: 'Benzin';
+    font-weight: 600;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.popup_musei .popup_content .block_content .block_text p {
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Benzin';
+    font-weight: 400;
+    text-align: center;
+}
+
+.popup_musei .popup_content .block_content .registration_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.popup_musei .popup_content .block_content .registration_form .form_group {
+    width: 400px;
+    height: 45px;
+}
+
+.popup_musei .popup_content .block_content .registration_form .form_group input {
+    all: unset;
+    width: 100%;
+    height: 100%;
+    color: #000;
+    font-size: 20px;
+    border: 3px solid #03d75b00;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 0 10px;
+    box-sizing: border-box;
+    transition: all .2s ease;
+}
+
+.popup_musei .popup_content .block_content .registration_form .form_group input:focus {
+    border: 3px solid #03D75C;
+}
+
+.popup_musei .popup_content .block_content .registration_form button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Raleway";
+    font-weight: 600;
+    border: 3px solid #03D75C;
+    border-radius: 10px;
+    background-color: #03d75b00;
+    margin-top: 20px;
+    cursor: pointer;
+    user-select: none;
+    transition: all .3s ease;
+}
+
+.popup_musei .popup_content .block_content .registration_form button:hover {
+    background-color: #03D75C;
+}
+
+.popup_musei .popup_content .block_content .registration_form .message {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 16px;
+}
+
+.popup_musei .popup_content .block_content .registration_form .message.success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.popup_musei .popup_content .block_content .registration_form .message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}

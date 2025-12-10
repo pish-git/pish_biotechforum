@@ -1,0 +1,164 @@
+.widget_window.challenges_century .main_window{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	transition: all .7s ease;
+}
+
+.widget_window.challenges_century .main_window._hidden{
+	opacity: 0;
+}
+
+
+
+.widget_window.challenges_century .main_window .block_header{
+	display: flex;
+	gap: 15px;
+	justify-content: right;
+	width: 320px;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	z-index: 5;
+}
+
+
+.widget_window.challenges_century .main_window .block_header span{
+	width: 65px;
+	margin-top: 1px;
+}
+
+.widget_window.challenges_century .main_window .block_header span svg{
+	width: 100%;
+}
+
+
+.widget_window.challenges_century .main_window .block_header h4{
+	color: #fff;
+	font-size: 26px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 30px;
+}
+
+
+
+.widget_window.challenges_century .main_window .block_chronology{
+	display: flex;
+	width: 2000px;
+	min-width: 2000px;
+	height: 480px;
+	background: url("../../img/block_chronology_bg.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 190px;
+	height: 190px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+
+	transition: all .3s ease;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year._active{
+	transform: scale(1.15);
+}
+
+
+.widget_window.challenges_century .main_window .block_chronology .block_year::before{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: url("../../img/block_year_bg.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: url("../../img/block_year_bg_active.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+
+	opacity: 0;
+	transition: all .3s ease;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year._active::after{
+	opacity: 1;
+}
+
+
+.widget_window.challenges_century .main_window .block_chronology .block_year p{
+	width: 92px;
+	color: #fff;
+	font-size: 34px;
+	font-family: "Eimantas";
+	font-weight: 700;
+	line-height: 23px;
+	text-align: center;
+	position: absolute;
+	top: 59px;
+	left: 34px;
+	z-index: 3;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year p span{
+	font-size: 18px;
+}
+
+
+.widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(1){
+	top: auto;
+	bottom: 30px;
+	left: 150px;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(2){
+	top: 20px;
+	left: 420px;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(3){
+	top: auto;
+	bottom: 50px;
+	left: 740px;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(4){
+	top: 40px;
+	left: 1050px;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(5){
+	top: auto;
+	bottom: 50px;
+	left: 1340px;
+}
+
+.widget_window.challenges_century .main_window .block_chronology .block_year:nth-child(6){
+	left: 1550px;
+}

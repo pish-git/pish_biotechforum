@@ -1,0 +1,402 @@
+@media only screen and (max-width : 1000px){
+    .zaa_block_infections .tip_click {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media only screen and (max-width : 1100px) and (max-height : 1200px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 550px;
+        height: 400px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 500px;
+        height: 300px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 450px;
+        height: 470px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 700px;
+        height: 400px;
+        left: -50px;
+    }
+}
+
+
+@media only screen and (max-width : 1000px){
+    .zaa_block_infections .infection_img:nth-child(4) {
+        left: -150px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        left: 400px;
+    }
+}
+
+
+@media only screen and (max-width : 900px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 550px;
+        height: 400px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 500px;
+        height: 300px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 450px;
+        height: 470px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 700px;
+        height: 400px;
+        left: -150px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        left: 300px;
+    }
+}
+
+@media only screen and (max-width : 900px) and (max-height : 1100px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 500px;
+        height: 350px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 450px;
+        height: 350px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 400px;
+        height: 420px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 620px;
+        height: 320px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        width: 65px;
+        height: 65px;
+        top: 150px;
+        left: 250px;
+    }
+}
+
+
+@media only screen and (max-width : 760px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 500px;
+        height: 350px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 450px;
+        height: 350px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 400px;
+        height: 420px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 620px;
+        height: 320px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        width: 65px;
+        height: 65px;
+        top: 150px;
+        left: 250px;
+    }
+}
+
+@media only screen and (max-width : 760px) and (max-height : 1100px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 400px;
+        height: 300px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 400px;
+        height: 250px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 350px;
+        height: 370px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 520px;
+        height: 280px;
+        left: -100px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        width: 65px;
+        height: 65px;
+        top: 150px;
+        left: 250px;
+    }
+}
+
+
+@media only screen and (max-width : 600px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 370px;
+        height: 280px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 350px;
+        height: 220px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 330px;
+        height: 350px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 500px;
+        height: 250px;
+        left: -100px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        width: 60px;
+        height: 60px;
+        top: 120px;
+        left: 220px;
+    }
+
+    .zaa_block_infections .tip_click svg {
+        width: 30px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width : 600px) and (max-height : 900px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 350px;
+        height: 250px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 320px;
+        height: 180px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 310px;
+        height: 330px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 450px;
+        height: 220px;
+        left: -100px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        width: 55px;
+        height: 55px;
+        top: 110px;
+        left: 170px;
+    }
+
+    .zaa_block_infections .tip_click svg {
+        width: 30px;
+        height: 25px;
+    }
+}
+
+
+@media only screen and (max-width : 500px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 350px;
+        height: 250px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 320px;
+        height: 180px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 310px;
+        height: 330px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 450px;
+        height: 220px;
+        left: -100px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        width: 55px;
+        height: 55px;
+        top: 110px;
+        left: 170px;
+    }
+
+    .zaa_block_infections .tip_click svg {
+        width: 30px;
+        height: 25px;
+    }
+}
+
+@media only screen and (max-width : 500px) and (max-height : 800px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 320px;
+        height: 220px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 280px;
+        height: 150px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 280px;
+        height: 300px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 420px;
+        height: 200px;
+        left: -100px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        width: 50px;
+        height: 50px;
+        top: 90px;
+        left: 150px;
+    }
+
+    .zaa_block_infections .tip_click svg {
+        width: 28px;
+        height: 23px;
+    }
+}
+
+@media only screen and (max-width : 500px) and (max-height : 700px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 300px;
+        height: 200px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 250px;
+        height: 130px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 250px;
+        height: 270px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 400px;
+        height: 180px;
+        left: -100px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        left: 130px;
+    }
+}
+
+
+@media only screen and (max-width : 400px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 300px;
+        height: 200px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 250px;
+        height: 130px;
+        right: -50px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 230px;
+        height: 250px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 400px;
+        height: 180px;
+        left: -150px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        left: 100px;
+    }
+}
+
+@media only screen and (max-width : 400px) and (max-height : 600px){
+    .zaa_block_infections .infection_img:nth-child(1) {
+        width: 250px;
+        height: 180px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(2) {
+        width: 200px;
+        height: 110px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(3) {
+        width: 220px;
+        height: 220px;
+    }
+
+    .zaa_block_infections .infection_img:nth-child(4) {
+        width: 350px;
+        height: 150px;
+        left: -100px;
+    }
+
+
+    .zaa_block_infections .tip_click {
+        width: 45px;
+        height: 45px;
+        top: 70px;
+        left: 100px;
+    }
+
+    .zaa_block_infections .tip_click svg {
+        width: 25px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,171 @@
+@media only screen and (min-width : 2000px){
+	.button_visit{
+		width: 370px;
+		height: 95px;
+	}
+
+	.button_visit .text{
+		font-size: 26px;
+	}
+
+
+	.app main .heroes_pish .section_content .upper_part .block_hero .button_learn_more,
+	.app main .heroes_pish .section_content .lower_part .block_hero .button_learn_more {
+		width: 480px;
+		height: 80px;
+	}
+
+	.button_learn_more .icon{
+		width: 30px;
+		height: 30px;
+	}
+
+	.button_learn_more .text {
+    	font-size: 22px;
+	}
+}
+
+@media only screen and (max-width : 1800px){
+	.button_visit{
+		width: 240px;
+		height: 70px;
+	}
+
+	.button_visit .text{
+		font-size: 18px;
+	}
+
+
+	.button_learn_more .icon{
+		width: 25px;
+		height: 25px;
+	}
+
+	.button_learn_more .text{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width : 1100px){
+	.button_visit {
+		width: 340px;
+		height: 90px;
+	}
+
+	.button_visit .text {
+		font-size: 24px;
+	}
+
+
+	.button_learn_more {
+		border-radius: 10px;
+	}
+
+	.button_learn_more::before {
+		border-radius: 10px;
+	}
+
+	.button_learn_more .icon {
+		width: 28px;
+		height: 28px;
+	}
+
+	.button_learn_more .text {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width : 900px){
+	.button_visit {
+		width: 300px;
+		height: 80px;
+	}
+
+	.button_visit .text {
+		font-size: 22px;
+	}
+}
+
+@media only screen and (max-width : 700px){
+	.button_learn_more .text{
+		font-size: 17px;
+	}
+
+	.button_learn_more .icon {
+		width: 25px;
+		height: 25px;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	.button_visit {
+		width: 260px;
+		height: 70px;
+	}
+
+	.button_visit .text {
+		font-size: 18px;
+	}
+
+
+	.button_learn_more {
+		border-radius: 7px;
+	}
+
+	.button_learn_more::before {
+		border-radius: 7px;
+	}
+	
+	.button_learn_more .text{
+		font-size: 16px;
+	}
+
+	.button_learn_more .icon {
+		width: 23px;
+		height: 23px;
+	}
+}
+
+@media only screen and (max-width : 500px){
+	.button_visit {
+		width: 240px;
+		height: 60px;
+		border-radius: 10px;
+	}
+
+	.button_visit::before {
+  		border-radius: 10px;
+	}
+
+	.button_visit .text {
+		font-size: 16px;
+	}
+
+
+
+	.button_learn_more .text{
+		font-size: 12px;
+	}
+
+	.button_learn_more .icon {
+		width: 18px;
+		height: 18px;
+	}
+}
+
+@media only screen and (max-width : 400px){
+	.button_visit {
+		width: 220px;
+		height: 50px;
+	}
+
+	.button_visit .text {
+		font-size: 14px;
+	}
+
+
+	.button_learn_more .icon {
+		width: 15px;
+		height: 15px;
+	}
+}

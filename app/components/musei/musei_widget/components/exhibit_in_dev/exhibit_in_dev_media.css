@@ -1,0 +1,99 @@
+@media only screen and (max-width : 1600px){
+	.block_warning .content h1{
+		font-size: 28px;
+	}
+
+	.block_warning .content p{
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width : 1300px){
+	.block_warning .content h1{
+		font-size: 26px;
+	}
+
+	.block_warning .content p{
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width : 1100px){
+	.block_warning .content h1{
+		font-size: 32px;
+	}
+
+	.block_warning .content p{
+		font-size: 20px;
+	}
+
+
+	.block_warning .content .button_exit{
+		width: 33px;
+		height: 33px;
+	}
+
+
+	.block_warning .content{
+		background-position: center right;
+	}
+}
+
+@media only screen and (max-width : 780px){
+	.block_warning .content h1{
+		width: 90%;
+		font-size: 28px;
+	}
+
+	.block_warning .content p{
+		width: 90%;
+		font-size: 18px;
+	}
+
+
+	.block_warning .content .button_exit{
+		width: 30px;
+		height: 30px;
+	}
+}
+
+@media only screen and (max-width : 500px){
+	.block_warning .content h1{
+		width: 70%;
+		font-size: 22px;
+	}
+
+	.block_warning .content p{
+		width: 70%;
+		font-size: 14px;
+	}
+
+
+	.block_warning .content .button_exit{
+		width: 27px;
+		height: 27px;
+	}
+
+
+	.block_warning .content{
+		background-position-x: -500px;
+	}
+}
+
+@media only screen and (max-width : 420px){
+	.block_warning .content h1{
+		width: 80%;
+		font-size: 20px;
+	}
+
+	.block_warning .content p{
+		width: 80%;
+		font-size: 12px;
+	}
+
+
+	.block_warning .content .button_exit{
+		width: 25px;
+		height: 25px;
+	}
+}

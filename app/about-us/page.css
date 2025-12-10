@@ -1,0 +1,47 @@
+.page_about_us{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(25, 25, 51, 1);
+	position: relative;
+	overflow-x: hidden;
+}
+
+
+
+.page_about_us .page_bg{
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	z-index: 1;
+	mix-blend-mode: lighten;
+	pointer-events: none;
+	overflow: hidden;
+}
+
+.page_about_us .page_bg img{
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+
+
+.page_about_us main{
+	width: 100vw;
+	height: 100%;
+	margin-top: 100px;
+	position: relative;
+	z-index: 2;
+}
+
+.page_about_us footer .patterns .pattern{
+	display: none;
+}

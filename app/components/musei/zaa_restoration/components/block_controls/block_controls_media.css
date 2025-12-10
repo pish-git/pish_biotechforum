@@ -1,0 +1,747 @@
+@media only screen and (max-width : 1100px){
+	.widget_window .main_window .block_mobile .mobile_bottom_section {
+		width: 100%;
+		height: 300px;
+		position: relative;
+	}
+
+
+
+	.zaa_block_controls{
+		height: 100%;
+	}
+
+
+
+	.zaa_block_controls .part_start{
+		flex-direction: column;
+		gap: 30px;
+		align-items: start;
+		justify-content: center;
+	}
+
+
+	.zaa_block_controls .part_start .art_info h3 {
+		font-size: 34px;
+	}
+
+	.zaa_block_controls .part_start .art_info p {
+    	font-size: 24px;
+	}
+
+
+	.zaa_block_controls .part_start .block_bottom{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+
+	.zaa_block_controls .part_start .slider_nav {
+		gap: 35px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button {
+		width: 72px;
+		height: 72px;
+	}
+
+	.zaa_block_controls .part_start button::before{
+		width: 118%;
+		height: 118%;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button span {
+		width: 25px;
+		height: 25px;
+	}
+
+
+	.zaa_block_controls .part_start .button_select {
+		width: 190px;
+		min-width: 190px;
+		height: 50px;
+		font-size: 24px;
+	}
+
+	.zaa_block_controls .part_start .button_select::before {
+		width: 106%;
+		height: 128%;
+	}
+
+	.zaa_block_controls .part_start .button_select span:nth-child(2) {
+		width: 20px;
+		height: 20px;
+	}
+
+
+
+	.zaa_block_controls .part_main{
+		background: rgb(44, 40, 51);
+		background: linear-gradient(50deg, rgb(44, 40, 51) 70%, rgb(107, 92, 84));
+	}
+
+
+	.zaa_block_controls .part_main button .button_text {
+    	font-size: 24px;
+	}
+
+	.zaa_block_controls .part_main button .button_icon {
+		width: 20px;
+		height: 20px;
+	}
+
+
+	.zaa_block_controls .part_main .button_back {
+		gap: 30px;
+		width: 180px;
+		height: 50px;
+	}
+
+	.zaa_block_controls .part_main .button_back::before {
+		width: 107%;
+		height: 128%;
+		border-radius: 40px;
+	}
+
+
+	.zaa_block_controls .part_main .buttons_experiment{
+		flex-direction: column;
+		gap: 30px;
+	}
+
+	.zaa_block_controls .part_main .button_select {
+		gap: 20px;
+		max-width: 550px;
+		height: 55px;
+		padding: 25px;
+	}
+
+	.zaa_block_controls .part_main .button_select::before {
+		width: 103%;
+		height: 130%;
+		border-radius: 40px;
+	}
+
+
+
+	.zaa_block_controls .part_final{
+		flex-direction: column;
+		gap: 30px;
+		justify-content: center;
+		background: rgb(44, 40, 51);
+		background: linear-gradient(50deg, rgb(44, 40, 51) 70%, rgb(107, 92, 84));
+	}
+
+
+	.zaa_block_controls .part_final button{
+		gap: 30px;
+		width: 500px;
+		max-width: none;
+		height: 50px;
+	}
+
+	.zaa_block_controls .part_final button::before {
+		width: 103%;
+		height: 130%;
+		border-radius: 40px;
+	}
+
+
+	.zaa_block_controls .part_final button .button_text {
+		width: 100%;
+    	font-size: 24px;
+		text-align: left;
+	}
+
+	.zaa_block_controls .part_final button .button_icon {
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		right: 15px;
+	}
+
+
+	.zaa_block_controls .part_final .buttons_experiment{
+		flex-direction: column;
+		gap: 30px;
+	}
+}
+
+@media only screen and (max-width : 1000px){
+	.zaa_block_controls .part_main {
+		padding: 0 60px;
+	}
+}
+
+@media only screen and (max-width : 900px){
+	.zaa_block_controls .part_start{
+		gap: 40px;
+		padding: 0 60px;
+	}
+
+
+	.zaa_block_controls .part_start .art_info h3 {
+		font-size: 30px;
+	}
+
+	.zaa_block_controls .part_start .art_info p {
+    	font-size: 20px;
+	}
+
+
+	.zaa_block_controls .part_start .slider_nav {
+		gap: 30px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button {
+		width: 65px;
+		height: 65px;
+	}
+
+	.zaa_block_controls .part_start button::before{
+		width: 115%;
+		height: 115%;
+	}
+
+
+	.zaa_block_controls .part_start .button_select {
+		width: 170px;
+		min-width: 170px;
+		height: 45px;
+		font-size: 20px;
+	}
+
+	.zaa_block_controls .part_start .button_select::before {
+		width: 106%;
+		height: 128%;
+	}
+
+	.zaa_block_controls .part_start .button_select span:nth-child(2) {
+		width: 18px;
+		height: 18px;
+	}
+
+
+
+	.zaa_block_controls .part_main button .button_text {
+    	font-size: 20px;
+	}
+
+	.zaa_block_controls .part_main button .button_icon {
+		width: 18px;
+		height: 18px;
+	}
+
+
+	.zaa_block_controls .part_main .button_back {
+		gap: 25px;
+		width: 150px;
+		height: 50px;
+	}
+
+
+	.zaa_block_controls .part_main .button_select {
+		gap: 20px;
+		max-width: 520px;
+		height: 50px;
+		padding: 25px;
+	}
+
+
+
+	.zaa_block_controls .part_final button{
+		gap: 30px;
+		width: 430px;
+		height: 50px;
+	}
+
+
+	.zaa_block_controls .part_final button .button_text {
+		width: 100%;
+    	font-size: 20px;
+	}
+
+	.zaa_block_controls .part_final button .button_icon {
+		width: 18px;
+		height: 18px;
+	}
+}
+
+@media only screen and (max-width : 760px){
+	.widget_window .main_window .block_mobile .mobile_bottom_section {
+        height: 280px;
+	}
+
+
+	.zaa_block_controls .part_start{
+		gap: 40px;
+		padding: 0 60px;
+	}
+
+
+	.zaa_block_controls .part_start .art_info h3 {
+		font-size: 28px;
+	}
+
+	.zaa_block_controls .part_start .art_info p {
+    	font-size: 18px;
+	}
+
+
+	.zaa_block_controls .part_start .slider_nav {
+		gap: 30px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button {
+		width: 60px;
+		height: 60px;
+	}
+
+	.zaa_block_controls .part_start button::before{
+		width: 115%;
+		height: 115%;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button span {
+        width: 22px;
+        height: 22px;
+    }
+
+
+	.zaa_block_controls .part_start .button_select {
+		width: 160px;
+		min-width: 160px;
+		height: 40px;
+		font-size: 18px;
+	}
+
+	.zaa_block_controls .part_start .button_select::before {
+		width: 105%;
+		height: 120%;
+	}
+
+	.zaa_block_controls .part_start .button_select span:nth-child(2) {
+		width: 16px;
+		height: 16px;
+	}
+
+
+
+	.zaa_block_controls .part_main button .button_text {
+    	font-size: 18px;
+	}
+
+	.zaa_block_controls .part_main button .button_icon {
+		width: 16px;
+		height: 16px;
+	}
+
+
+	.zaa_block_controls .part_main .button_back {
+		gap: 20px;
+		width: 130px;
+		height: 45px;
+	}
+
+
+	.zaa_block_controls .part_main .button_select {
+		gap: 20px;
+		max-width: 480px;
+		height: 45px;
+		padding: 20px;
+	}
+
+
+
+	.zaa_block_controls .part_final button{
+		gap: 30px;
+		width: 430px;
+		height: 50px;
+	}
+
+
+	.zaa_block_controls .part_final button .button_text {
+		width: 100%;
+    	font-size: 20px;
+	}
+
+	.zaa_block_controls .part_final button .button_icon {
+		width: 18px;
+		height: 18px;
+	}
+}
+
+@media only screen and (max-width : 700px){
+	.zaa_block_controls .part_main {
+        padding: 0 40px;
+    }
+
+	.zaa_block_controls .part_main .button_select {
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+	.zaa_block_controls .part_main .button_back {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width : 650px){
+	.widget_window .main_window .block_mobile .mobile_bottom_section {
+        height: 240px;
+	}
+
+
+	.zaa_block_controls .part_start{
+		gap: 30px;
+		padding: 0 40px;
+	}
+
+
+	.zaa_block_controls .part_start .art_info h3 {
+		font-size: 26px;
+	}
+
+	.zaa_block_controls .part_start .art_info p {
+    	font-size: 16px;
+	}
+
+
+	.zaa_block_controls .part_start .slider_nav {
+		gap: 25px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button {
+		width: 50px;
+		height: 50px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button span {
+        width: 20px;
+        height: 20px;
+    }
+
+
+	.zaa_block_controls .part_start .button_select {
+		width: 142px;
+		min-width: 142px;
+		height: 38px;
+		font-size: 16px;
+	}
+
+	.zaa_block_controls .part_start .button_select span:nth-child(2) {
+		width: 16px;
+		height: 16px;
+	}
+
+
+
+	.zaa_block_controls .part_main button .button_text {
+    	font-size: 16px;
+	}
+
+	.zaa_block_controls .part_main button .button_icon {
+		width: 16px;
+		height: 16px;
+	}
+
+
+	.zaa_block_controls .part_main .button_back {
+		gap: 20px;
+		width: 120px;
+		height: 40px;
+	}
+
+
+	.zaa_block_controls .part_main .button_select {
+		max-width: 480px;
+		height: 40px;
+	}
+
+
+
+	.zaa_block_controls .part_final button{
+		gap: 30px;
+		width: 350px;
+		height: 40px;
+	}
+
+
+	.zaa_block_controls .part_final button .button_text {
+		width: 100%;
+    	font-size: 16px;
+	}
+
+	.zaa_block_controls .part_final button .button_icon {
+		width: 16px;
+		height: 16px;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	.widget_window .main_window .block_mobile .mobile_bottom_section {
+        height: 230px;
+	}
+
+
+
+	.zaa_block_controls .part_start{
+		gap: 25px;
+	}
+
+
+
+	.zaa_block_controls .part_main{
+		gap: 20px;
+		padding: 0 20px;
+	}
+
+	.zaa_block_controls .part_main .button_select {
+        gap: 10px;
+        padding: 0 10px;
+    }
+
+	.zaa_block_controls .part_main .button_back {
+		gap: 15px;
+		width: 110px;
+	}
+
+
+
+	.zaa_block_controls .part_final {
+        gap: 20px;
+	}
+
+	.zaa_block_controls .part_final button::before {
+        width: 102%;
+        height: 125%;
+    }
+
+	.zaa_block_controls .part_final .buttons_experiment {
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width : 500px){
+	.widget_window .main_window .block_mobile .mobile_bottom_section {
+        height: 200px;
+	}
+
+
+	.zaa_block_controls .part_start{
+		gap: 25px;
+		padding: 0 30px;
+	}
+
+
+	.zaa_block_controls .part_start .art_info h3 {
+		font-size: 24px;
+	}
+
+	.zaa_block_controls .part_start .art_info p {
+    	font-size: 14px;
+	}
+
+
+	.zaa_block_controls .part_start .slider_nav {
+		gap: 20px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button {
+		width: 45px;
+		height: 45px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button span {
+        width: 18px;
+        height: 18px;
+    }
+
+
+	.zaa_block_controls .part_start .button_select {
+		width: 132px;
+		min-width: 132px;
+		height: 35px;
+		font-size: 14px;
+	}
+
+	.zaa_block_controls .part_start .button_select span:nth-child(2) {
+		width: 14px;
+		height: 14px;
+	}
+
+
+
+	.zaa_block_controls .part_main button .button_text {
+    	font-size: 14px;
+	}
+
+	.zaa_block_controls .part_main button .button_icon {
+		width: 14px;
+		height: 14px;
+	}
+
+
+	.zaa_block_controls .part_main .button_back {
+		width: 100px;
+		height: 35px;
+	}
+
+
+	.zaa_block_controls .part_main .buttons_experiment {
+        gap: 20px;
+    }
+
+
+	.zaa_block_controls .part_main .button_select {
+		max-width: 420px;
+		height: 35px;
+	}
+
+
+
+	.zaa_block_controls .part_final button{
+		gap: 20px;
+		width: 310px;
+		height: 35px;
+	}
+
+
+	.zaa_block_controls .part_final button .button_text {
+		width: 100%;
+    	font-size: 14px;
+	}
+
+	.zaa_block_controls .part_final button .button_icon {
+		width: 14px;
+		height: 14px;
+	}
+}
+
+@media only screen and (max-width : 460px){
+	.zaa_block_controls .part_main {
+        gap: 15px;
+        padding: 0 15px;
+    }
+
+
+	.zaa_block_controls .part_main .button_back {
+		gap: 10px;
+		padding: 0 10px;
+	}
+
+
+	.zaa_block_controls .part_main .button_select .button_text {
+    	font-size: 12px;
+	}
+
+	.zaa_block_controls .part_main .button_select .button_icon {
+		width: 12px;
+		height: 12px;
+	}
+}
+
+@media only screen and (max-width : 400px){
+	.widget_window .main_window .block_mobile .mobile_bottom_section {
+        height: 160px;
+	}
+
+
+	.zaa_block_controls .part_start{
+		gap: 25px;
+		padding: 0 30px;
+	}
+
+
+	.zaa_block_controls .part_start .art_info h3 {
+		font-size: 20px;
+	}
+
+	.zaa_block_controls .part_start .art_info p {
+    	font-size: 12px;
+	}
+
+
+	.zaa_block_controls .part_start .slider_nav {
+		gap: 20px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button {
+		width: 40px;
+		height: 40px;
+	}
+
+	.zaa_block_controls .part_start .slider_nav button span {
+        width: 18px;
+        height: 18px;
+    }
+
+
+	.zaa_block_controls .part_start .button_select {
+		width: 115px;
+		min-width: 115px;
+		height: 32px;
+		font-size: 14px;
+	}
+
+	.zaa_block_controls .part_start .button_select .button_text{
+		padding: 0 15px;
+	}
+
+	.zaa_block_controls .part_start .button_select span:nth-child(2) {
+		width: 14px;
+		height: 14px;
+		right: 12px;
+	}
+
+
+
+	.zaa_block_controls .part_main .button_back {
+		width: 85px;
+		height: 30px;
+	}
+
+	.zaa_block_controls .part_main .button_back .button_text {
+    	font-size: 12px;
+	}
+
+	.zaa_block_controls .part_main .button_back .button_icon {
+		width: 12px;
+		height: 12px;
+	}
+
+
+	.zaa_block_controls .part_main .button_select{
+		height: 30px;
+	}
+
+	.zaa_block_controls .part_main .button_select .button_text {
+    	font-size: 10px;
+	}
+
+	.zaa_block_controls .part_main .button_select .button_icon {
+		width: 10px;
+		height: 10px;
+	}
+
+
+
+	.zaa_block_controls .part_final button{
+		gap: 20px;
+		width: 290px;
+		height: 30px;
+	}
+
+
+	.zaa_block_controls .part_final button .button_text {
+		width: 100%;
+    	font-size: 13px;
+	}
+
+	.zaa_block_controls .part_final button .button_icon {
+		width: 13px;
+		height: 13px;
+	}
+}

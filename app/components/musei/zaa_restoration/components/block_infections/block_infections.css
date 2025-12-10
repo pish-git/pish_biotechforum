@@ -1,0 +1,160 @@
+:root{
+	--solvent-top: 100px;
+    --solvent-left: 200px;
+}
+
+
+
+.zaa_block_infections{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	pointer-events: none;
+
+	transition: all 1s ease;
+}
+
+.zaa_block_infections._hidden{
+	opacity: 0;
+}
+
+
+.zaa_block_infections .infection_img{
+	position: absolute;
+	pointer-events: painted;
+	cursor: pointer;
+
+	transition: all 1s ease;
+}
+
+.zaa_block_infections .infection_img._hidden{
+	opacity: 0;
+	pointer-events: none;
+}
+
+.zaa_block_infections .infection_img:nth-child(1){
+	width: 650px;
+	height: 500px;
+	bottom: 0;
+	left: 0;
+}
+
+.zaa_block_infections .infection_img:nth-child(2){
+	width: 600px;
+	height: 350px;
+	bottom: 0;
+	right: 0;
+}
+
+.zaa_block_infections .infection_img:nth-child(3){
+	width: 480px;
+	height: 500px;
+	top: 0;
+	right: 0;
+}
+
+.zaa_block_infections .infection_img:nth-child(4){
+	width: 800px;
+	height: 450px;
+	top: 0;
+	left: 0;
+}
+
+.zaa_block_infections .infection_img img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.zaa_block_infections .tip_click{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 65px;
+	height: 65px;
+	background: linear-gradient(135deg, rgb(123, 93, 110), rgb(101, 88, 111));
+	border-radius: 50%;
+	position: absolute;
+	top: 190px;
+	left: 500px;
+	z-index: 8;
+
+	transition: all .5s ease;
+	animation: pulse 2s infinite ease-in-out;
+}
+
+.zaa_block_infections .tip_click._hidden{
+	opacity: 0;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.85);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.zaa_block_infections .tip_click::before{
+	content: "";
+	width: 80%;
+	height: 80%;
+	border: 1px solid rgb(154, 135, 149);
+	border-radius: 50%;
+	position: absolute;
+	z-index: 2;
+}
+
+.zaa_block_infections .tip_click::after{
+	content: "";
+	width: 115%;
+	height: 115%;
+	border: 1px solid rgb(133, 95, 109);
+	border-radius: 50%;
+	position: absolute;
+	z-index: 2;
+}
+
+
+.zaa_block_infections .tip_click svg{
+	width: 35px;
+	height: 32px;
+}
+
+
+
+.zaa_block_infections .solvent_in_art{    
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    top: var(--solvent-top);
+    left: var(--solvent-left);
+    z-index: 7;
+    mix-blend-mode: multiply;
+	pointer-events: none;
+
+	opacity: .5;
+	transition: all .5s ease;
+}
+
+.zaa_block_infections .solvent_in_art._hidden{
+	opacity: 0;
+}
+
+.zaa_block_infections .solvent_in_art img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}

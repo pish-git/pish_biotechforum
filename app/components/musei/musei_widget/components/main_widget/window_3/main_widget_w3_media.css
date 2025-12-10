@@ -1,0 +1,492 @@
+@media only screen and (max-width : 1800px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1){
+		width: 430px;
+		left: 910px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button{
+		width: 380px;
+		height: 240px;
+		top: 250px;
+		right: 10px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition button .icon{
+		width: 85px;
+		height: 79px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition button .text{
+		font-size: 18px;
+	}
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1){
+		width: 760px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1) button{
+		width: 740px;
+	}
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2){
+		width: 250px;
+		left: 1340px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button{
+		width: 230px;
+		height: 410px;
+		top: 200px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+		width: 270px;
+		height: 320px;
+		top: 100px;
+		left: 620px;
+	}
+}
+
+@media only screen and (max-width : 1600px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1){
+		width: 380px;
+		left: 810px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button{
+		width: 340px;
+		height: 220px;
+		top: 270px;
+		right: 10px;
+	}
+
+
+	.musei_widget .window_3 .block_transitions .block_transition button .icon{
+		width: 80px;
+		height: 74px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition button .text{
+		width: 80%;
+		font-size: 16px;
+	}
+
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1){
+		width: 680px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1) button{
+		width: 650px;
+	}
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2){
+		width: 240px;
+		left: 1190px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button{
+		width: 200px;
+		height: 380px;
+		top: 210px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+        width: 270px;
+        height: 290px;
+        top: 120px;
+        left: 530px;
+    }
+}
+
+@media only screen and (max-width : 1430px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1){
+		width: 345px;
+		left: 720px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button{
+		width: 300px;
+		height: 200px;
+		top: 290px;
+		right: 15px;
+	}
+
+
+	.musei_widget .window_3 .block_transitions .block_transition button .text{
+		width: 80%;
+		font-size: 15px;
+	}
+
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1){
+		width: 610px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1) button{
+		width: 580px;
+	}
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2){
+		width: 200px;
+		left: 1065px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button{
+		width: 190px;
+		height: 335px;
+		top: 230px;
+	}
+	
+
+
+	.musei_widget .window_3 .pattern {
+        width: 220px;
+        height: 260px;
+        top: 150px;
+        left: 490px;
+    }
+}
+
+@media only screen and (max-width : 1300px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1){
+		width: 350px;
+		left: 650px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button{
+		width: 280px;
+		height: 190px;
+		top: 280px;
+		right: 20px;
+	}
+
+
+	.musei_widget .window_3 .block_transitions .block_transition button .icon{
+		width: 75px;
+		height: 69px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition button .text{
+		font-size: 14px;
+	}
+
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1){
+		width: 550px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1) button{
+		width: 580px;
+	}
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2){
+		width: 200px;
+		left: 1000px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button{
+		width: 190px;
+		height: 335px;
+		top: 230px;
+	}
+	
+
+
+	.musei_widget .window_3 .pattern {
+        width: 220px;
+        height: 260px;
+        top: 150px;
+        left: 430px;
+    }
+}
+
+@media only screen and (max-width : 1200px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1){
+		width: 320px;
+		left: 605px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button{
+		width: 250px;
+		height: 190px;
+		top: 290px;
+		right: 20px;
+	}
+
+
+	.musei_widget .window_3 .block_transitions .block_transition button .icon{
+		width: 70px;
+		height: 64px;
+	}
+
+	.musei_widget .window_3 .block_transitions .block_transition button .text{
+		font-size: 13px;
+	}
+
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1){
+		width: 500px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(1) button{
+		width: 470px;
+	}
+
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2){
+		width: 185px;
+		left: 925px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button{
+		width: 170px;
+		height: 310px;
+		top: 260px;
+	}
+			
+
+
+	.musei_widget .window_3 .pattern {
+        width: 190px;
+        height: 230px;
+        top: 190px;
+        left: 400px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1801px) and (min-height: 950px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 400px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 380px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+		top: 270px;
+	}
+}
+
+@media only screen and (min-width: 1801px) and (max-height: 750px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 240px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 180px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+		top: 70px;
+	}
+}
+
+@media only screen and (min-width: 1801px) and (max-height: 700px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 200px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 130px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+		top: 20px;
+	}
+}
+
+@media only screen and (min-width: 1801px) and (max-height: 650px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 150px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 80px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+		top: -30px;
+	}
+}
+
+
+
+@media only screen and (min-width: 1601px) and (max-width: 1800px) and (min-height: 850px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 380px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 350px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+		top: 250px;
+	}
+}
+
+@media only screen and (min-width: 1601px) and (max-width: 1800px) and (max-height: 700px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 160px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 100px;
+	}
+	
+
+
+	.musei_widget .window_3 .pattern {
+		top: 5px;
+	}
+}
+
+
+
+@media only screen and (min-width: 1431px) and (max-width: 1600px) and (min-height: 800px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 380px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 350px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+        top: 220px;
+    }
+}
+
+@media only screen and (min-width: 1431px) and (max-width: 1600px) and (max-height: 700px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 160px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 100px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+        top: 70px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1301px) and (max-width: 1430px) and (min-height: 750px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 310px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 280px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+        top: 200px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1430px) and (max-height: 600px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 200px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 150px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+        top: 70px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) and (min-height: 750px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 330px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 280px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+        top: 200px;
+    }
+}
+
+@media only screen and (min-width: 1201px) and (max-width: 1300px) and (max-height: 600px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 200px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button {
+		top: 150px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+        top: 70px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1101px) and (max-width: 1200px) and (max-height: 700px){
+	.musei_widget .window_3 .block_transitions .block_transition:nth-child(1) button {
+		top: 250px;
+	}
+
+	.musei_widget .window_3 .block_exhibits .block_exhibit:nth-child(2) button{
+		width: 140px;
+		height: 280px;
+		top: 245px;
+	}
+
+
+
+	.musei_widget .window_3 .pattern {
+        top: 170px;
+        left: 410px;
+    }
+}

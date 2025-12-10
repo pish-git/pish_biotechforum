@@ -1,0 +1,227 @@
+.video_container_mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+.video_container_mobile._full_width{
+    width: 100%;
+}
+
+.video_container_mobile._hidden{
+    height: 0 !important;
+    min-height: 0 !important;
+    margin: 0;
+    pointer-events: none;
+}
+
+.video_container_mobile video {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* Заголовок видео */
+.video_container_mobile .mobile_top_title {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 0.95) 0%,
+        rgba(0, 0, 0, 0.4) 80%,
+        rgba(0, 0, 0, 0.05) 100%
+    );
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    pointer-events: none;
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.video_container_mobile .mobile_top_title._active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.video_container_mobile .mobile_top_title .title_text {
+    font-family: "Grandis";
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    text-align: left;
+}
+
+/* Центральные кнопки управления */
+.video_container_mobile .mobile_center_controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    pointer-events: none;
+}
+
+.video_container_mobile .mobile_center_controls._active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.video_container_mobile .mobile_center_controls .control_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 85px;
+    background-color: rgb(0, 0, 0, .8);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video_container_mobile .mobile_center_controls .control_button svg {
+    width: 38px;
+}
+
+/* Кнопки перемотки */
+.video_container_mobile .mobile_center_controls .rewind_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(0, 0, 0, .8);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.video_container_mobile .mobile_center_controls .rewind_button svg {
+    width: 34px;
+}
+
+/* Нижние контролы */
+.video_container_mobile .mobile_bottom_controls {
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    box-sizing: border-box;
+    background: linear-gradient(
+        to top, 
+        rgba(0, 0, 0, 0.95) 0%,
+        rgba(0, 0, 0, 0.4) 80%,
+        rgba(0, 0, 0, 0.05) 100%
+    );
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    pointer-events: none;
+
+    opacity: 0;
+    transition: all .2s ease;
+}
+
+.video_container_mobile .mobile_bottom_controls._active{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Кнопка звука */
+.video_container_mobile .mobile_bottom_controls .mute_button {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-right: 30px;
+}
+
+.video_container_mobile .mobile_bottom_controls .mute_button svg {
+    width: 100%;
+    height: 100%;
+}
+
+/* Таймер */
+.video_container_mobile .mobile_bottom_controls .timer_control {
+    font-family: "Grandis";
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    white-space: nowrap;
+    flex-shrink: 0;
+    min-width: 40px;
+    text-align: center;
+}
+
+/* Прогресс бар */
+.video_container_mobile .mobile_bottom_controls .progress_container {
+    flex-grow: 1;
+    height: 20px;
+    margin: 0 20px;
+    position: relative;
+    pointer-events: auto;
+}
+
+.video_container_mobile .mobile_bottom_controls .progress_bar {
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-appearance: none;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    z-index: 2;
+    cursor: pointer;
+    pointer-events: none;
+}
+
+.video_container_mobile .mobile_bottom_controls .progress_bar::-webkit-slider-thumb {
+    display: none;
+}
+
+.video_container_mobile .mobile_bottom_controls .progress_bar::-moz-range-thumb {
+    display: none;
+}
+
+.video_container_mobile .mobile_bottom_controls .progress_filled {
+    height: 100%;
+    background: linear-gradient(to right, rgb(88, 31, 162), rgba(120, 46, 216));
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+/* Кнопка полноэкранного режима */
+.video_container_mobile .mobile_bottom_controls .fullscreen_button {
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    flex-shrink: 0;
+    margin-left: 30px;
+}
+
+.video_container_mobile .mobile_bottom_controls .fullscreen_button svg {
+    width: 100%;
+    height: 100%;
+}
