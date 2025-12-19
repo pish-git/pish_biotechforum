@@ -3,7 +3,7 @@ footer{
 	flex-direction: column;
 	gap: 20px;
 	width: 100%;
-	height: 400px;
+	height: 530px;
 	padding-top: 200px;
 	position: relative;
 }
@@ -181,6 +181,40 @@ footer .footer_content .lower_part nav a svg path{
 
 footer .footer_content .lower_part nav a:hover svg path{
 	fill: #03D75C;
+}
+
+
+
+footer .footer_content .partners_part{
+	display: flex;
+	align-items: start;
+	width: 100%;
+}
+
+footer .footer_content .partners_part .partner{
+	height: 120px;
+	width: 120px;
+	position: relative;
+}
+
+footer .footer_content .partners_part .partner:nth-child(4){
+	margin-left: 25px;
+}
+
+footer .footer_content .partners_part .partner:nth-child(5){
+	margin-left: 25px;
+}
+
+footer .footer_content .partners_part .partner:nth-child(6){
+	margin-left: 10px;
+}
+
+footer .footer_content .partners_part .partner:nth-child(7){
+	margin-left: 25px;
+}
+
+footer .footer_content .partners_part .partner:nth-child(8){
+	margin-left: 25px;
 }
 
 

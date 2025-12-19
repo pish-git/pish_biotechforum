@@ -112,6 +112,40 @@ export default function Footer({ isMobile, patternsActive }) {
 						<Link href="https://pish.dvfu.ru/">Поступить</Link>
 					</nav>
 				</div>
+
+				<div className="partners_part">
+					<div className="partner">
+						<Image src="/img/main/logo/partner_1.png" alt="" fill />
+					</div>
+
+					<div className="partner">
+						<Image src="/img/main/logo/partner_2.png" alt="" fill />
+					</div>
+
+					<div className="partner">
+						<Image src="/img/main/logo/partner_3.png" alt="" fill />
+					</div>
+
+					<div className="partner">
+						<Image src="/img/main/logo/partner_4.png" alt="" fill />
+					</div>
+
+					<div className="partner">
+						<Image src="/img/main/logo/partner_5.png" alt="" fill />
+					</div>
+
+					<div className="partner">
+						<Image src="/img/main/logo/partner_6.png" alt="" fill />
+					</div>
+
+					<div className="partner">
+						<Image src="/img/main/logo/partner_7.png" alt="" fill />
+					</div>
+
+					<div className="partner">
+						<Image src="/img/main/logo/partner_8.png" alt="" fill />
+					</div>
+				</div>
 			</div>
 
 			{/* <div className="patterns">
