@@ -210,10 +210,14 @@ footer .footer_content .partners_part .partner:nth-child(6){
 }
 
 footer .footer_content .partners_part .partner:nth-child(7){
-	margin-left: 25px;
+	margin-left: 20px;
 }
 
 footer .footer_content .partners_part .partner:nth-child(8){
+	margin-left: 25px;
+}
+
+footer .footer_content .partners_part .partner:nth-child(9){
 	margin-left: 25px;
 }
 

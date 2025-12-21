@@ -278,7 +278,7 @@
 
 @media only screen and (max-width : 600px){
 	footer {
-		height: 530px;
+		height: 620px;
 	}
 
 	footer .footer_content {
@@ -396,19 +396,13 @@
 
 @media only screen and (max-width : 460px){
 	footer {
-		height: 460px;
+		height: 540px;
 	}
 
 
 	footer .footer_content .partners_part .partner{
 		height: 80px;
 		width: 80px;
-	}
-}
-
-@media only screen and (max-width : 440px){
-	footer {
-		height: 540px;
 	}
 }
 
@@ -472,5 +466,11 @@
 @media only screen and (max-width : 370px){
 	footer {
 		height: 530px;
+	}
+}
+
+@media only screen and (max-width : 340px){
+	footer {
+		height: 620px;
 	}
 }

@@ -145,6 +145,10 @@ export default function Footer({ isMobile, patternsActive }) {
 					<div className="partner">
 						<Image src="/img/main/logo/partner_8.png" alt="" fill />
 					</div>
+
+					<div className="partner">
+						<Image src="/img/main/logo/partner_9.png" alt="" fill />
+					</div>
 				</div>
 			</div>
 
