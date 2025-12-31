@@ -161,7 +161,7 @@ export default function VideoBiotech() {
 							videoTimer={"08:48"}
 							funForButton={() => handleVideoPlayerShow(
 								true, 
-								"https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/video-biotech/video_1.mp4",
+								"https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/video_biotech/video_1.mp4",
 								"Получение и применение генетически модифицированных растений"
 							)}
 							videoInfoHeader={"«Получение и применение генетически модифицированных растений»"}
@@ -175,7 +175,7 @@ export default function VideoBiotech() {
 							videoTimer={"07:24"}
 							funForButton={() => handleVideoPlayerShow(
 								true, 
-								"https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/video-biotech/video_2.mp4",
+								"https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/video_biotech/video_2.mp4",
 								"Бактерии как объект биотехнологий"
 							)}
 							videoInfoHeader={"«Бактерии как объект биотехнологии»"}
@@ -189,7 +189,7 @@ export default function VideoBiotech() {
 							videoTimer={"24:18"}
 							funForButton={() => handleVideoPlayerShow(
 								true, 
-								"https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/video-biotech/video_3.mp4",
+								"https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/video_biotech/video_3.mp4",
 								"Объекты микробиологических технологий"
 							)}
 							videoInfoHeader={"«Объекты микробиологических технологий»"}
@@ -203,7 +203,7 @@ export default function VideoBiotech() {
 							videoTimer={"22:47"}
 							funForButton={() => handleVideoPlayerShow(
 								true, 
-								"https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/video-biotech/video_4.mp4",
+								"https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/video_biotech/video_4.mp4",
 								"Использование моноклональных и поликлональных антител в медицине"
 							)}
 							videoInfoHeader={"«Использование моноклональных и поликлональных антител в медицине»"}
@@ -217,26 +217,12 @@ export default function VideoBiotech() {
 							videoTimer={"35:13"}
 							funForButton={() => handleVideoPlayerShow(
 								true, 
-								"https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/video-biotech/video_5.mp4",
+								"https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/video_biotech/video_5.mp4",
 								"Экологические и этические проблемы генной инженерии"
 							)}
 							videoInfoHeader={"«Экологические и этические проблемы генной инженерии»"}
 							videoInfoDescription={"«За» и «против» генной инженерии — от редактирования ДНК человека до этичных границ науки будущего."}
 						/>
-
-						{/* <BlockVideo
-							videoBlocked={!videosUnlocked}
-							videoCoverSrc={"/img/video_biotech/cover_5.jpg"}
-							videoCoverwebpSrc={"/img/video_biotech/cover_5.webp"}
-							videoTimer={"35:13"}
-							funForButton={() => handleBlockedVideoClick(
-								true, 
-								"https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/video-biotech/video_5.mp4",
-								"Экологические и этические проблемы генной инженерии"
-							)}
-							videoInfoHeader={"«Экологические и этические проблемы генной инженерии»"}
-							videoInfoDescription={"«За» и «против» генной инженерии — от редактирования ДНК человека до этичных границ науки будущего."}
-						/> */}
 					</div>
 				</section>
 			</main>

@@ -218,7 +218,11 @@ footer .footer_content .partners_part .partner:nth-child(8){
 }
 
 footer .footer_content .partners_part .partner:nth-child(9){
-	margin-left: 20px;
+	margin-left: 25px;
+}
+
+footer .footer_content .partners_part .partner:nth-child(10){
+	margin-left: 10px;
 }
 
 

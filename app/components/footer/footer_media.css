@@ -276,11 +276,13 @@
 	}
 }
 
-@media only screen and (max-width : 600px){
+@media only screen and (max-width : 650px){
 	footer {
-		height: 620px;
+		height: 640px;
 	}
+}
 
+@media only screen and (max-width : 600px){
 	footer .footer_content {
 		padding: 15px 15px;
 	}
@@ -465,7 +467,7 @@
 
 @media only screen and (max-width : 370px){
 	footer {
-		height: 530px;
+		height: 600px;
 	}
 }
 

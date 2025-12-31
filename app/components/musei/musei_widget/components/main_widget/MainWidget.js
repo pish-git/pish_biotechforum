@@ -167,28 +167,28 @@ const Video4Controls = ({ handleTransitionHover, handleNextVideo, handlePrevVide
 const videos = [
 	{
 		id: 1,
-		src: 'https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/musei/video_1.mp4',
+		src: 'https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/musei/musei_bg/video_1.mp4',
 		srcImg1: '/img/musei/window_1/bg.webp',
 		srcImg2: '/img/musei/window_1/bg.jpg',
 		Controls: Video1Controls,
 	},
 	{
 		id: 2,
-		src: 'https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/musei/video_4.mp4',
+		src: 'https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/musei/musei_bg/video_4.mp4',
 		srcImg1: '/img/musei/window_4/bg.webp',
 		srcImg2: '/img/musei/window_4/bg.jpg',
 		Controls: Video2Controls,
 	},
 	{
 		id: 3,
-		src: 'https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/musei/video_2.mp4',
+		src: 'https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/musei/musei_bg/video_2.mp4',
 		srcImg1: '/img/musei/window_2/bg.webp',
 		srcImg2: '/img/musei/window_2/bg.jpg',
 		Controls: Video3Controls,
 	},
 	{
 		id: 4,
-		src: 'https://s3.twcstorage.ru/e6b9f60a-42dc8220-bab7-406e-a09c-8252246c303b/pish_video/musei/video_3.mp4',
+		src: 'https://s3.twcstorage.ru/e89c3020-2d77e7ca-e868-4d3a-992d-70ee90c24707/pish_video/musei/musei_bg/video_3.mp4',
 		srcImg1: '/img/musei/window_3/bg.webp',
 		srcImg2: '/img/musei/window_3/bg.jpg',
 		Controls: Video4Controls,
